@@ -1,0 +1,1444 @@
+#<!-- Rel 2009B Example Set -->*/
+#<!-- This File creatd by Dan Lou in April 2018 -->*/
+
+#Directory:
+# General Display and Behavior
+# Staff
+# General and Phrase Searching
+# Advanced Searching
+# Search Results
+# Record Displays
+# Electronic Resource Management
+# Holdings
+# My Lists
+# Saving and Exporting
+# Requesting
+# Patron Record
+# My Millennium
+# Patron Ratings
+# Ecommerce
+# Bookings
+# ILL
+# INN-Reach
+# Media Management
+# Reserves
+# Featured Lists
+# Content Linking and Other Resources
+# WebBridge/Pathfinder Pro
+# Patron Feeds
+# Z39.50
+# Partner
+# AirPAC
+# Patron Registration
+# My Federated Search (Research Pro or MetaFind)
+# WebPAC Pro
+# Research Pro
+# Program Registration
+
+
+# General Display and Behavior
+AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
+AVAILLIM_STATS=-,o
+BOTLOGO=@screens/botlogo.html
+ICON_BUT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
+ICON_BUT_CLOSEWINDOW=<span class="button"><span class="buttonText">Close Window</span></span>
+ICON_BUT_RET2CAT=<span class="button"><span class="buttonText">Return to Catalog</span></span>
+ICON_BUT_STARTOVER=<span class="button"><span class="buttonText">Start Over</span></span>
+FORM_FOCUS=true
+ICON_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
+ICON_OK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">OK</span></span></div></div>
+ICON_PREVPAGE=<span class="button"><span class="buttonText">Previous Screen</span></span>
+ICON_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div>
+ICON_UPDATELIST=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
+ICON_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear All</span></span></div></div>
+ICON_CLEAR_FORM=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear Form</span></span></div></div>
+ICON_DELETE_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Selected</span></span></div></div>
+ICON_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Save All</span></span></div></div>
+INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"/><title>Palo Alto City Library</title><link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/screens/iiilangswitch.js"></script><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script><link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" /><link rel="/screens/PAC_Library_Logo_leaf-150x150.png"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link href="/screens/responsive_external_header.css" media="all" rel="stylesheet" type="text/css" /><link href="/screens/external_library_branding.css" media="all" rel="stylesheet" type="text/css" /><link rel='stylesheet' id='bibliostyle-css'  href='/screens/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='header_all-css'  href='/screens/header_all.css' type='text/css' media='all' /><link rel='stylesheet' href='/screens/styles.css' type='text/css' media='all' />
+INSERTTAG_HTML=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+RIGHT_CELL_WIDTH=18|25
+SSLPORT=80:443|2082:444
+CUSTOM_MESSAGES=F
+STARTOVER=/search
+STATGROUP=login
+STYLESHEET=/screens/styles.css
+SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
+#TIMEOUT=600;URL=/
+TOPLOGO=@screens/toplogo.html
+UPDATECIRC=true
+XSTARTOVER=/search
+
+# Staff
+ICON_BUT_PUBLIC=<span class="button"><span class="buttonText">Patron View</span></span>
+ICON_BUT_STAFF=<span class="button"><span class="buttonText">Staff View</span></span>
+STAFF=3,6
+STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
+
+# General and Phrase Searching
+ICON_BUT_ANOTHER=<span class="button hidden"><span class="buttonText">Another Search</span></span>
+ICON_BUT_NEWSRCH=<span class="button"><span class="buttonText">Start Over</span></span>
+ICON_BUT_WORDSRCH=<span class="button"><span class="buttonText">Search as Words</span></span>
+DROP_DOWN=Xatdc
+FRAMEURL=0
+IBROWSE_MAX=10000
+KEYWORD_COLOR=Y|all|red
+MULT_LIMITS=true
+NOSEARCH=nubfhlpz%#
+OFFER_HISTORY=true
+
+# Advanced Searching
+AVS_MODIFY_TAG=X
+AVS_TAG=XYZPHQJLRSIT
+ICON_BUT_MODIFY=<span class="button" sytle="background:#666;"><span class="buttonText">Advanced Search</span></span>
+ICON_BUT_SHOWSIM=<span class="button"><span class="buttonText">More Like This</span></span>
+ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="Most relevant">&nbsp;<h1 class="browseSuperEntryTitle">Most relevant titles</h1>&nbsp;
+ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="Highly relevant">&nbsp;<h1 class="browseSuperEntryTitle">Highly relevant titles</h1>&nbsp;
+ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="Very relevant">&nbsp;<h1 class="browseSuperEntryTitle">Very relevant titles</h1>&nbsp;
+ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="Relevant">&nbsp;<h1 class="browseSuperEntryTitle">Relevant titles</h1>&nbsp;
+ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="Other relevant">&nbsp;<h1 class="browseSuperEntryTitle">Other relevant titles</h1>&nbsp;
+IMAGE_AVS1=/screens/relevance1.gif
+IMAGE_AVS2=/screens/relevance2.gif
+IMAGE_AVS3=/screens/relevance3.gif
+IMAGE_AVS4=/screens/relevance4.gif
+IMAGE_AVS5=/screens/relevance5.gif
+ICON_PATFEED=My feed
+RELSEARCH=restable||<span class="button"><span class="buttonText">Related Searches</span>
+
+# Search Results
+AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- See Also %w %a </h2><span class="authPublicNote">%p</span>
+AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
+BODYPARAM=BGCOLOR=#F1F1F1 VLINK=#0288C7
+BRIEF=A
+BROWSE_t=245/ab/0|240/afk/0|700/tm/0|970/t/0|/ab/0
+BROWSE_HEADERS=Mark|Media
+ICON_BUT_BRIEF=<span class="button"><span class="buttonText">Brief Display</span></span>
+ICON_BUT_EXTENDED=<span class="button"><span class="buttonText">Extended Display</span></span>
+ICON_BUT_LIMAVAIL=<span class="button"><span class="buttonText">Limit to Available</span></span>
+ICON_BUT_LIMIT=<span class="button"><span class="buttonText">Limit/Sort Search</span></span>
+ICON_BUT_UNLIMAVAIL=<span class="button"><span class="buttonText">Show All</span></span>
+DISPLAY_245=atd
+EXTENDED=CT
+HEADING_LENGTH=100
+ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Online access
+ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
+ICON_BOOKCART_SAVED=<span class="button"><span class="buttonText">Remove From Bag</span></span>
+ICON_FULLRECORD=See Full Record
+ICON_LOCATEINRESULTS=<span class="button" sytle="background:#666;"><span class="buttonText">Locate in results</span></span>
+ICON_PAGING_CAPTION=Result Page&nbsp;
+ICON_PAGING_NEXT=Next
+ICON_PAGING_PREV=Prev
+ICON_PROGRAM=Library Event
+ICON_RESOURCE=Internet Resource
+ICON_SAVEALLPAGE=<span class="button" sytle="background:#666;"><span class="buttonText">Add All On Page</span></span>
+ICON_SAVEMARKED=<span class="button" sytle="background:#666;"><span class="buttonText">Add Marked to Bag</span></span>
+# book type
+IMAGE_MATTYPEa="class="hidden" alt="Book"/><span class="icon icon-book-series" aria-hidden="true"></span><a style="hidden"
+# blue ray type
+IMAGE_MATTYPEb="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span><a style="hidden"
+# dvd
+IMAGE_MATTYPEg="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span><a style="hidden"
+# music score type
+IMAGE_MATTYPEc="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+#microfilm type
+IMAGE_MATTYPEd="class="hidden" alt="Microfilm"/><span class="icon icon-plus" aria-hidden="true"></span><a style="hidden"
+#map atlas type
+IMAGE_MATTYPEe="class="hidden" alt="Map"/><span class="icon icon-map" aria-hidden="true"></span><a style="hidden"
+#audiobook type
+IMAGE_MATTYPEi="class="hidden" alt="Audiobook"/><span class="icon icon-headphones" aria-hidden="true"></span><a style="hidden"
+#music cd type
+IMAGE_MATTYPEj="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+#large print type
+IMAGE_MATTYPEl="class="hidden" alt="Book"/><span class="icon icon-font" aria-hidden="true"></span><a style="hidden"
+#CD-ROM type
+IMAGE_MATTYPEmIMAGE_MATTYPEl="class="hidden" alt="CD"/><span class="icon icon-cd" aria-hidden="true"></span><a style="hidden"
+#ejournal type
+IMAGE_MATTYPEn="class="hidden" alt="Journal"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+#emusic type
+IMAGE_MATTYPEq="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+#eaudiobook
+IMAGE_MATTYPEu="class="hidden" alt="Audiobook"/><span class="icon icon-headphones" aria-hidden="true"></span><a style="hidden"
+#evideo type
+IMAGE_MATTYPEv="class="hidden" alt="Video"/><span class="icon icon-videocam" aria-hidden="true"></span><a style="hidden"
+#magazine journal
+IMAGE_MATTYPEw="class="hidden" alt="Magazine"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+# newspaper
+IMAGE_MATTYPEp="class="hidden" alt="Newspaper"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+#ebook type
+IMAGE_MATTYPEz="class="hidden" alt="EBook"/><span class="icon icon-tablet" aria-hidden="true"></span><a style="hidden"
+#article
+IMAGE_MATTYPE2="class="hidden" alt="Article"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+#device
+IMAGE_MATTYPEx="class="hidden" alt="Device"/><span class="icon icon-tablet" aria-hidden="true"></span><a style="hidden"
+#mp3
+IMAGE_MATTYPEy="class="hidden" alt="Mp3"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+#digital resources
+IMAGE_MATTYPE1="class="hidden" alt="Digital resource"/><span class="icon icon-plus" aria-hidden="true"></span><a style="hidden"
+# miscellaneous
+IMAGE_MATTYPEs="class="hidden" alt="Miscellaneous"/><span class="icon icon-plus" aria-hidden="true"></span><a style="hidden"
+INDEX_EXT=coi
+MEDIA=2
+NO_COPIES=Currently no copies available
+SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
+SORT_MEDIA=@amcdji
+SUPPRESS_YEAR=False
+TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="0" width="100%"
+TABLEPARAM_BROWSE=width="100%" cellpadding="0" cellspacing="0" border="0"|align="center" cellpadding="0" cellspacing="0"|width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0"
+
+# Record Displays
+BIB_TOC_HEADER=<strong>Table of Contents</strong>
+ICON_BUT_MARC_DISPLAY=<span class="button"><span class="buttonText">MARC Display</span></span>
+ICON_BUT_REGULAR_DISPLAY=<span class="button"><span class="buttonText">Regular Display</span></span>
+ICON_BUT_RTRNTB=<span class="button"><span class="buttonText">Return to Browse</span></span>
+DISPLAY_856=z|true
+HOLDINGS_POS=atpR
+ICON_BIB_HOLDINGS_ITEMS=View Copies
+ICON_BIB_PAGING_CAPTION= 
+ICON_BIB_PAGING_NEXT=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span></span>
+ICON_BIB_PAGING_PREV=<span class="button"><span class="buttonText">Previous Record</span></span>
+ICON_RECORDLINK=<a href="%s"><span class="button"><span class="buttonText">Permanent Link</span></span></a>
+LINK856TEXT=Connect to
+MARC=yes
+SHOWOREC=no_rdate
+TABLEPARAM_BIB=width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0" align="center"
+TABLEPARAM_BIB_DETAIL=width="100%" border="0" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_HOLDINGS=width="100%" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_HOLDS=width="100%" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_INFO=width="100%" border="0" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_ITEMS=width="100%" border="0" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_LINKS=width="100%" border="0" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_ORDER=width="100%" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_PAGER=border="0"
+TABLEPARAM_BIB_THUMBNAILS=align="center" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_TOC=border="0" cellspacing="0"
+# WEBPUBDEF=true
+
+# Electronic Resource Management
+BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
+BIB_RESOURCE_CAPTION=<strong>This title is available electronically via:</strong>
+BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
+BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
+BIB_RESOURCE_NUM_BRIEF=A
+ICON_BIB_RESOURCE_DETAILS=<span class="button"><span class=buttonText">Full Details</span></span>
+ICON_RESOURCE_RECORD=<span class="button"><span class=buttonText">View Resource Record</span></span>
+RESOURCE_ADVISORY=k
+RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
+RESOURCE_HOLDINGS_MAX=12
+RESOURCE_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx|Available to:Vlf|Access notes:Vla
+TABLEPARAM_BIB_LICENSE=width="100%" border="0" cellpadding="0"
+TABLEPARAM_BIB_RESOURCE=width="100%" border="0" cellspacing="0" cellpadding="0"
+TABLEPARAM_BIB_RESOURCE_BRIEF=width="100%" border="0" cellspacing="0" cellpadding="0"
+TABLEPARAM_RESOURCE_BIB=width="100%" border="0" cellpadding="0"
+TABLEPARAM_RESOURCE_LICENSE=width="100%" border="0" cellpadding="0"
+TABLEPARAM_RESOURCE_RESOURCE=width="100%" border="0" cellspacing="0" cellpadding="0"
+
+# Holdings
+ICON_BUT_CARDFORM_BOX=<span class="button"><span class="buttonText">Show Cards in Box Format </span></span>
+ICON_BUT_CARDFORM_LIN=<span class="button"><span class="buttonText">Show Cards in Line Format</span></span>
+CHECKIN_BGCOLOR=ARRIVED=#FFFFFF|EXPECTED=#FFFFFF|TO BIND/BOUND=#FFFFFF|LATE=#FFFFFF|OTHER=#FFFFFF
+CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHER=BLACK
+CHECKIN_STATUS=ARRIVED=Here|EXPECTED=Coming soon|TO BIND/BOUND=Being bound|LATE=Late|Other=See staff
+DISPLAY_CHECKIN_856=z
+HOLDINGS_REQ=Deliver this article to me
+SORT_ITEMS=true
+SUPPRESS_CARD=UI
+
+# My Lists
+MY_LISTS=true
+ICON_MYLISTS=My lists
+ICON_MYLISTS_EXPORT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Export List</span></span></div></div>
+ICON_MYLISTS_MOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Move Marked</span></span></div></div>
+ICON_MYLISTS_REQUEST=<span class="button"><span class="buttonText">Request</span></span>
+ICON_MYLISTS_REMOVE_DUPLICATES=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Remove Duplicates</span></span></div></div>
+ICON_MYLISTS_RENAME=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Change Name/Description</span></span></div></div>
+ICON_MYLISTS_SAVE=<span class="button"><span class="buttonText">Add to My Lists</span></span>
+ICON_MYLISTS_SAVE_TO_LIST=<span class="button" sytle="background:#666;"><span class="buttonText">Add Marked to My Lists</span></span>
+ICON_MYLISTS_BRIEF=<span class="button"><span class="buttonText">Add to My Lists</span></span>
+ICON_BACK_TO_MYLISTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Back to My Lists</span></span></div></div>
+ICON_MYLISTS_RECORD=<span class="button"><span class="buttonText">Add to My Lists</span></span>
+
+# Saving and Exporting
+ICON_BUT_BIBEXPORT=<span class="button"><span class="buttonText">Add to Bag</span></span>
+ICON_BUT_CLEAR_MARKED=<span class="button"><span class="buttonText">Empty Bag</span></span>
+ICON_BUT_EXPORT_MULTI=<span class="button"><span class="buttonText">Export Saved</span></span>
+ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><span class="buttonText">View Bag</span></span>
+ICON_BUT_VIEW_SAVES=<span class="button"><span class="buttonText">View Bag</span></span>
+EMAILOP=From the library catalog|librarycirculation@cityofpaloalto.org|
+EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
+XRECTYPE=boic
+
+#Requesting
+BIBREQUEST=true
+ICON_BUT_REQUEST=<span class="button"><span class="buttonText">Place a Hold</span></span>
+ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
+ICON_BUT_REQUEST_MULTI=<span class="button"><span class="buttonText">Request Saved</span></span>
+ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
+ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
+ICON_REQUEST=Request
+REQUEST=Hold this item|bib|ask|Y
+REQUEST_MULTI=Request All Items in Book Cart|bib|ask
+
+# Patron Record
+ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
+ICON_BUT_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
+BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
+ICON_BUT_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
+ICON_BUT_PAT_INFO=Modify personal information
+ICON_BUT_PAT_MSGS=<span class="button"><span class="buttonText">Message from the library</span></span>
+ICON_BUT_PAT_PIN=Modify PIN
+ICON_BUT_PAT_RENEWALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renew All</span></span></div></div>
+ICON_BUT_PAT_RENEWMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renew Selected</span></span></div></div>
+ICON_BUT_PAT_SORTBYCHKOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Checkout</span></span></div></div>
+ICON_BUT_PAT_SORTBYDUE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Due Date</span></span></div></div>
+ICON_BUT_PAT_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div>
+ICON_BUT_PSTARTOVER=<span class="button"><span class="buttonText">Start Over</span></span>
+ICON_BUT_UPDATE_HOLDS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update Selected</span></span></div></div>
+CHANGE_HOLD_LOC=true
+FREEZE_HOLDS=true
+ICON_CLOSEWINDOW=<span class="button"><span class="buttonText">Close Window</span></span>
+ICON_CONFIRM_YES=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Yes</span></span></div></div>
+ICON_CONFIRM_NO=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">No</span></span></div></div>
+ICON_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
+ICON_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
+ICON_PIN_RESET=<span class="button"><span class="buttonText">Forget Your PIN?</span></span>
+ICON_SORTPUDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Pickup</span></span></div></div>
+ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Request</span></span></div></div>
+MIN_PIN_LENGTH=4
+MODIFY_PFLDS=azkHo
+MY_WEBPAC=false,2,0-255
+NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
+PATRON_FIELDS=n/a|a/a|t/a|F/43
+#Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
+PATRON_NOTICES=azm
+SMS_OPTOUT_WARN=You will be Opted Out of SMS
+SMS_PHONE_WARN=You are changing your Mobile Number.
+SMS_TERMS_DESC=Palo Alto City Library provides library services to the Palo Alto area.
+SMS_TERMS_EMAIL=<a href="mailto:librarycirculation@cityofpaloalto.org">librarycirculation@cityofpaloalto.org</a>
+SMS_TERMS_LIB=Palo Alto City Library
+PIN_ALPHA_NUM=false
+PIN_NUM_ONLY=true
+PIN_RESET=true
+PSTARTOVER=/search
+SEEPUDATE=true
+TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
+TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
+
+# My Millennium
+ICON_BUT_PAT_PSEARCH_REMOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All Searches</span></span></div></div>
+BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif" class="button
+ICON_BUT_PAT_PSEARCH_UPDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
+ICON_BUT_PAT_SEARCH=<span class="button"><span class="buttonText">Search</span></span>
+ICON_BUT_PAT_GETPSAVEDRECS=<span class="button"><span class="buttonText">Preferred Searches</span></span>
+CIRC_HIST_LIMIT_TEXT=Limit to titles which aren't in my reading history
+HAS_ALTERNATE_ID=true
+ALTERNATE_ID_EMAIL=username@replacesitename.com|Your login name has changed
+ICON_PAT_DELETE_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All</span></span></div></div>
+ICON_PAT_DELETE_MARKED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Marked</span></span></div></div>
+ICON_READING_HISTORY=Reading history
+ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt In</span></span></div></div>
+ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
+ICON_READING_HISTORY_EXPORT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Export</span></span></div></div>
+LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
+NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
+PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
+PREF_SEARCHES=25|Y
+PREFTEXT=Save search
+READING_HISTORY=optin|true|
+TOPLOGO_LOGGEDIN=Y
+
+# Patron Ratings
+ICON_PATRATE=<span class="button"><span class="buttonText">My Ratings</span></span>
+ICON_RATE_GROUP=<img src="/screens/rate_group.gif" border="0" width="15" height="14" alt="Rated %d stars out of 5 based on %n ratings" title="Rated %d stars out of 5 based on %n ratings">
+ICON_RATE_MY=<img src="/screens/rate_my.gif" border="0" width="15" height="14" alt="You rated this %d stars out of 5" title="You rated this %d stars out of 5">
+ICON_RATE_NEED=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="Rate this material!" title="Rate this material!">
+ICON_RATE_NO=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="No one has rated this material" title="No one has rated this material">
+ICON_RATE_PAD=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="Rated %d stars out of 5 based on %n ratings" title="Rated %d stars out of 5 based on %n ratings">
+PATREVIEW=1
+ICON_PATREVIEW=<span class="button"><span class="buttonText">My Reviews</span></span>
+ICON_PATREVIEW_ADD=<span class="button"><span class="buttonText">Add a Review</span></span>
+PATREVIEW_ABUSE_NOTIFY=Review abuse reported|Example Library|web@example.org
+
+# Ecommerce
+CC_APPROVED=Your payment has been approved. Please print this page as a receipt of your payment.
+CC_DECLINED=Sorry. Your payment has been declined. Please confirm your information is entered correctly or pay at the library.
+CC_EMAIL_RECEIPT=Receipt for payment to Palo Alto City Library|librarycirculation@cityofpaloalto.org|librarycirculation@cityofpaloalto.org
+ICON_PAY=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Pay Online</span></span></div></div>
+ICON_PAY_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear All</span></span></div></div>
+ICON_PAY_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Select All</span></span></div></div>
+ICON_PRINT=<span class="button"><span class="buttonText">Print</span></span>
+ICON_PAY_CONTINUE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Continue</span></span></div></div>
+PAYAMTS=101|Please visit the library to pay this amount|00
+ECOM_LINK_FINES_DONE=Thank you for your payment.
+
+# Bookings
+BOOKINGS=no|true|true|false
+BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> hours. No items available on <span id="unavailable">grayed out</span> hours.</span>
+BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> days. No items available on <span id="unavailable">grayed out</span> days.</span>
+BOOKINGS_REPEAT=true
+ICON_BOOKINGS_HEADER=<span class="button"><span class="buttonText">Book This Material</span></span>
+ICON_DAILYCAL=View Daily Calendar
+ICON_HOURLYCAL=View Hourly Calendar
+ICON_NEXTCAL=Next
+ICON_PREVCAL=Previous
+
+# ILL
+ICON_BUT_ILL_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
+ICON_BUT_ILL_FORM=<span class="button"><span class="buttonText">Interlibrary Loan Form</span></span>
+ICON_BUT_ILL_HOME=<span class="button"><span class="buttonText">New Request</span></span>
+ICON_BUT_PAT_ILL_FORM=<span class="button"><span class="buttonText">Interlibrary Loan Form</span></span>
+ICON_BUT_PAT_ILL=<span class="button"><span class="buttonText">Interlibrary Loan</span></span>
+ILL_CONF_EMAIL_SUBJECT=Library notification of Inter-library Loan request
+ILL_HOME=/screens/ill.html
+
+# INN-Reach
+INNREACH=<span class="button" sytle="background:#666;"><span class="buttonText">Link+</span></span>@csul.iii.com 
+IR_PLACEMENT=1
+
+# Media Management
+ICON_BUT_RET2CRS=<span class="button"><span class="buttonText">Return to Course</span></span>
+ERESERVE=[0123456789]
+
+# Reserves
+RSRV_FORMAT=true
+TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
+
+# Featured Lists
+ICON_BUT_PREVSCRN=<span class="button"><span class="buttonText">Back</span></span>
+ICON_BUT_RET2FEAT=<span class="button"><span class="buttonText">Back</span></span>
+FEATURED_LIST=95,96,97,98,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116|FEATURED LISTS|NAME|# TITLES
+
+# Content Linking and Other Resources
+# If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
+BIBIMAGE=https://contentcafe2.btol.com/ContentCafe/Jacket.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;Return=T&amp;Type=S&amp;Value=%s&amp;erroroverride=1|I|https://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=Y
+BIBIMAGE=https://contentcafe2.btol.com/ContentCafe/Jacket.aspx?UserID=PLLT27070&amp;Password=CC94301&amp;Return=1&amp;Type=S&amp;Value=%s&amp;erroroverride=1|I|https://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PLLT27070&amp;Password=CC94301&amp;ItemKey=%s&amp;Options=N
+BIBIMAGE_TEXT=Book Cover
+BUT_ENCYCPD=/screens/encycpd.gif
+BUT_FULL_TEXT=/screens/full_text.gif
+#WEBADDRESS=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PLLT27070&amp;Password=CC94301:sdjk&amp;ItemKey=%s&amp;Options=N||<span class="button"><span class="buttonText">More Information</span></span>|-1
+
+# WebBridge/Pathfinder Pro
+ICON_BUT_CLOSEFRAME=<span class="button"><span class="buttonText">Close Frame</span></span>
+ICON_BUT_RET2RESOURCE=<div id="resourcelink"><span class="buttonText">Back</span></span></div>
+
+# Patron Feeds
+RSS_MIN_TTL=10
+PATFEED_CONFIG=Your Library Record News|Follow links to library record for full details.
+PATFEED_FINES_INCURRED_RECENTLY=You have new fines or fees
+PATFEED_HOLDS_READY=Your materials are ready to be picked up
+PATFEED_ITEMS_BOOKED_TOMORROW=Materials booked tomorrow
+PATFEED_ITEMS_DUE_SOON=Materials due soon
+PATFEED_ITEMS_DUE_TODAY=Materials due today
+PATFEED_ITEMS_OVERDUE=Materials overdue
+PATFEED_ITEMS_RECALLED=Materials recalled
+PATFEED_LIVE_BOOKMARKS=T
+PATFEED_PROGRAM_SESSION_SOON=An event that you have registered for is coming up soon. Please log on to My Account for the event date, time and location.
+PATFEED_PROGRAM_SESSION_TOMORROW=An event that you have registered for is coming up tomorrow. Please log on to My Account for the event date, time and location.
+PATFEED_PROGRAM_SESSION_TODAY=An event that you have registered for is coming up today. Please log on to My Account for the event date, time and location.
+
+# Z39.50
+ICON_BUT_EMAIL=Email
+ICON_BUT_NEXTREC=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span></span>
+ICON_BUT_PREVREC=<span class="button"><span class="buttonText">Previous Record</span></span>
+ICON_BUT_Z39_ANOTHER=Another Database
+ICON_BUT_Z39_REQUEST=<span class="button"><span class="buttonText">Request</span></span>
+ICON_BUT_Z39SEARCH=<span class="button"><span class="buttonText">Search Other Libraries</span></span>
+Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
+Z39MULTI=500:100
+
+# Partner
+ICON_BUT_RETHOME=<span class="button"><span class="buttonText">Home</span></span>
+
+# AirPAC
+AIRPAC_PORT=6060
+
+
+# My Federated Search (Research Pro or MetaFind)
+ICON_MFFAVS_HOME=<span class="button"><span class="buttonText">Home</span></span>
+ICON_MFFAVS_SEARCH=<span class="button"><span class="buttonText">Search</span></span>
+ICON_PAT_MFFAVS=<span class="button"><span class="buttonText">My Research Pro</span></span>
+MFFAVS_CONFIRM=Your group, %s, has been saved successfully.
+MFFAVS_DENY=This function is not available. Please contact a librarian for further assistance.
+searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
+MFFAVS_ALL=TRUE
+
+# WebPAC Pro
+BROWSE50=true
+ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more&nbsp;&raquo;</span>
+ICON_SPELLCHECK_SEARCH=<img src="/screens/ico_go.gif" class="button" border="0" alt="Search">
+INNOVATIVE_FOOTER=center|a
+SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
+
+# Research Pro
+MF_BOTLOGO=@screens/botlogo.html
+MF_EMAIL_SENDER=researchpro@iii.com
+MF_ICON_ADVANCED_SEARCH=Advanced Search
+MF_ICON_CLEAR=Clear Form
+MF_ICON_CLOSE=Close Window
+MF_ICON_DESELECTALL=Clear All
+MF_ICON_EMAIL=Email
+MF_ICON_HELP=Help
+MF_ICON_LOGOFFACCOUNT=Logout
+MF_ICON_MFFAVS_GROUP=Save Group
+MF_ICON_NEW_SEARCH=New Search
+MF_ICON_PATRON_REC=Return to Patron Record
+MF_ICON_PATSUBMIT=Submit
+MF_ICON_PREVSEARCH=Previous Search
+MF_ICON_PRINT=Print
+MF_ICON_RET2CAT=Back to Catalog
+MF_ICON_RETHOME=Home
+MF_ICON_SEARCH=Search Research Pro
+MF_ICON_SELECTALL=Select All
+MF_ICON_SIMPLE_SEARCH=Simple Search
+MF_ICON_STOP=Stop Search
+MF_ICON_UPDATELIST=Update List
+MF_ICON_VIEWSAVED=View Saved
+MF_RESULTSVIEW=tabbed,View Results Tabbed By Resource|standard,View All Results Interfiled
+MF_RETURN=true
+MF_RETURN_URL=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]
+MF_SEARCHINDEX=Keywords,Keywords|:CREATOR,Author|:TITLE,Title|:SUBJECT,Subject
+MF_STYLESHEET=/screens/styles.css
+MF_TOPLOGO=@screens/toplogo.html
+
+# Program Display
+PROG_AVS_TAG=PHJQIL
+PROGRAM_SECTION_FIELDS=Date/Time:VsT|Meets:Vss|Location:Fs285|Instructor:Vsn|Status:VsS
+ICON_BUT_PAT_PROGRAMS=<span class="button"><span class="buttonText">Library Events</span></span>
+ICON_BUT_PAT_SORTBYDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Date</span></span></div></div>
+ICON_BUT_PAT_SORTBYNAME=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Name</span></span></div></div>
+ICON_RET2PROG=<span class="button"><span class="buttonText">Return to Programs</span></span>
+ICON_REGISTER=<br><strong>Click to Register</strong>
+ICON_ADD_TO_WAITLIST=<br><strong>Add to Waitlist</strong>
+ICON_VIEW_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">View Additional Sessions</span></span>
+ICON_HIDE_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">Hide Additional Sessions</span></span>
+ICON_PROGRAM_CAL=<span class="button"><span class="buttonText">Events Calendar</span></span>
+TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
+IPSSO_USEHTML=F
+
+# RSS Feeds
+FEEDS_PORT=63200
+AIRWKST_PORT=8088
+
+# FOR ENCORE
+PATFEEDS_MT=10.17.4.31
+AVAILLIM_chx=<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;</span>|<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;&#32467;&#26524;</span>
+BOTLOGO_chx=@screens/botlogo_chx.html
+ICON_BUT_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_BUT_CLOSEWINDOW_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#35270;&#31383;</span></span>
+ICON_BUT_RET2CAT_chx=<span class="button"><span class="buttonText">&#22238;&#33267;&#30446;&#24405;</span></span>
+ICON_BUT_STARTOVER_chx=<span class="button"><span class="buttonText">/search*chx</span></span>
+ICON_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_OK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#22909;&#30340;</span></span></div></div>
+ICON_PREVPAGE_chx=<span class="button"><span class="buttonText">&#21069;</span></span>
+ICON_SUBMIT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#25552;&#20132;</span></span></div></div>
+ICON_UPDATELIST_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#26032;&#21015;&#34920;</span></span></div></div>
+ICON_CLEAR_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#28040;&#38500;</span></span></div></div>
+ICON_CLEAR_FORM_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#28165;&#34920;</span></span></div></div>
+ICON_DELETE_SELECTED_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#36873;&#25321;</span></span></div></div>
+ICON_SELECT_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#20648;&#23384;</span></span></div></div>
+STARTOVER_chx=/search*chx
+TOPLOGO_chx=@screens/toplogo_chx.html
+XSTARTOVER_chx=/search*chx
+ICON_BUT_PUBLIC_chx=<span class="button"><span class="buttonText">&#35835;&#32773;&#35270;&#22270;</span></span>
+ICON_BUT_STAFF_chx=<span class="button"><span class="buttonText">&#39302;&#21592;&#35270;&#22270;</span></span>
+STAFF_LOGGEDIN_MSG_chx=<span class="loggedInMessage">&#24744;&#24050;&#20197;&#39302;&#21592;&#24418;&#24335;&#30331;&#20837; %s &#22914; %s</span>
+ICON_BUT_ANOTHER_chx=<span class="button"><span class="buttonText">&#20854;&#20182;&#25628;&#32034;</span></span>
+ICON_BUT_NEWSRCH_chx=<span class="button"><span class="buttonText">&#37325;&#26032;&#25628;&#32034;</span></span>
+ICON_BUT_WORDSRCH_chx=<span class="button"><span class="buttonText">&#20851;&#38190;&#35789;&#25628;&#32034;</span></span>
+ICON_BUT_MODIFY_chx=<span class="button"><span class="buttonText">&#20462;&#25913;&#25628;&#32034;</span></span>
+ICON_BUT_SHOWSIM_chx=<span class="button"><span class="buttonText">&#26356;&#22810;&#27492;&#31867;</span></span>
+ICON_REL_GROUP_1_chx=<img src="/screens/relevance5.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#26368;&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_2_chx=<img src="/screens/relevance4.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#39640;&#24230;&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_3_chx=<img src="/screens/relevance3.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#38750;&#24120;&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_4_chx=<img src="/screens/relevance2.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_5_chx=<img src="/screens/relevance1.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#20854;&#20182;&#26377;&#20851;&#30340;  &#26631;&#39064;&</h1>&nbsp;
+RELSEARCH_chx=restable||<span class="button"><span class="buttonText">&#26597;&#30475;&#30456;&#20851;&#25628;&#32034;</span>
+AUTHMSG_chx=<h2 class="briefcitTitle"><em>%u</em> -- &#21442;&#30475; %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- &#21516;&#26102;&#21442;&#30475; %w %a </h2><span class="authPublicNote">%p</span>
+AUTHMSG_SR_chx=a&#26368;&#26032;&#26631;&#39064;|b&#26089;&#26399;&#26631;&#39064;|d&#26631;&#39064;&#20043;&#20840;&#34920;|f&#20197;&#27492;&#20316;&#21697;&#20026;&#20381;&#25454;&#20043;&#20048;&#26354;|g&#36739;&#31364;&#20043;&#29992;&#35821;|h&#36739;&#23485;&#20043;&#29992;&#35821;
+ICON_BUT_BRIEF_chx=<span class="button"><span class="buttonText">&#31616;&#35201;&#26174;&#31034;</span></span>
+ICON_BUT_EXTENDED_chx=<span class="button"><span class="buttonText">&#35814;&#32454;&#26174;&#31034;</span></span>
+ICON_BUT_LIMAVAIL_chx=<span class="button"><span class="buttonText">&#38480;&#21487;&#20511;&#38405;&#39302;&#34255;</span></span>
+ICON_BUT_LIMIT_chx=<span class="button"><span class="buttonText">&#38480;&#21046;/&#25490;&#24207;&#25628;&#32034;</span></span>
+ICON_BUT_UNLIMAVAIL_chx=<span class="button"><span class="buttonText">&#20840;&#26174;&#31034;</span></span>
+ICON_856LINK_chx=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#32593;&#39029;
+ICON_962LINK_chx=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#25968;&#30721;&#24433;&#20687;
+ICON_BOOKCART_SAVED_chx=<span class="button"><span class="buttonText">&#20174;&#20070;&#34955;&#20013;&#21024;&#38500;</span></span>
+ICON_FULLRECORD_chx=&#21442;&#30475;&#35814;&#23613;&#35760;&#24405;
+ICON_LOCATEINRESULTS_chx=<span class="button" sytle="background:#666;"><span class="buttonText">20301;&#20110;&#32467;&#26524;&#20013;</span></span>
+ICON_PAGING_CAPTION_chx=&#32467;&#26524;&#39029;&nbsp;
+ICON_PAGING_NEXT_chx=&#21518;
+ICON_PAGING_PREV_chx=&#21069;
+ICON_PROGRAM_chx=<img src="/screens/media_program.gif" border="0" alt="&#22270;&#20070;&#39302;&#27963;&#21160;">
+ICON_RESOURCE_chx=<img src="/screens/media_resource.gif" alt="&#32593;&#38469;&#36164;&#28304;">
+ICON_SAVEALLPAGE_chx=<span class="button"><span class="buttonText">&#20840;&#28155;&#21152;&#22312;&#39029;</span></span>
+ICON_SAVEMARKED_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#24050;&#26631;&#33267;&#20070;&#34955;</span></span>
+NO_COPIES_chx=&#30446;&#21069;&#27809;&#25335;&#36125;&#22797;&#21360;&#26412;&#21487;&#29992;
+SORT_BROWSE_chx=t:??|a:??|c:?|r:???|n:???|m:????
+BIB_TOC_HEADER_chx=<strong>&#30446;&#24405;</strong>
+ICON_BUT_MARC_DISPLAY_chx=<span class="button"><span class="buttonText">MARC&#26174;&#31034;</span></span>
+ICON_BUT_REGULAR_DISPLAY_chx=<span class="button"><span class="buttonText">&#27491;&#35268;&#26174;&#31034;</span></span>
+ICON_BUT_RTRNTB_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#27983;&#35272;&#32034;&#24341;</span></span>
+ICON_BIB_HOLDINGS_ITEMS_chx=&#26597;&#30475;&#25335;&#36125;&#22797;&#21360;&#26412;
+ICON_BIB_PAGING_NEXT_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_PREV_chx=<span class="button"><span class="buttonText">&#21069;&#19968;&#35760;&#24405;</span></span>
+ICON_RECORDLINK_chx=<a href="%s"><span class="button"><span class="buttonText">&#27704;&#20037;&#38142;&#25509;</span></span></a>
+LINK856TEXT_chx=&#25509;&#36890;
+BIB_LICENSE_FIELDS_chx=&#20801;&#35768;:Vlw|&#38480;&#21046;:Vlx
+BIB_RESOURCE_CAPTION_chx=<strong>&#27492;&#26631;&#39064;&#21487;&#36879;&#36807;&#30005;&#23376;&#24471;&#21040;&#65306;</strong>
+ICON_BIB_RESOURCE_DETAILS_chx=<span class="button"><span class=buttonText">&#20840;&#37096;&#32454;&#33410;</span></span>
+ICON_RESOURCE_RECORD_chx=<span class="button"><span class=buttonText">&#26597;&#30475;&#36164;&#28304;&#35760;&#24405;</span></span>
+RESOURCE_HOLDINGS_FIELDS_chx=&#26631;&#39064;:VbT|&#25253;&#23548;:Vch|&#20840;&#25991;:VcY
+RESOURCE_LICENSE_FIELDS_chx=&#20801;&#35768; :Vlw|&#38480;&#21046;:Vlx|&#21487;&#29992;:Vlf|&#20351;&#29992;&#35828;&#26126;:Vla
+ICON_BUT_CARDFORM_BOX_chx=<span class="button"><span class="buttonText">&#28857;&#25910;&#31665;&#26174;&#31034;</span></span>
+ICON_BUT_CARDFORM_LIN_chx=<span class="button"><span class="buttonText">&#34892;&#24335;&#26174;&#31034;</span></span>
+CHECKIN_STATUS_chx=&#25269;&#36798;=&#27492;|&#39044;&#26399;=&#21363;&#23558;&#25512;&#20986;|&#35037;&#26360;/&#24050;&#35037;=&#27491;&#35013;&#20070;|&#36831;=&#36831;|&#20854;&#20182;=&#35265;&#39302;&#21592;
+HOLDINGS_REQ_chx=&#36882;&#20132;&#27492;&#31687;&#25991;&#31456;&#32473;&#25105;
+ICON_MYLISTS_chx=&#25105;&#30340;&#21015;&#34920;
+ICON_MYLISTS_EXPORT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#36755;&#20986;&#21015;&#34920;</span></span></div></div>
+ICON_MYLISTS_MOVE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#31227;&#21160;&#24050;&#26631;&#35760;</span></span></div></div>
+ICON_MYLISTS_REQUEST_chx=<span class="button"><span class="buttonText">&#35201;&#27714;</span></span>
+ICON_MYLISTS_REMOVE_DUPLICATES_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#37325;&#22797;&#39033;</span></span></div></div>
+ICON_MYLISTS_RENAME_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#25913;&#21517;&#31216;/&#25551;&#36848;</span></span></div></div>
+ICON_MYLISTS_SAVE_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_MYLISTS_SAVE_TO_LIST_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#24050;&#26631;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_MYLISTS_BRIEF_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_BACK_TO_MYLISTS_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#22238;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span></div></div>
+ICON_MYLISTS_RECORD_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_BUT_BIBEXPORT_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#20070;&#34955;</span></span>
+ICON_BUT_CLEAR_MARKED_chx=<span class="button"><span class="buttonText">&#28165;&#34955;</span></span>
+ICON_BUT_EXPORT_MULTI_chx=<span class="button"><span class="buttonText">&#36716;&#20986;&#24050;&#23384;</span></span>
+ICON_BUT_EXPORT_VIEW_SAVES_chx=<span class="button"><span class="buttonText">&#26597;&#30475;&#20070;&#34955;</span></span>
+ICON_BUT_VIEW_SAVES_chx=<span class="button"><span class="buttonText">&#26597;&#30475;&#20070;&#34955;</span></span>
+ICON_BUT_REQUEST_chx=<span class="button"><span class="buttonText">&#35201;&#27714;</span></span>
+ICON_BUT_REQUEST_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#39044;&#23450;&#21487;&#20511;&#38405;&#39302;&#34255;</span></span></div></div>
+ICON_BUT_REQUEST_MULTI_chx=<span class="button"><span class="buttonText">&#39044;&#35746;&#24050;&#23384;</span></span>
+ICON_BUT_REQUEST_RESET_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#37325;&#35774;&#34920;&#26684;</span></span></div></div>
+ICON_BUT_REQUEST_SELECTED_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#39044;&#23450;&#24050;&#36873;</span></span></div></div>
+ICON_REQUEST_chx=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#35201;&#27714;
+REQUEST_chx=&#20445;&#30041;&#27492;&#39033;&#30446;|bib|ask|Y
+REQUEST_MULTI_chx=&#39044;&#23450;&#20070;&#36710;&#20869;&#25152;&#26377;&#39033;&#30446;|bib|ask
+ICON_BUT_PAT_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_BUT_PAT_CANCELALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#21462;&#28040;</span></span></div></div>
+ICON_BUT_PAT_CANCELMARK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;&#36873;&#25321;</span></span></div></div>
+ICON_BUT_PAT_INFO_chx=&#20462;&#25913;&#20010;&#20154;&#36164;&#26009;
+ICON_BUT_PAT_MSGS_chx=<span class="button"><span class="buttonText">&#26469;&#33258;&#22270;&#20070;&#39302;&#20043;&#28040;&#24687;</span></span>
+ICON_BUT_PAT_PIN_chx=&#20462;&#25913;&#20010;&#20154;&#23494;&#30721;
+ICON_BUT_PAT_RENEWALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#37096;&#32493;&#20511;</span></span></div></div>
+ICON_BUT_PAT_RENEWMARK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#32493;&#20511;&#24050;&#26631;</span></span></div></div>
+ICON_BUT_PAT_SORTBYCHKOUT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20511;&#20070;&#25490;&#24207;</span></span></div></div>
+ICON_BUT_PAT_SORTBYDUE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26399;&#28385;&#26085;&#25490;&#24207;</span></span></div></div>
+ICON_BUT_PAT_SUBMIT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#25552;&#20132;</span></span></div></div>
+ICON_BUT_PSTARTOVER_chx=<span class="button"><span class="buttonText">&#37325;&#26032;&#25628;&#32034;</span></span>
+ICON_BUT_UPDATE_HOLDS_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#26032;&#21015;&#34920;</span></span></div></div>
+ICON_CLOSEWINDOW_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#35270;&#31383;</span></span>
+ICON_PAT_CANCELALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#21462;&#28040;</span></span></div></div>
+ICON_PAT_CANCELMARK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;&#36873;&#25321;</span></span></div></div>
+ICON_PIN_RESET_chx=<span class="button"><span class="buttonText">&#24536;&#35760;&#24744;&#30340;&#23494;&#30721;?</span></span>
+ICON_SORTPUDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#25552;&#21462;&#25490;&#24207;</span></span></div></div>
+ICON_SORTREQDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#39044;&#23450;&#25490;&#24207;</span></span></div></div>
+NEWPIN_MSG_chx=&#35831;&#36755;&#20837;&#20010;&#20154;&#23494;&#30721;[PIN]
+PSTARTOVER_chx=/search*chx
+ICON_BUT_PAT_PSEARCH_REMOVE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#20840;&#37096;&#25628;&#32034;</span></span></div></div>
+ICON_BUT_PAT_PSEARCH_UPDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#26032;&#21015;&#34920;</span></span></div></div>
+ICON_BUT_PAT_GETPSAVEDRECS_chx=<span class="button"><span class="buttonText">&#21512;&#23452;&#25628;&#32034;</span></span>
+CIRC_HIST_LIMIT_TEXT_chx=&#20197;&#19981;&#23384;&#22312;&#25105;&#30340;&#20511;&#35835;&#21382;&#21490;&#20869;&#20043;&#26631;&#39064;&#20026;&#38480;&#21046;
+ALTERNATE_ID_EMAIL_chx=username@replacesitename.com|&#24744;&#30340;&#30331;&#20837;&#21517;&#31216;&#24050;&#26356;&#25913;
+ICON_PAT_DELETE_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#21034;&#38500;</span></span></div></div>
+ICON_PAT_DELETE_MARKED_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#24050;&#27880;&#35760;</span></span></div></div>
+ICON_READING_HISTORY_chx=<span class="button"><span class="buttonText">&#25105;&#30340;&#20511;&#35835;&#21382;&#21490;</span></span>
+ICON_READING_HISTORY_OPTIN_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21551;&#29992;&#20511;&#35835;&#21382;&#21490;</span></span></div></div>
+ICON_READING_HISTORY_OPTOUT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20572;&#29992;&#20511;&#35835;&#21382;&#21490;</span></span></div></div>
+ICON_READING_HISTORY_EXPORT_chx=<span class="button"><span class="buttonText">&#36755;&#20986;&#25105;&#30340;&#20511;&#35835;&#30446;&#24405;</span></span>
+LOGGEDIN_MSG_chx=<span class="loggedInMessage">&#24744;&#30331;&#24405;&#20026; <span class="loggedInMoreInfo">&#33267; %s</span> &#20026;: %s</span>
+PREFTEXT_chx=&#20316;&#21512;&#23452;&#25628;&#32034;&#20445;&#23384;
+ICON_PATRATE_chx=<span class="button"><span class="buttonText">&#25105;&#30340;&#35780;&#20998;</span></span>
+ICON_RATE_GROUP_chx=<img src="/screens/rate_group.gif" border="0" width="15" height="14" alt="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; " title="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; ">
+ICON_RATE_MY_chx=<img src="/screens/rate_my.gif" border="0" width="15" height="14" alt="&#24744;&#24050;&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;" title="&#24744;&#24050;&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;">
+ICON_RATE_NEED_chx=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="&#35780;&#32423;&#27492;&#36164;&#26009;!" title="&#35780;&#32423;&#27492;&#36164;&#26009;!">
+ICON_RATE_NO_chx=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="&#27492;&#36164;&#26009;&#23578;&#26410;&#34987;&#35780;&#32423;" title="&#27492;&#36164;&#26009;&#23578;&#26410;&#34987;&#35780;&#32423;">
+ICON_RATE_PAD_chx=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; " title="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; ">
+ICON_PATREVIEW_chx=<span class="button"><span class="buttonText">&#25105;&#30340;&#35780;&#35770;</span></span>
+ICON_PATREVIEW_ADD_chx=<span class="button"><span class="buttonText">&#21152;&#20070;&#35780;</span></span>
+PATREVIEW_ABUSE_NOTIFY_chx=&#35780;&#35770;&#28389;&#29992;&#24050;&#25253;|&#33539;&#20363;&#22270;&#20070;&#39302;|web@example.org
+CC_APPROVED_chx=&#24744;&#30340;&#20184;&#27454;&#24050;&#25209;&#20934;&#12290;
+CC_DECLINED_chx=&#25265;&#27465;&#12290; &#24744;&#30340;&#20184;&#27454;&#24050;&#34987;&#25298;&#32477;&#12290; &#35831;&#30830;&#35748;&#24744;&#30340;&#20449;&#24687;&#26159;&#21542;&#27491;&#30830;&#22320;&#36755;&#20837;&#25110;&#33267;&#22270;&#20070;&#39302;&#25903;&#20184;&#12290;
+# CC_EMAIL_RECEIPT_chx=&#24744;&#30340;&#22270;&#20070;&#39302;&#20184;&#27454;&#25910;&#25454;|circadm@example.org|onlinepayments@example.org
+ICON_PAY_chx=<span class="button"><span class="buttonText">&#32593;&#19978;&#20184;&#27454;</span></span>
+ICON_PAY_CLEAR_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#28040;&#38500;</span></span></div></div>
+ICON_PAY_SELECT_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#36873;&#25321;</span></span></div></div>
+ICON_PRINT_chx=<span class="button"><span class="buttonText">&#25171;&#21360;</span></span>
+ICON_PAY_CONTINUE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#32487;&#32493;</span></span></div></div>
+BOOKINGS_DAY_LEGEND_chx=<span class="bookingsLegend">&#22270;&#20070;&#39302;&#20110; <span id="closed">X</span> &#23567;&#26102;&#20851;&#38376;&#12290;&#26080;&#39033;&#30446;&#21487;&#25552;&#20379; <span id="unavailable">&#28784;&#33394;-&#26080;&#21151;&#33021;</span> &#26102;&#38388; &#12290;</span>
+BOOKINGS_MONTH_LEGEND_chx=<span class="bookingsLegend">&#22270;&#20070;&#39302;&#20110; <span id="closed">X</span> &#26085;&#20851;&#38376;&#12290; &#26080;&#39033;&#30446;&#21487;&#25552;&#20379; <span id="unavailable">&#28784;&#33394;-&#26080;&#21151;&#33021;</span> &#26085;&#26399;&#12290;</span>
+ICON_BOOKINGS_HEADER_chx=<span class="button"><span class="buttonText">&#39044;&#23450;&#27492;&#36164;&#26009;</span></span>
+ICON_DAILYCAL_chx=&#26597;&#30475;&#26085;&#21382; 
+ICON_HOURLYCAL_chx=&#26597;&#30475;&#23567;&#26102;&#26085;&#21382;
+ICON_NEXTCAL_chx=&#21518;
+ICON_PREVCAL_chx=&#21069;
+ICON_BUT_ILL_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_BUT_ILL_FORM_chx=<span class="button"><span class="buttonText">Interlibrary Loan &#34920;</span></span>
+ICON_BUT_ILL_HOME_chx=<span class="button"><span class="buttonText">&#26032;&#39044;&#27714;</span></span>
+ICON_BUT_PAT_ILL_FORM_chx=<span class="button"><span class="buttonText">Interlibrary Loan &#34920;</span></span>
+ICON_BUT_PAT_ILL_chx=<span class="button"><span class="buttonText">Interlibrary Loan</span></span>
+ILL_CONF_EMAIL_SUBJECT_chx=&#22270;&#20070;&#39302;Inter-library Loan&#39044;&#23450;&#36890;&#30693;
+ICON_BUT_RET2CRS_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#35838;&#31243;</span></span>
+ICON_BUT_PREVSCRN_chx=<span class="button"><span class="buttonText">&#22238;</span></span>
+ICON_BUT_RET2FEAT_chx=<span class="button"><span class="buttonText">&#22238;</span></span>
+BIBIMAGE_TEXT_chx=&#20070;&#26412;&#23553;&#38754;
+ICON_BUT_CLOSEFRAME_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#26694;&#26550;</span></span>
+ICON_BUT_RET2RESOURCE_chx=<div id="resourcelink"><span class="button"><span class="buttonText">&#22238;</span></span></div>
+ICON_PATFEED_chx=&#25105;&#30340;&#35760;&#24405;Feeds
+PATFEED_CONFIG_chx=&#24744;&#30340;&#22270;&#20070;&#39302;&#35760;&#24405;&#26032;&#38395;|&#38543;&#38142;&#25509;&#33267;&#22270;&#20070;&#39302;&#35760;&#24405;&#26597;&#21462;&#20840;&#37096;&#35814;&#24773;&#12290;
+PATFEED_FINES_INCURRED_RECENTLY_chx=&#24744;&#26377;&#26032;&#32602;&#27454;&#25110;&#20184;&#36153;
+PATFEED_HOLDS_READY_chx=&#24744;&#30340;&#26448;&#26009;&#24050;&#20934;&#22791;&#21487;&#38543;&#26102;&#25552;&#21462;
+PATFEED_ITEMS_BOOKED_TOMORROW_chx=&#26448;&#26009;&#39044;&#23450;&#20026;&#26126;&#22825;
+PATFEED_ITEMS_DUE_SOON_chx=&#26448;&#26009;&#21363;&#23558;&#21040;&#26399;
+PATFEED_ITEMS_DUE_TODAY_chx=&#26448;&#26009;&#20170;&#22825;&#21040;&#26399;
+PATFEED_ITEMS_OVERDUE_chx=&#26448;&#26009;&#24050;&#36807;&#26399;
+PATFEED_ITEMS_RECALLED_chx=&#26448;&#26009;&#24050;&#21484;&#22238;
+PATFEED_PROGRAM_SESSION_SOON_chx=&#24744;&#24050;&#27880;&#20876;&#20043;&#27963;&#21160;&#21363;&#23558;&#25512;&#20986;&#12290; &#35831;&#30331;&#20837;&#24744;&#30340;&#35835;&#32773;&#24080;&#25143;&#23547;&#30475;&#27963;&#21160;&#26085;&#26399;&#65292;&#26102;&#38388;&#21644;&#22320;&#28857;&#12290;
+PATFEED_PROGRAM_SESSION_TOMORROW_chx=&#24744;&#24050;&#27880;&#20876;&#20043;&#27963;&#21160;&#23558;&#20110;&#26126;&#22825;&#25512;&#20986;&#12290; &#35831;&#30331;&#20837;&#24744;&#30340;&#35835;&#32773;&#24080;&#25143;&#23547;&#30475;&#27963;&#21160;&#26085;&#26399;&#65292;&#26102;&#38388;&#21644;&#22320;&#28857;&#12290;
+PATFEED_PROGRAM_SESSION_TODAY_chx=&#24744;&#24050;&#27880;&#20876;&#20043;&#27963;&#21160;&#23558;&#20110;&#20170;&#22825;&#25512;&#20986;&#12290; &#35831;&#30331;&#20837;&#24744;&#30340;&#35835;&#32773;&#24080;&#25143;&#23547;&#30475;&#27963;&#21160;&#26085;&#26399;&#65292;&#26102;&#38388;&#21644;&#22320;&#28857;&#12290;
+ICON_BUT_EMAIL_chx=&#30005;&#37038;
+ICON_BUT_NEXTREC_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BUT_PREVREC_chx=<span class="button"><span class="buttonText">&#21069;&#19968;&#35760;&#24405;</span></span>
+ICON_BUT_Z39_ANOTHER_chx=&#20854;&#20182;&#36164;&#26009;&#24211;
+ICON_BUT_Z39_REQUEST_chx=<span class="button"><span class="buttonText">&#39044;&#27714;</span></span>
+ICON_BUT_Z39SEARCH_chx=<span class="button"><span class="buttonText">&#25628;&#32034;&#20854;&#20182;&#22270;&#20070;&#39302;</span></span>
+Z39BROADCAST_chx=Z39.50&#25773;&#25918;&#25628;&#32034;&#65306;&#35831;&#36873;&#25321;&#24744;&#38656;&#35201;&#30340;Z39.50&#26381;&#21153;&#22120;&#20256;&#36865;&#24744;&#30340;&#25628;&#32034;
+ICON_BUT_RETHOME_chx=<span class="button"><span class="buttonText">&#20027;&#39029;</span></span>
+ICON_MFFAVS_HOME_chx=<span class="button"><span class="buttonText">&#20027;&#39029;</span></span>
+ICON_MFFAVS_SEARCH_chx=<span class="button"><span class="buttonText">&#25628;&#32034;</span></span>
+ICON_PAT_MFFAVS_chx=<span class="button"><span class="buttonText">&#25105;&#30340;Research Pro</span></span>
+MFFAVS_CONFIRM_chx=&#24744;&#30340;&#32676;&#32452;, %s, &#24050;&#25104;&#21151;&#20648;&#22791;&#12290;
+MFFAVS_DENY_chx=&#27492;&#21151;&#33021;&#19981;&#21487;&#25552;&#20379;&#12290;&#35831;&#32852;&#31995;&#22270;&#20070;&#39302;&#39302;&#21592;&#20316;&#36827;&#19968;&#27493;&#21327;&#21161;&#12290;
+ICON_SPELLCHECK_MORE_chx=<span class="spellcheckToolMore">&#26356;&#22810;&nbsp;&raquo;</span>
+ICON_SPELLCHECK_SEARCH_chx=<img src="/screens/ico_go.gif" class="button" border="0" alt="&#25628;&#32034;">
+SPELLCHECK_chx=<span class="spellcheckTool">&#24744;&#26159;&#21542;&#25628;&#32034; %a? %s </span>
+MF_ICON_ADVANCED_SEARCH_chx=&#39640;&#32423;&#25628;&#32034;
+MF_ICON_CLEAR_chx=&#28165;&#34920;
+MF_ICON_CLOSE_chx=&#20851;&#38381;&#35270;&#31383;
+MF_ICON_DESELECTALL_chx=&#20840;&#28040;&#38500;
+MF_ICON_EMAIL_chx=&#30005;&#37038;
+MF_ICON_HELP_chx=&#24110;&#21161; 
+MF_ICON_LOGOFFACCOUNT_chx=&#30331;&#20986;
+MF_ICON_MFFAVS_GROUP_chx=&#20648;&#23384;&#32676;&#32452;
+MF_ICON_NEW_SEARCH_chx=&#26032;&#25628;&#32034;
+MF_ICON_PATRON_REC_chx=&#36820;&#22238;&#33267;&#35835;&#32773;&#35760;&#24405;
+MF_ICON_PATSUBMIT_chx=&#25552;&#20132;
+MF_ICON_PREVSEARCH_chx=&#21069;&#19968;&#25628;&#32034;
+MF_ICON_PRINT_chx=&#25171;&#21360;
+MF_ICON_RET2CAT_chx=&#22238;&#33267;&#30446;&#24405;
+MF_ICON_RETHOME_chx=&#20027;&#39029;
+MF_ICON_SEARCH_chx=&#25628;&#32034;Research Pro
+MF_ICON_SELECTALL_chx=&#20840;&#36873;&#25321;
+MF_ICON_SIMPLE_SEARCH_chx=&#31616;&#26131;&#25628;&#32034;
+MF_ICON_STOP_chx_chx=&#20572;&#27490;&#25628;&#32034;
+MF_ICON_UPDATELIST_chx=&#26356;&#26032;&#21015;&#34920;
+MF_ICON_VIEWSAVED_chx=&#26597;&#30475;&#20648;&#23384;
+MF_RESULTSVIEW_chx=tabbed,&#20197;&#36164;&#28304;&#20026;&#36873;&#39033;&#21345;&#24335;&#26597;&#30475;&#32467;&#26524;|standard,&#26597;&#30475;&#20840;&#37096;&#24050;&#20837;&#26723;&#26696;&#20043;&#32467;&#26524;
+MF_SEARCHINDEX_chx=Keywords,&#20851;&#38190;&#23383;|:CREATOR,&#20316;&#32773;|:TITLE,&#26631;&#39064;|:SUBJECT,&#20027;&#39064;
+MF_TOPLOGO_chx=@screens/toplogo_chx.html
+PROGRAM_SECTION_FIELDS_chx=&#26085;&#26399;/&#26102;&#38388;:VsT|&#20250;&#35265;:Vss|&#22320;&#28857;:Fs285|&#35762;&#24072;:Vsn|&#29366;&#20917;:VsS
+ICON_BUT_PAT_PROGRAMS_chx=<span class="button"><span class="buttonText">&#22270;&#20070;&#39302;&#27963;&#21160;</span></span>
+ICON_BUT_PAT_SORTBYDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26085;&#26399;&#25490;&#24207;</span></span></div></div>
+ICON_BUT_PAT_SORTBYNAME_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#22995;&#21517;&#25490;&#24207;</span></span></div></div>
+ICON_RET2PROG_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#33267;&#33410;&#30446;</span></span>
+ICON_REGISTER_chx=<br><strong>&#36731;&#25353;&#27492;&#22788;&#27880;&#20876;</strong>
+ICON_ADD_TO_WAITLIST_chx=<br><strong>&#21152;&#36827;&#20505;&#34917;&#21333;</strong>
+ICON_VIEW_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">&#26597;&#30475;&#39069;&#22806;&#20250;&#35758;</span></span>
+ICON_HIDE_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">&#38544;&#34255;&#39069;&#22806;&#20250;&#35758;</span></span>
+ICON_PROGRAM_CAL_chx=<span class="button"><span class="buttonText">&#27963;&#21160;&#26085;&#21382;</span></span>
+AVAILLIM_chx=<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;</span>|<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;&#32467;&#26524;</span>
+BOTLOGO_chx=@screens/botlogo_chx.html
+ICON_BUT_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_BUT_CLOSEWINDOW_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#35270;&#31383;</span></span>
+ICON_BUT_RET2CAT_chx=<span class="button"><span class="buttonText">&#22238;&#33267;&#30446;&#24405;</span></span>
+ICON_BUT_STARTOVER_chx=<span class="button"><span class="buttonText">/search*chx</span></span>
+ICON_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_OK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#22909;&#30340;</span></span></div></div>
+ICON_PREVPAGE_chx=<span class="button"><span class="buttonText">&#21069;</span></span>
+ICON_SUBMIT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#25552;&#20132;</span></span></div></div>
+ICON_UPDATELIST_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#26032;&#21015;&#34920;</span></span></div></div>
+ICON_CLEAR_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#28040;&#38500;</span></span></div></div>
+ICON_CLEAR_FORM_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#28165;&#34920;</span></span></div></div>
+ICON_DELETE_SELECTED_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#36873;&#25321;</span></span></div></div>
+ICON_SELECT_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#20648;&#23384;</span></span></div></div>
+STARTOVER_chx=/search*chx
+TOPLOGO_chx=@screens/toplogo_chx.html
+XSTARTOVER_chx=/search*chx
+ICON_BUT_PUBLIC_chx=<span class="button"><span class="buttonText">&#35835;&#32773;&#35270;&#22270;</span></span>
+ICON_BUT_STAFF_chx=<span class="button"><span class="buttonText">&#39302;&#21592;&#35270;&#22270;</span></span>
+STAFF_LOGGEDIN_MSG_chx=<span class="loggedInMessage">&#24744;&#24050;&#20197;&#39302;&#21592;&#24418;&#24335;&#30331;&#20837; %s &#22914; %s</span>
+ICON_BUT_ANOTHER_chx=<span class="button"><span class="buttonText">&#20854;&#20182;&#25628;&#32034;</span></span>
+ICON_BUT_NEWSRCH_chx=<span class="button"><span class="buttonText">&#37325;&#26032;&#25628;&#32034;</span></span>
+ICON_BUT_WORDSRCH_chx=<span class="button"><span class="buttonText">&#20851;&#38190;&#35789;&#25628;&#32034;</span></span>
+ICON_BUT_MODIFY_chx=<span class="button"><span class="buttonText">&#20462;&#25913;&#25628;&#32034;</span></span>
+ICON_BUT_SHOWSIM_chx=<span class="button"><span class="buttonText">&#26356;&#22810;&#27492;&#31867;</span></span>
+ICON_REL_GROUP_1_chx=<img src="/screens/relevance5.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#26368;&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_2_chx=<img src="/screens/relevance4.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#39640;&#24230;&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_3_chx=<img src="/screens/relevance3.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#38750;&#24120;&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_4_chx=<img src="/screens/relevance2.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#26377;&#20851;&#30340; &#26631;&#39064;</h1>&nbsp;
+ICON_REL_GROUP_5_chx=<img src="/screens/relevance1.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#20854;&#20182;&#26377;&#20851;&#30340;  &#26631;&#39064;&</h1>&nbsp;
+RELSEARCH_chx=restable||<span class="button"><span class="buttonText">&#26597;&#30475;&#30456;&#20851;&#25628;&#32034;</span>
+AUTHMSG_chx=<h2 class="briefcitTitle"><em>%u</em> -- &#21442;&#30475; %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- &#21516;&#26102;&#21442;&#30475; %w %a </h2><span class="authPublicNote">%p</span>
+AUTHMSG_SR_chx=a&#26368;&#26032;&#26631;&#39064;|b&#26089;&#26399;&#26631;&#39064;|d&#26631;&#39064;&#20043;&#20840;&#34920;|f&#20197;&#27492;&#20316;&#21697;&#20026;&#20381;&#25454;&#20043;&#20048;&#26354;|g&#36739;&#31364;&#20043;&#29992;&#35821;|h&#36739;&#23485;&#20043;&#29992;&#35821;
+BROWSE_HEADERS_chx=[[ wwwoptions 00 browse_headers ]]
+ICON_BUT_BRIEF_chx=<span class="button"><span class="buttonText">&#31616;&#35201;&#26174;&#31034;</span></span>
+ICON_BUT_EXTENDED_chx=<span class="button"><span class="buttonText">&#35814;&#32454;&#26174;&#31034;</span></span>
+ICON_BUT_LIMAVAIL_chx=<span class="button"><span class="buttonText">&#38480;&#21487;&#20511;&#38405;&#39302;&#34255;</span></span>
+ICON_BUT_LIMIT_chx=<span class="button"><span class="buttonText">&#38480;&#21046;/&#25490;&#24207;&#25628;&#32034;</span></span>
+ICON_BUT_UNLIMAVAIL_chx=<span class="button"><span class="buttonText">&#20840;&#26174;&#31034;</span></span>
+ICON_856LINK_chx=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#32593;&#39029;
+ICON_962LINK_chx=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#25968;&#30721;&#24433;&#20687;
+ICON_BOOKCART_SAVED_chx=<span class="button"><span class="buttonText">&#20174;&#20070;&#34955;&#20013;&#21024;&#38500;</span></span>
+ICON_FULLRECORD_chx=&#21442;&#30475;&#35814;&#23613;&#35760;&#24405;
+ICON_PAGING_CAPTION_chx=&#32467;&#26524;&#39029;&nbsp;
+ICON_PAGING_NEXT_chx=&#21518;
+ICON_PAGING_PREV_chx=&#21069;
+ICON_PROGRAM_chx=<img src="/screens/media_program.gif" border="0" alt="&#22270;&#20070;&#39302;&#27963;&#21160;">
+ICON_RESOURCE_chx=<img src="/screens/media_resource.gif" alt="&#32593;&#38469;&#36164;&#28304;">
+ICON_SAVEALLPAGE_chx=<span class="button"><span class="buttonText">&#20840;&#28155;&#21152;&#22312;&#39029;</span></span>
+ICON_SAVEMARKED_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#24050;&#26631;&#33267;&#20070;&#34955;</span></span>
+NO_COPIES_chx=&#30446;&#21069;&#27809;&#25335;&#36125;&#22797;&#21360;&#26412;&#21487;&#29992;
+SORT_BROWSE_chx=t:??|a:??|c:?|r:???|n:???|m:???? 
+BIB_TOC_HEADER_chx=<strong>&#30446;&#24405;</strong>
+ICON_BUT_MARC_DISPLAY_chx=<span class="button"><span class="buttonText">MARC&#26174;&#31034;</span></span>
+ICON_BUT_REGULAR_DISPLAY_chx=<span class="button"><span class="buttonText">&#27491;&#35268;&#26174;&#31034;</span></span>
+ICON_BUT_RTRNTB_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#27983;&#35272;&#32034;&#24341;</span></span>
+ICON_BIB_HOLDINGS_ITEMS_chx=&#26597;&#30475;&#25335;&#36125;&#22797;&#21360;&#26412;
+ICON_BIB_PAGING_NEXT_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_PREV_chx=<span class="button"><span class="buttonText">&#21069;&#19968;&#35760;&#24405;</span></span>
+ICON_RECORDLINK_chx=<a href="%s"><span class="button"><span class="buttonText">&#27704;&#20037;&#38142;&#25509;</span></span></a>
+LINK856TEXT_chx=&#25509;&#36890;
+BIB_LICENSE_FIELDS_chx=&#20801;&#35768;:Vlw|&#38480;&#21046;:Vlx
+BIB_RESOURCE_CAPTION_chx=<strong>&#27492;&#26631;&#39064;&#21487;&#36879;&#36807;&#30005;&#23376;&#24471;&#21040;&#65306;</strong>
+ICON_BIB_RESOURCE_DETAILS_chx=<span class="button"><span class=buttonText">&#20840;&#37096;&#32454;&#33410;</span></span>
+ICON_RESOURCE_RECORD_chx=<span class="button"><span class=buttonText">&#26597;&#30475;&#36164;&#28304;&#35760;&#24405;</span></span>
+RESOURCE_HOLDINGS_FIELDS_chx=&#26631;&#39064;:VbT|&#25253;&#23548;:Vch|&#20840;&#25991;:VcY
+RESOURCE_LICENSE_FIELDS_chx=&#20801;&#35768; :Vlw|&#38480;&#21046;:Vlx|&#21487;&#29992;:Vlf|&#20351;&#29992;&#35828;&#26126;:Vla
+ICON_BUT_CARDFORM_BOX_chx=<span class="button"><span class="buttonText">&#28857;&#25910;&#31665;&#26174;&#31034;</span></span>
+ICON_BUT_CARDFORM_LIN_chx=<span class="button"><span class="buttonText">&#34892;&#24335;&#26174;&#31034;</span></span>
+CHECKIN_STATUS_chx=&#25269;&#36798;=&#27492;|&#39044;&#26399;=&#21363;&#23558;&#25512;&#20986;|&#35037;&#26360;/&#24050;&#35037;=&#27491;&#35013;&#20070;|&#36831;=&#36831;
+HOLDINGS_REQ_chx=&#36882;&#20132;&#27492;&#31687;&#25991;&#31456;&#32473;&#25105;
+ICON_MYLISTS_chx=&#25105;&#30340;&#21015;&#34920;
+ICON_MYLISTS_EXPORT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#36755;&#20986;&#21015;&#34920;</span></span></div></div>
+ICON_MYLISTS_MOVE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#31227;&#21160;&#24050;&#26631;&#35760;</span></span></div></div>
+ICON_MYLISTS_REQUEST_chx=<span class="button"><span class="buttonText">&#35201;&#27714;</span></span>
+ICON_MYLISTS_REMOVE_DUPLICATES_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#37325;&#22797;&#39033;</span></span></div></div>
+ICON_MYLISTS_RENAME_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#25913;&#21517;&#31216;/&#25551;&#36848;</span></span></div></div>
+ICON_MYLISTS_SAVE_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_MYLISTS_SAVE_TO_LIST_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#24050;&#26631;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_MYLISTS_BRIEF_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_BACK_TO_MYLISTS_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#22238;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span></div></div>
+ICON_MYLISTS_RECORD_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#25105;&#30340;&#21015;&#34920;</span></span>
+ICON_BUT_BIBEXPORT_chx=<span class="button"><span class="buttonText">&#28155;&#21152;&#33267;&#20070;&#34955;</span></span>
+ICON_BUT_CLEAR_MARKED_chx=<span class="button"><span class="buttonText">&#28165;&#34955;</span></span>
+ICON_BUT_EXPORT_MULTI_chx=<span class="button"><span class="buttonText">&#36716;&#20986;&#24050;&#23384;</span></span>
+ICON_BUT_EXPORT_VIEW_SAVES_chx=<span class="button"><span class="buttonText">&#26597;&#30475;&#20070;&#34955;</span></span>
+ICON_BUT_VIEW_SAVES_chx=<span class="button"><span class="buttonText">&#26597;&#30475;&#20070;&#34955;</span></span>
+ICON_BUT_REQUEST_chx=<span class="button"><span class="buttonText">&#35201;&#27714;</span></span>
+ICON_BUT_REQUEST_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#39044;&#23450;&#21487;&#20511;&#38405;&#39302;&#34255;</span></span></div></div>
+ICON_BUT_REQUEST_MULTI_chx=<span class="button"><span class="buttonText">&#39044;&#35746;&#24050;&#23384;</span></span>
+ICON_BUT_REQUEST_RESET_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#37325;&#35774;&#34920;&#26684;</span></span></div></div>
+ICON_BUT_REQUEST_SELECTED_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#39044;&#23450;&#24050;&#36873;</span></span></div></div>
+ICON_REQUEST_chx=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#35201;&#27714;
+REQUEST_chx=&#20445;&#30041;&#27492;&#39033;&#30446;|bib|ask|Y
+REQUEST_MULTI_chx=&#39044;&#23450;&#20070;&#36710;&#20869;&#25152;&#26377;&#39033;&#30446;|bib|ask
+ICON_BUT_PAT_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_BUT_PAT_CANCELALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#21462;&#28040;</span></span></div></div>
+ICON_BUT_PAT_CANCELMARK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;&#36873;&#25321;</span></span></div></div>
+ICON_BUT_PAT_INFO_chx=&#20462;&#25913;&#20010;&#20154;&#36164;&#26009;
+ICON_BUT_PAT_MSGS_chx=<span class="button"><span class="buttonText">&#26469;&#33258;&#22270;&#20070;&#39302;&#20043;&#28040;&#24687;</span></span>
+ICON_BUT_PAT_PIN_chx=&#20462;&#25913;&#20010;&#20154;&#23494;&#30721;
+ICON_BUT_PAT_RENEWALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#37096;&#32493;&#20511;</span></span></div></div>
+ICON_BUT_PAT_RENEWMARK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#32493;&#20511;&#24050;&#26631;</span></span></div></div>
+ICON_BUT_PAT_SORTBYCHKOUT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20511;&#20070;&#25490;&#24207;</span></span></div></div>
+ICON_BUT_PAT_SORTBYDUE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26399;&#28385;&#26085;&#25490;&#24207;</span></span></div></div>
+ICON_BUT_PAT_SUBMIT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#25552;&#20132;</span></span></div></div>
+ICON_BUT_PSTARTOVER_chx=<span class="button"><span class="buttonText">&#37325;&#26032;&#25628;&#32034;</span></span>
+ICON_BUT_UPDATE_HOLDS_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#26032;&#21015;&#34920;</span></span></div></div>
+ICON_CLOSEWINDOW_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#35270;&#31383;</span></span>
+ICON_PAT_CANCELALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#21462;&#28040;</span></span></div></div>
+ICON_PAT_CANCELMARK_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;&#36873;&#25321;</span></span></div></div>
+ICON_PIN_RESET_chx=<span class="button"><span class="buttonText">&#24536;&#35760;&#24744;&#30340;&#23494;&#30721;?</span></span>
+ICON_SORTPUDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#25552;&#21462;&#25490;&#24207;</span></span></div></div>
+ICON_SORTREQDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#39044;&#23450;&#25490;&#24207;</span></span></div></div>
+NEWPIN_MSG_chx=&#35831;&#36755;&#20837;&#20010;&#20154;&#23494;&#30721;[PIN]
+PSTARTOVER_chx=/search*chx
+ICON_BUT_PAT_PSEARCH_REMOVE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#20840;&#37096;&#25628;&#32034;</span></span></div></div>
+ICON_BUT_PAT_PSEARCH_UPDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26356;&#26032;&#21015;&#34920;</span></span></div></div>
+ICON_BUT_PAT_GETPSAVEDRECS_chx=<span class="button"><span class="buttonText">&#21512;&#23452;&#25628;&#32034;</span></span>
+CIRC_HIST_LIMIT_TEXT_chx=&#20197;&#19981;&#23384;&#22312;&#25105;&#30340;&#20511;&#35835;&#21382;&#21490;&#20869;&#20043;&#26631;&#39064;&#20026;&#38480;&#21046;
+ALTERNATE_ID_EMAIL_chx=username@replacesitename.com|&#24744;&#30340;&#30331;&#20837;&#21517;&#31216;&#24050;&#26356;&#25913;
+ICON_PAT_DELETE_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#21034;&#38500;</span></span></div></div>
+ICON_PAT_DELETE_MARKED_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21024;&#38500;&#24050;&#27880;&#35760;</span></span></div></div>
+ICON_READING_HISTORY_chx=&#25105;&#30340;&#20511;&#35835;&#21382;&#21490;
+ICON_READING_HISTORY_OPTIN_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21551;&#29992;&#20511;&#35835;&#21382;&#21490;</span></span></div></div>
+ICON_READING_HISTORY_OPTOUT_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20572;&#29992;&#20511;&#35835;&#21382;&#21490;</span></span></div></div>
+ICON_READING_HISTORY_EXPORT_chx=<span class="button"><span class="buttonText">&#36755;&#20986;&#25105;&#30340;&#20511;&#35835;&#30446;&#24405;</span></span>
+LOGGEDIN_MSG_chx=<span class="loggedInMessage">&#24744;&#30331;&#24405;&#20026; <span class="loggedInMoreInfo">&#33267; %s</span> &#20026;: %s</span>
+PREFTEXT_chx=&#20316;&#21512;&#23452;&#25628;&#32034;&#20445;&#23384;
+ICON_PATRATE_chx=<span class="button"><span class="buttonText">&#25105;&#30340;&#35780;&#20998;</span></span>
+ICON_RATE_GROUP_chx=<img src="/screens/rate_group.gif" border="0" width="15" height="14" alt="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; " title="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; ">
+ICON_RATE_MY_chx=<img src="/screens/rate_my.gif" border="0" width="15" height="14" alt="&#24744;&#24050;&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;" title="&#24744;&#24050;&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;">
+ICON_RATE_NEED_chx=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="&#35780;&#32423;&#27492;&#36164;&#26009;!" title="&#35780;&#32423;&#27492;&#36164;&#26009;!">
+ICON_RATE_NO_chx=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="&#27492;&#36164;&#26009;&#23578;&#26410;&#34987;&#35780;&#32423;" title="&#27492;&#36164;&#26009;&#23578;&#26410;&#34987;&#35780;&#32423;">
+ICON_RATE_PAD_chx=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; " title="&#25237;&#20116;&#26143;&#20013;&#20043; %d &#26143;&#20110; %n &#27425;&#30340;&#35780;&#32423; ">
+ICON_PATREVIEW_chx=<span class="button"><span class="buttonText">&#25105;&#30340;&#35780;&#35770;</span></span>
+ICON_PATREVIEW_ADD_chx=<span class="button"><span class="buttonText">&#21152;&#20070;&#35780;</span></span>
+PATREVIEW_ABUSE_NOTIFY_chx=&#35780;&#35770;&#28389;&#29992;&#24050;&#25253;|&#33539;&#20363;&#22270;&#20070;&#39302;|web@example.org
+CC_APPROVED_chx=&#24744;&#30340;&#20184;&#27454;&#24050;&#25209;&#20934;&#12290;
+CC_DECLINED_chx=&#25265;&#27465;&#12290; &#24744;&#30340;&#20184;&#27454;&#24050;&#34987;&#25298;&#32477;&#12290; &#35831;&#30830;&#35748;&#24744;&#30340;&#20449;&#24687;&#26159;&#21542;&#27491;&#30830;&#22320;&#36755;&#20837;&#25110;&#33267;&#22270;&#20070;&#39302;&#25903;&#20184;&#12290;
+ICON_PAY_chx=<span class="button"><span class="buttonText">&#32593;&#19978;&#20184;&#27454;</span></span>
+ICON_PAY_CLEAR_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#28040;&#38500;</span></span></div></div>
+ICON_PAY_SELECT_ALL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#20840;&#36873;&#25321;</span></span></div></div>
+ICON_PRINT_chx=<span class="button"><span class="buttonText">&#25171;&#21360;</span></span>
+ICON_PAY_CONTINUE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#32487;&#32493;</span></span></div></div>
+BOOKINGS_DAY_LEGEND_chx=<span class="bookingsLegend">&#22270;&#20070;&#39302;&#20110; <span id="closed">X</span> &#23567;&#26102;&#20851;&#38376;&#12290;&#26080;&#39033;&#30446;&#21487;&#25552;&#20379; <span id="unavailable">&#28784;&#33394;-&#26080;&#21151;&#33021;</span> &#26102;&#38388; &#12290;</span>
+BOOKINGS_MONTH_LEGEND_chx=<span class="bookingsLegend">&#22270;&#20070;&#39302;&#20110; <span id="closed">X</span> &#26085;&#20851;&#38376;&#12290; &#26080;&#39033;&#30446;&#21487;&#25552;&#20379; <span id="unavailable">&#28784;&#33394;-&#26080;&#21151;&#33021;</span> &#26085;&#26399;&#12290;</span>
+ICON_BOOKINGS_HEADER_chx=<span class="button"><span class="buttonText">&#39044;&#23450;&#27492;&#36164;&#26009;</span></span>
+ICON_DAILYCAL_chx=&#26597;&#30475;&#26085;&#21382; 
+ICON_HOURLYCAL_chx=&#26597;&#30475;&#23567;&#26102;&#26085;&#21382;
+ICON_NEXTCAL_chx=&#21518;
+ICON_PREVCAL_chx=&#21069;
+ICON_BUT_ILL_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
+ICON_BUT_ILL_FORM_chx=<span class="button"><span class="buttonText">Interlibrary Loan &#34920;</span></span>
+ICON_BUT_ILL_HOME_chx=<span class="button"><span class="buttonText">&#26032;&#39044;&#27714;</span></span>
+ICON_BUT_PAT_ILL_FORM_chx=<span class="button"><span class="buttonText">Interlibrary Loan &#34920;</span></span>
+ICON_BUT_PAT_ILL_chx=<span class="button"><span class="buttonText">Interlibrary Loan</span></span>
+ILL_CONF_EMAIL_SUBJECT_chx=&#22270;&#20070;&#39302;Inter-library Loan&#39044;&#23450;&#36890;&#30693;
+ICON_BUT_RET2CRS_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#35838;&#31243;</span></span>
+ICON_BUT_PREVSCRN_chx=<span class="button"><span class="buttonText">&#22238;</span></span>
+ICON_BUT_RET2FEAT_chx=<span class="button"><span class="buttonText">&#22238;</span></span>
+BIBIMAGE_TEXT_chx=&#20070;&#26412;&#23553;&#38754;
+ICON_BUT_CLOSEFRAME_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#26694;&#26550;</span></span>
+ICON_BUT_RET2RESOURCE_chx=<div id="resourcelink"><span class="button"><span class="buttonText">&#22238;</span></span></div>
+PATFEED_CONFIG_chx=&#24744;&#30340;&#22270;&#20070;&#39302;&#35760;&#24405;&#26032;&#38395;|&#38543;&#38142;&#25509;&#33267;&#22270;&#20070;&#39302;&#35760;&#24405;&#26597;&#21462;&#20840;&#37096;&#35814;&#24773;&#12290;
+PATFEED_FINES_INCURRED_RECENTLY_chx=&#24744;&#26377;&#26032;&#32602;&#27454;&#25110;&#20184;&#36153;
+PATFEED_HOLDS_READY_chx=&#24744;&#30340;&#26448;&#26009;&#24050;&#20934;&#22791;&#21487;&#38543;&#26102;&#25552;&#21462;
+# PATFEED_IMAGE_chx=/screens/rss.gif|&#35746;&#38405;&#24744;&#30340;&#22270;&#20070;&#39302;&#35760;&#24405;&#20043;feed&#12290;|88|31
+PATFEED_ITEMS_BOOKED_TOMORROW_chx=&#26448;&#26009;&#39044;&#23450;&#20026;&#26126;&#22825;
+PATFEED_ITEMS_DUE_SOON_chx=&#26448;&#26009;&#21363;&#23558;&#21040;&#26399;
+PATFEED_ITEMS_DUE_TODAY_chx=&#26448;&#26009;&#20170;&#22825;&#21040;&#26399;
+PATFEED_ITEMS_OVERDUE_chx=&#26448;&#26009;&#24050;&#36807;&#26399;
+PATFEED_ITEMS_RECALLED_chx=&#26448;&#26009;&#24050;&#21484;&#22238;
+PATFEED_PROGRAM_SESSION_SOON_chx=&#24744;&#24050;&#27880;&#20876;&#20043;&#27963;&#21160;&#21363;&#23558;&#25512;&#20986;&#12290; &#35831;&#30331;&#20837;&#24744;&#30340;&#35835;&#32773;&#24080;&#25143;&#23547;&#30475;&#27963;&#21160;&#26085;&#26399;&#65292;&#26102;&#38388;&#21644;&#22320;&#28857;&#12290;
+PATFEED_PROGRAM_SESSION_TOMORROW_chx=&#24744;&#24050;&#27880;&#20876;&#20043;&#27963;&#21160;&#23558;&#20110;&#26126;&#22825;&#25512;&#20986;&#12290; &#35831;&#30331;&#20837;&#24744;&#30340;&#35835;&#32773;&#24080;&#25143;&#23547;&#30475;&#27963;&#21160;&#26085;&#26399;&#65292;&#26102;&#38388;&#21644;&#22320;&#28857;&#12290;
+PATFEED_PROGRAM_SESSION_TODAY_chx=&#24744;&#24050;&#27880;&#20876;&#20043;&#27963;&#21160;&#23558;&#20110;&#20170;&#22825;&#25512;&#20986;&#12290; &#35831;&#30331;&#20837;&#24744;&#30340;&#35835;&#32773;&#24080;&#25143;&#23547;&#30475;&#27963;&#21160;&#26085;&#26399;&#65292;&#26102;&#38388;&#21644;&#22320;&#28857;&#12290;
+ICON_BUT_EMAIL_chx=&#30005;&#37038;
+ICON_BUT_NEXTREC_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BUT_PREVREC_chx=<span class="button"><span class="buttonText">&#21069;&#19968;&#35760;&#24405;</span></span>
+ICON_BUT_Z39_ANOTHER_chx=&#20854;&#20182;&#36164;&#26009;&#24211;
+ICON_BUT_Z39_REQUEST_chx=<span class="button"><span class="buttonText">&#39044;&#27714;</span></span>
+ICON_BUT_Z39SEARCH_chx=<span class="button"><span class="buttonText">&#25628;&#32034;&#20854;&#20182;&#22270;&#20070;&#39302;</span></span>
+Z39BROADCAST_chx=Z39.50&#25773;&#25918;&#25628;&#32034;&#65306;&#35831;&#36873;&#25321;&#24744;&#38656;&#35201;&#30340;Z39.50&#26381;&#21153;&#22120;&#20256;&#36865;&#24744;&#30340;&#25628;&#32034;
+ICON_BUT_RETHOME_chx=<span class="button"><span class="buttonText">&#20027;&#39029;</span></span>
+ICON_MFFAVS_HOME_chx=<span class="button"><span class="buttonText">&#20027;&#39029;</span></span>
+ICON_MFFAVS_SEARCH_chx=<span class="button"><span class="buttonText">&#25628;&#32034;</span></span>
+ICON_PAT_MFFAVS_chx=<span class="button"><span class="buttonText">&#25105;&#30340;Research Pro</span></span>
+MFFAVS_CONFIRM_chx=&#24744;&#30340;&#32676;&#32452;, %s, &#24050;&#25104;&#21151;&#20648;&#22791;&#12290;
+MFFAVS_DENY_chx=&#27492;&#21151;&#33021;&#19981;&#21487;&#25552;&#20379;&#12290;&#35831;&#32852;&#31995;&#22270;&#20070;&#39302;&#39302;&#21592;&#20316;&#36827;&#19968;&#27493;&#21327;&#21161;&#12290;
+# MFFAVS_HOME_chx=http://researchpro-[&#22270;&#20070;&#39302;&#20195;&#21495;]:[&#31471;&#21475;]/iii/mfrpro-[&#22270;&#20070;&#39302;&#20195;&#21495;]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[&#24080;&#25143;]&amp;accountpassword=[&#24080;&#25143;]&amp;language=eng
+# MFFAVS_URL_chx=true|[&#24080;&#25143;]|[&#24080;&#25143;]|/mfgo/http://researchpro-[&#22270;&#20070;&#39302;&#20195;&#21495;]:[&#31471;&#21475;]/iii/mfrpro-[&#22270;&#20070;&#39302;&#20195;&#21495;]/search.do
+ICON_SPELLCHECK_MORE_chx=<span class="spellcheckToolMore">&#26356;&#22810;&nbsp;&raquo;</span>
+ICON_SPELLCHECK_SEARCH_chx=<img src="/screens/ico_go.gif" class="button" border="0" alt="&#25628;&#32034;">
+SPELLCHECK_chx=<span class="spellcheckTool">&#24744;&#26159;&#21542;&#25628;&#32034; %a? %s </span>
+MF_ICON_ADVANCED_SEARCH_chx=&#39640;&#32423;&#25628;&#32034;
+MF_ICON_CLEAR_chx=&#28165;&#34920;
+MF_ICON_CLOSE_chx=&#20851;&#38381;&#35270;&#31383;
+MF_ICON_DESELECTALL_chx=&#20840;&#28040;&#38500;
+MF_ICON_EMAIL_chx=&#30005;&#37038;
+MF_ICON_HELP_chx=&#24110;&#21161; 
+MF_ICON_LOGOFFACCOUNT_chx=&#30331;&#20986;
+MF_ICON_MFFAVS_GROUP_chx=&#20648;&#23384;&#32676;&#32452;
+MF_ICON_NEW_SEARCH_chx=&#26032;&#25628;&#32034;
+MF_ICON_PATRON_REC_chx=&#36820;&#22238;&#33267;&#35835;&#32773;&#35760;&#24405;
+MF_ICON_PATSUBMIT_chx=&#25552;&#20132;
+MF_ICON_PREVSEARCH_chx=&#21069;&#19968;&#25628;&#32034;
+MF_ICON_PRINT_chx=&#25171;&#21360;
+MF_ICON_RET2CAT_chx=&#22238;&#33267;&#30446;&#24405;
+MF_ICON_RETHOME_chx=&#20027;&#39029;
+MF_ICON_SEARCH_chx=&#25628;&#32034;Research Pro
+MF_ICON_SELECTALL_chx=&#20840;&#36873;&#25321;
+MF_ICON_SIMPLE_SEARCH_chx=&#31616;&#26131;&#25628;&#32034;
+MF_ICON_STOP_chx_chx=&#20572;&#27490;&#25628;&#32034;
+MF_ICON_UPDATELIST_chx=&#26356;&#26032;&#21015;&#34920;
+MF_ICON_VIEWSAVED_chx=&#26597;&#30475;&#20648;&#23384;
+MF_RESULTSVIEW_chx=tabbed,&#20197;&#36164;&#28304;&#20026;&#36873;&#39033;&#21345;&#24335;&#26597;&#30475;&#32467;&#26524;|standard,&#26597;&#30475;&#20840;&#37096;&#24050;&#20837;&#26723;&#26696;&#20043;&#32467;&#26524;
+MF_SEARCHINDEX_chx=Keywords,&#20851;&#38190;&#23383;|:CREATOR,&#20316;&#32773;|:TITLE,&#26631;&#39064;|:SUBJECT,&#20027;&#39064;
+MF_TOPLOGO_chx=@screens/toplogo_chx.html
+PROGRAM_SECTION_FIELDS_chx=&#26085;&#26399;/&#26102;&#38388;:VsT|&#20250;&#35265;:Vss|&#22320;&#28857;:Fs285|&#35762;&#24072;:Vsn|&#29366;&#20917;:VsS
+ICON_BUT_PAT_PROGRAMS_chx=<span class="button"><span class="buttonText">&#22270;&#20070;&#39302;&#27963;&#21160;</span></span>
+ICON_BUT_PAT_SORTBYDATE_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#26085;&#26399;&#25490;&#24207;</span></span></div></div>
+ICON_BUT_PAT_SORTBYNAME_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#22995;&#21517;&#25490;&#24207;</span></span></div></div>
+ICON_RET2PROG_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#33267;&#33410;&#30446;</span></span>
+ICON_REGISTER_chx=<br><strong>&#36731;&#25353;&#27492;&#22788;&#27880;&#20876;</strong>
+ICON_ADD_TO_WAITLIST_chx=<br><strong>&#21152;&#36827;&#20505;&#34917;&#21333;</strong>
+ICON_VIEW_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">&#26597;&#30475;&#39069;&#22806;&#20250;&#35758;</span></span>
+ICON_HIDE_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">&#38544;&#34255;&#39069;&#22806;&#20250;&#35758;</span></span>
+ICON_PROGRAM_CAL_chx=<span class="button"><span class="buttonText">&#27963;&#21160;&#26085;&#21382;</span></span>
+AVAILLIM_spi=<span class="availLimMessage">Limitar la b&#250;squeda a ejemplares disponibles</span>|<span class="availLimMessage">Resultados de la b&#250;squeda limitados a ejemplares disponibles</span>
+BOTLOGO_spi=@screens/botlogo_spi.html
+ICON_BUT_CANCEL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar</span></span></div></div>
+ICON_BUT_CLOSEWINDOW_spi=<span class="button"><span class="buttonText">Cerrar ventana</span></span>
+ICON_BUT_RET2CAT_spi=<span class="button"><span class="buttonText">Volver al cat&#225;logo</span></span>
+ICON_BUT_STARTOVER_spi=<span class="button"><span class="buttonText">/search*spi</span></span>
+ICON_CANCEL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar</span></span></div></div>
+ICON_OK_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">OK</span></span></div></div>
+ICON_PREVPAGE_spi=<span class="button"><span class="buttonText">Previo</span></span>
+ICON_SUBMIT_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Enviar</span></span></div></div>
+ICON_UPDATELIST_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Actualizar lista</span></span></div></div>
+ICON_CLEAR_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar todo</span></span></div></div>
+ICON_CLEAR_FORM_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar formulario</span></span></div></div>
+ICON_DELETE_SELECTED_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar seleccionado</span></span></div></div>
+ICON_SELECT_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Guardar todo</span></span></div></div>
+STARTOVER_spi=/search*spi
+TOPLOGO_spi=@screens/toplogo_spi.html
+XSTARTOVER_spi=/search*spi
+ICON_BUT_PUBLIC_spi=<span class="button"><span class="buttonText">Vista usuario</span></span>
+ICON_BUT_STAFF_spi=<span class="button"><span class="buttonText">Vista del personal</span></span>
+STAFF_LOGGEDIN_MSG_spi=<span class="loggedInMessage">Est&#225; conectado como "personal" en %s como %s</span>
+ICON_BUT_ANOTHER_spi=<span class="button"><span class="buttonText">Otra b&#250;squeda</span></span>
+ICON_BUT_NEWSRCH_spi=<span class="button"><span class="buttonText">Inicio</span></span>
+ICON_BUT_WORDSRCH_spi=<span class="button"><span class="buttonText">Buscar como palabras</span></span>
+ICON_BUT_MODIFY_spi=<span class="button"><span class="buttonText">Modificar b&#250;squeda</span></span>
+ICON_BUT_SHOWSIM_spi=<span class="button"><span class="buttonText">M&#225;s como este</span></span>
+ICON_REL_GROUP_1_spi=<img src="/screens/relevance5.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">M&#225;s relevantes t&#237;tulos</h1>&nbsp;
+ICON_REL_GROUP_2_spi=<img src="/screens/relevance4.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">Altamente relevantes t&#237;tulos</h1>&nbsp;
+ICON_REL_GROUP_3_spi=<img src="/screens/relevance3.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">Muy relevante t&#237;tulos</h1>&nbsp;
+ICON_REL_GROUP_4_spi=<img src="/screens/relevance2.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">Relevante t&#237;tulos</h1>&nbsp;
+ICON_REL_GROUP_5_spi=<img src="/screens/relevance1.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">Otra relevancia t&#237;tulos&</h1>&nbsp;
+RELSEARCH_spi=restable||<span class="button"><span class="buttonText">Ver B&#250;squedas relacionadas</span>
+AUTHMSG_spi=<h2 class="briefcitTitle"><em>%u</em> -- V&#233;ase %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- V&#233;ase adem&#225;s %w %a </h2><span class="authPublicNote">%p</span>
+AUTHMSG_SR_spi=ael encabezamiento siguiente|bel encabezamiento anterior|dla forma completa del encabezamiento|funa composici&#243;n musical basada en esta obra|gel t&#233;rmino espec&#237;fico|hel t&#233;rmino gen&#233;rico
+BROWSE_HEADERS_spi=[[ wwwoptions 00 browse_headers ]]
+ICON_BUT_BRIEF_spi=<span class="button"><span class="buttonText">Visualizaci&#243;n breve</span></span>
+ICON_BUT_EXTENDED_spi=<span class="button"><span class="buttonText">Visualizaci&#243;n extendida</span></span>
+ICON_BUT_LIMAVAIL_spi=<span class="button"><span class="buttonText">Limitar a disponible</span></span>
+ICON_BUT_LIMIT_spi=<span class="button"><span class="buttonText">Limitar/Ordenar b&#250;squeda</span></span>
+ICON_BUT_UNLIMAVAIL_spi=<span class="button"><span class="buttonText">Mostrar todo</span></span>
+ICON_856LINK_spi=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Sitio Web
+ICON_962LINK_spi=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Imagen digital
+# ICON_BOOKCART_spi=<span class="button"><span class="buttonText">A&#241;adir a la cesta</span></span>
+ICON_BOOKCART_SAVED_spi=<span class="button"><span class="buttonText">Eliminar de la cesta</span></span>
+ICON_FULLRECORD_spi=Ver registro completo
+ICON_LOCATEINRESULTS_spi=<span class="button" sytle="background:#666;"><span class="buttonText">Localizar en resultados</span></span>
+ICON_PAGING_CAPTION_spi=P&#225;gina de resultados&nbsp;
+ICON_PAGING_NEXT_spi=Sig
+ICON_PAGING_PREV_spi=Ant
+ICON_PROGRAM_spi=<img src="/screens/media_program.gif" border="0" alt="Eventos de la biblioteca">
+ICON_RESOURCE_spi=<img src="/screens/media_resource.gif" alt="Recurso de internet">
+ICON_SAVEALLPAGE_spi=<span class="button"><span class="buttonText">A&#241;adir todos en la p&#225;gina</span></span>
+ICON_SAVEMARKED_spi=<span class="button"><span class="buttonText">A&#241;adir los marcados a la cesta</span></span>
+NO_COPIES_spi=No hay ejemplares disponibles en este momento
+SORT_BROWSE_spi=t:T&#237;tulo|a:Autor|c:A&#241;o|r:Inverso A&#241;o|n:Signatura|m:Tipo de material
+BIB_TOC_HEADER_spi=<strong>Tabla de contenidos</strong>
+ICON_BUT_MARC_DISPLAY_spi=<span class="button"><span class="buttonText">Visualizaci&#243;n MARC</span></span>
+ICON_BUT_REGULAR_DISPLAY_spi=<span class="button"><span class="buttonText">Visualizaci&#243;n normal</span></span>
+ICON_BUT_RTRNTB_spi=<span class="button"><span class="buttonText">Volver al listado</span></span>
+ICON_BIB_HOLDINGS_ITEMS_spi=Ver Copias
+ICON_BIB_PAGING_NEXT_spi=<span class="button"><span class="buttonText" id="buttonNextRecord">Registro siguiente</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_PREV_spi=<span class="button"><span class="buttonText">Registro anterior</span></span>
+ICON_RECORDLINK_spi=<a href="%s"><span class="button"><span class="buttonText">Enlace permanente</span></span></a>
+LINK856TEXT_spi=Conectar a
+BIB_LICENSE_FIELDS_spi=Permitido:Vlw|Restringido:Vlx
+BIB_RESOURCE_CAPTION_spi=<strong>Este t&#237;tulo est&#225; disponible electr&#243;nicamente a trav&#233;s de:</strong>
+ICON_BIB_RESOURCE_DETAILS_spi=<span class="button"><span class=buttonText">Datos completos</span></span>
+ICON_RESOURCE_RECORD_spi=<span class="button"><span class=buttonText">Ver registro de recurso</span></span>
+RESOURCE_HOLDINGS_FIELDS_spi=T&#237;tulo:VbT|Cobertura:Vch|Texto completo:VcY
+RESOURCE_LICENSE_FIELDS_spi=Permitido:Vlw|Restringido:Vlx|Disponible para:Vlf|Notas de acceso:Vla
+ICON_BUT_CARDFORM_BOX_spi=<span class="button"><span class="buttonText">Visualizaci&#243;n caja</span></span>
+ICON_BUT_CARDFORM_LIN_spi=<span class="button"><span class="buttonText">Visualizaci&#243;n l&#237;nea</span></span>
+CHECKIN_STATUS_spi=RECIBIDO=Aqu&#237;|ESPERADO=A punto de empezar|ENCUADERNACI&#211;N=En encuadernaci&#243;n|ATRASADO=Atrasado
+HOLDINGS_REQ_spi=Entregarme el art&#237;culo
+ICON_MYLISTS_spi=Mis Listas
+ICON_MYLISTS_EXPORT_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Exportar lista</span></span></div></div>
+ICON_MYLISTS_MOVE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Mover marcados</span></span></div></div>
+ICON_MYLISTS_REQUEST_spi=<span class="button"><span class="buttonText">Solicitar</span></span>
+ICON_MYLISTS_REMOVE_DUPLICATES_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Eliminar duplicados</span></span></div></div>
+ICON_MYLISTS_RENAME_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cambiar Nombre/Descripci&#243;n</span></span></div></div>
+ICON_MYLISTS_SAVE_spi=<span class="button"><span class="buttonText">A&#241;adir a Mis Listas</span></span>
+ICON_MYLISTS_SAVE_TO_LIST_spi=<span class="button"><span class="buttonText">A&#241;adir los marcados a Mis Listas</span></span>
+ICON_MYLISTS_BRIEF_spi=<span class="button"><span class="buttonText">A&#241;adir a Mis Listas</span></span>
+ICON_BACK_TO_MYLISTS_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Volver a Mis Listas</span></span></div></div>
+ICON_MYLISTS_RECORD_spi=<span class="button"><span class="buttonText">A&#241;adir a Mis Listas</span></span>
+ICON_BUT_BIBEXPORT_spi=<span class="button"><span class="buttonText">A&#241;adir a la cesta</span></span>
+ICON_BUT_CLEAR_MARKED_spi=<span class="button"><span class="buttonText">Vaciar cesta</span></span>
+ICON_BUT_EXPORT_MULTI_spi=<span class="button"><span class="buttonText">Exportar guardados</span></span>
+ICON_BUT_EXPORT_VIEW_SAVES_spi=<span class="button"><span class="buttonText">Ver cesta</span></span>
+ICON_BUT_VIEW_SAVES_spi=<span class="button"><span class="buttonText">Ver cesta</span></span>
+ICON_BUT_REQUEST_spi=<span class="button"><span class="buttonText">Solicitud</span></span>
+ICON_BUT_REQUEST_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Solicitud disponible</span></span></div></div>
+ICON_BUT_REQUEST_MULTI_spi=<span class="button"><span class="buttonText">B&#250;squeda guardada</span></span>
+ICON_BUT_REQUEST_RESET_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reiniciar formulario</span></span></div></div>
+ICON_BUT_REQUEST_SELECTED_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Solicitar selecci&#243;n</span></span></div></div>
+ICON_REQUEST_spi=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Solicitud
+REQUEST_spi=Reservar este ejemplar|bib|ask|Y
+REQUEST_MULTI_spi=Solicitar todos los ejemplares en el carro|bib|ask
+ICON_BUT_PAT_CANCEL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar</span></span></div></div>
+ICON_BUT_PAT_CANCELALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar Todo</span></span></div></div>
+ICON_BUT_PAT_CANCELMARK_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar Selecci&#243;n</span></span></div></div>
+ICON_BUT_PAT_INFO_spi=Modificar informaci&#243;n personal
+ICON_BUT_PAT_MSGS_spi=<span class="button"><span class="buttonText">Mensaje de la biblioteca</span></span>
+ICON_BUT_PAT_PIN_spi=Modificar PIN
+ICON_BUT_PAT_RENEWALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renovar todo</span></span></div></div>
+ICON_BUT_PAT_RENEWMARK_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renovar marcado</span></span></div></div>
+ICON_BUT_PAT_SORTBYCHKOUT_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por pr&#233;stamo</span></span></div></div>
+ICON_BUT_PAT_SORTBYDUE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por fecha de devoluci&#243;n</span></span></div></div>
+ICON_BUT_PAT_SUBMIT_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Enviar</span></span></div></div>
+ICON_BUT_PSTARTOVER_spi=<span class="button"><span class="buttonText">Inicio</span></span>
+ICON_BUT_UPDATE_HOLDS_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Actualizar lista</span></span></div></div>
+ICON_CLOSEWINDOW_spi=<span class="button"><span class="buttonText">Cerrar ventana</span></span>
+ICON_PAT_CANCELALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar Todo</span></span></div></div>
+ICON_PAT_CANCELMARK_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar Selecci&#243;n</span></span></div></div>
+ICON_PIN_RESET_spi=<span class="button"><span class="buttonText">&#191;A olvidado su PIN?</span></span>
+ICON_SORTPUDATE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por recogida</span></span></div></div>
+ICON_SORTREQDATE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por solicitud</span></span></div></div>
+NEWPIN_MSG_spi=Indique un N&#250;mero de Identificaci&#243;n Personal (PIN)
+PSTARTOVER_spi=/search*spi
+ICON_BUT_PAT_PSEARCH_REMOVE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar todas las b&#250;squedas</span></span></div></div>
+ICON_BUT_PAT_PSEARCH_UPDATE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Actualizar lista</span></span></div></div>
+ICON_BUT_PAT_GETPSAVEDRECS_spi=<span class="button"><span class="buttonText">B&#250;squedas preferidas</span></span>
+CIRC_HIST_LIMIT_TEXT_spi=Limitar a t&#237;tulos que no est&#225;n en mi historial de lectura
+ALTERNATE_ID_EMAIL_spi=username@replacesitename.com|Ha cambiado su nombre de usuario
+ICON_PAT_DELETE_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar todo</span></span></div></div>
+ICON_PAT_DELETE_MARKED_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar marcado</span></span></div></div>
+ICON_READING_HISTORY_spi=Mi historial de lectura
+ICON_READING_HISTORY_OPTIN_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Activar</span></span></div></div>
+ICON_READING_HISTORY_OPTOUT_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Desactivar</span></span></div></div>
+ICON_READING_HISTORY_EXPORT_spi=<span class="button"><span class="buttonText">Exportar Mi historial de lectura</span></span>
+LOGGEDIN_MSG_spi=<span class="loggedInMessage">Se ha conectado <span class="loggedInMoreInfo">a %s</span> como %s</span>
+PREFTEXT_spi=Guardar como b&#250;squeda preferida
+ICON_PATRATE_spi=<span class="button"><span class="buttonText">Mis valoraciones</span></span>
+ICON_RATE_GROUP_spi=<img src="/screens/rate_group.gif" border="0" width="15" height="14" alt="Valorado %d comienza desde 5 basado en %n valoraciones" title="Valorado %d comienza desde 5 basado en %n valoraciones">
+ICON_RATE_MY_spi=<img src="/screens/rate_my.gif" border="0" width="15" height="14" alt="Ha valorado esto %d comienza desde 5" title="Ha valorado esto %d comienza desde 5">
+ICON_RATE_NEED_spi=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="Valorar este material" title="Valorar este material">
+ICON_RATE_NO_spi=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="Este material no ha sido valorado a&#250;n" title="Este material no ha sido valorado a&#250;n">
+ICON_RATE_PAD_spi=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="Valorado %d comienza desde 5 basado en %n valoraciones" title="Valorado %d comienza desde 5 basado en %n valoraciones">
+ICON_PATREVIEW_spi=<span class="button"><span class="buttonText">Mis Rese&#241;as</span></span>
+ICON_PATREVIEW_ADD_spi=<span class="button"><span class="buttonText">A&#241;adir una rese&#241;a</span></span>
+PATREVIEW_ABUSE_NOTIFY_spi=Reportado rese&#241;a de abuso|Biblioteca ejemplo|web@example.org
+CC_APPROVED_spi=Su pago ha sido aprobado.
+CC_DECLINED_spi=Lo siento. Su pago ha sido denegado. Confirme que la informaci&#243;n se ha introducido correctamente o pague en la biblioteca.
+ICON_PAY_spi=<span class="button"><span class="buttonText">Pago en l&#237;nea</span></span>
+ICON_PAY_CLEAR_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar todo</span></span></div></div>
+ICON_PAY_SELECT_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Seleccionar todo</span></span></div></div>
+ICON_PRINT_spi=<span class="button"><span class="buttonText">Imprimir</span></span>
+ICON_PAY_CONTINUE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Continuar</span></span></div></div>
+BOOKINGS_DAY_LEGEND_spi=<span class="bookingsLegend">La biblioteca cierra en <span id="closed">X</span> horas. No hay ejemplares disponibles en <span id="unavailable">horas</span> en gris.</span>
+BOOKINGS_MONTH_LEGEND_spi=<span class="bookingsLegend">La biblioteca cierra el <span id="closed">X</span> d&#237;as. No hay ejemplares disponibles en <span id="unavailable">d&#237;as</span> en gris.</span>
+ICON_BOOKINGS_HEADER_spi=<span class="button"><span class="buttonText">Guardar este material</span></span>
+ICON_DAILYCAL_spi=Ver calendario diario
+ICON_HOURLYCAL_spi=Ver calendario por horas
+ICON_NEXTCAL_spi=Siguiente
+ICON_PREVCAL_spi=Previo
+ICON_BUT_ILL_CANCEL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar</span></span></div></div>
+ICON_BUT_ILL_FORM_spi=<span class="button"><span class="buttonText">Formulario de Pr&#233;stamo Inter-Bibliotecario</span></span>
+ICON_BUT_ILL_HOME_spi=<span class="button"><span class="buttonText">Solicitud nueva</span></span>
+ICON_BUT_PAT_ILL_FORM_spi=<span class="button"><span class="buttonText">Formulario de Pr&#233;stamo Inter-Bibliotecario</span></span>
+ICON_BUT_PAT_ILL_spi=<span class="button"><span class="buttonText">Pr&#233;stamo Inter-bibliotecario</span></span>
+ILL_CONF_EMAIL_SUBJECT_spi=Notificaci&#243;n para la biblioteca de solicitud de pr&#233;stamo inter-bibiotecario
+ICON_BUT_RET2CRS_spi=<span class="button"><span class="buttonText">Volver al curso</span></span>
+ICON_BUT_PREVSCRN_spi=<span class="button"><span class="buttonText">Volver</span></span>
+ICON_BUT_RET2FEAT_spi=<span class="button"><span class="buttonText">Volver</span></span>
+BIBIMAGE_TEXT_spi=Cubierta del libro
+ICON_BUT_CLOSEFRAME_spi=<span class="button"><span class="buttonText">Cerrar marco</span></span>
+ICON_BUT_RET2RESOURCE_spi=<div id="resourcelink"><span class="button"><span class="buttonText">Volver</span></span></div>
+ICON_PATFEED_spi=Mis Registros Feeds
+PATFEED_CONFIG_spi=Novedades de Su Registro de la Biblioteca|Para ver m&#225;s informaci&#243;n, siga los enlaces de la biblioteca.
+PATFEED_FINES_INCURRED_RECENTLY_spi=Tiene multas o cargos nuevos
+PATFEED_HOLDS_READY_spi=Sus materiales est&#225;n listos para ser recogidos
+PATFEED_ITEMS_BOOKED_TOMORROW_spi=Materiales guardados ma&#241;ana
+PATFEED_ITEMS_DUE_SOON_spi=Materiales que vencen en seguida
+PATFEED_ITEMS_DUE_TODAY_spi=Materiales que vencen hoy
+PATFEED_ITEMS_OVERDUE_spi=Materiales vencidos
+PATFEED_ITEMS_RECALLED_spi=Materiales reclamados
+PATFEED_PROGRAM_SESSION_SOON_spi=Uno de los eventos para los que se ha matriculado va a empezar pronto. Con&#233;ctese a Mi cuenta para conocer la fecha, hora y localizaci&#243;n del evento.
+PATFEED_PROGRAM_SESSION_TOMORROW_spi=Uno de los eventos para los que se ha matriculado es para ma&#241;ana. Con&#233;ctese a Mi cuenta para conocer la fecha, hora y localizaci&#243;n del evento.
+PATFEED_PROGRAM_SESSION_TODAY_spi=Uno de los eventos para los que se ha matriculado es para hoy. Con&#233;ctese a Mi cuenta para conocer la fecha, hora y localizaci&#243;n del evento.
+ICON_BUT_EMAIL_spi=Email
+ICON_BUT_NEXTREC_spi=<span class="button"><span class="buttonText" id="buttonNextRecord">Registro siguiente</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BUT_PREVREC_spi=<span class="button"><span class="buttonText">Registro anterior</span></span>
+ICON_BUT_Z39_ANOTHER_spi=Otra base de datos
+ICON_BUT_Z39_REQUEST_spi=<span class="button"><span class="buttonText">Solicitud</span></span>
+ICON_BUT_Z39SEARCH_spi=<span class="button"><span class="buttonText">Buscar en otras bibliotecas</span></span>
+Z39BROADCAST_spi=B&#250;squeda Z39.50:Selecciones los servidores en los que quiere realizar la consulta
+ICON_BUT_RETHOME_spi=<span class="button"><span class="buttonText">Inicio</span></span>
+ICON_MFFAVS_HOME_spi=<span class="button"><span class="buttonText">Inicio</span></span>
+ICON_MFFAVS_SEARCH_spi=<span class="button"><span class="buttonText">Buscar</span></span>
+ICON_PAT_MFFAVS_spi=<span class="button"><span class="buttonText">Mi Research Pro</span></span>
+MFFAVS_CONFIRM_spi=Su grupo, %s, se ha guardado correctamente.
+MFFAVS_DENY_spi=Funci&#243;n no disponible. Contacte con la biblioteca, por favor.
+ICON_SPELLCHECK_MORE_spi=<span class="spellcheckToolMore">m&#225;s&nbsp;&raquo;</span>
+ICON_SPELLCHECK_SEARCH_spi=<img src="/screens/ico_go.gif" class="button" border="0" alt="Buscar">
+SPELLCHECK_spi=<span class="spellcheckTool">&#191;Quiso decir %a? %s </span>
+MF_ICON_ADVANCED_SEARCH_spi=B&#250;squeda avanzada
+MF_ICON_CLEAR_spi=Borrar formulario
+MF_ICON_CLOSE_spi=Cerrar ventana
+MF_ICON_DESELECTALL_spi=Borrar todo
+MF_ICON_EMAIL_spi=Email
+MF_ICON_HELP_spi=Ayuda
+MF_ICON_LOGOFFACCOUNT_spi=Salir
+MF_ICON_MFFAVS_GROUP_spi=Guardar grupo
+MF_ICON_NEW_SEARCH_spi=B&#250;squeda nueva
+MF_ICON_PATRON_REC_spi=Volver al registro del usuario
+MF_ICON_PATSUBMIT_spi=Enviar
+MF_ICON_PREVSEARCH_spi=B&#250;squeda anterior
+MF_ICON_PRINT_spi=Imprimir
+MF_ICON_RET2CAT_spi=Volver al cat&#225;logo
+MF_ICON_RETHOME_spi=Inicio
+MF_ICON_SEARCH_spi=Buscar en Research Pro
+MF_ICON_SELECTALL_spi=Seleccionar todo
+MF_ICON_SIMPLE_SEARCH_spi=B&#250;squeda simple
+MF_ICON_STOP_spi_spi=Para b&#250;squeda
+MF_ICON_UPDATELIST_spi=Actualizar lista
+MF_ICON_VIEWSAVED_spi=Ver guardado
+MF_RESULTSVIEW_spi=tabbed,Ver resultados, presentado por recurso|standard,Ver todos los recursos intercalados
+MF_SEARCHINDEX_spi=Keywords,Palabras clave|:CREATOR,Autor|:TITLE,T&#237;tulo|:SUBJECT,Materia
+MF_TOPLOGO_spi=@screens/toplogo_spi.html
+PROGRAM_SECTION_FIELDS_spi=Fecha/hora:VsT|En:Vss|Localizaci&#243;n:Fs285|Instructor:Vsn|Estado:VsS
+ICON_BUT_PAT_PROGRAMS_spi=<span class="button"><span class="buttonText">Eventos de la Biblioteca</span></span>
+ICON_BUT_PAT_SORTBYDATE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por fecha</span></span></div></div>
+ICON_BUT_PAT_SORTBYNAME_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por nombre</span></span></div></div>
+ICON_RET2PROG_spi=<span class="button"><span class="buttonText">Volver a eventos</span></span>
+ICON_REGISTER_spi=<br><strong>Click para Inscribirse</strong>
+ICON_ADD_TO_WAITLIST_spi=<br><strong>A&#241;adir a lista de espera</strong>
+ICON_VIEW_ADDITIONAL_SESSIONS_spi=<span class="button"><span class="buttonText">Ver sesiones adicionales</span></span>
+ICON_HIDE_ADDITIONAL_SESSIONS_spi=<span class="button"><span class="buttonText">Esconder sesiones adicionales</span></span>
+ICON_PROGRAM_CAL_spi=<span class="button"><span class="buttonText">Calendario de eventos</span></span>
+
+# RUS wwwoptions
+AVAILLIM_rus=<span class="availLimMessage">&#1054;&#1075;&#1088;&#1072;&#1085;&#1080;&#1095;&#1080;&#1090;&#1100; &#1087;&#1086;&#1080;&#1089;&#1082; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1072;&#1084;&#1080; &#1074; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080;</span>|<span class="availLimMessage">&#1056;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1099; &#1087;&#1086;&#1080;&#1089;&#1082;&#1072;, &#1086;&#1075;&#1088;&#1072;&#1085;&#1080;&#1095;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1072;&#1084;&#1080; &#1074; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080;</span>
+BOTLOGO_rus=@screens/botlogo_rus.html
+ICON_BUT_CANCEL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100;</span></span></div></div>
+ICON_BUT_CLOSEWINDOW_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100; &#1054;&#1082;&#1085;&#1086;</span></span>
+ICON_BUT_RET2CAT_rus=<span class="button"><span class="buttonText">&#1042;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;&#1089;&#1103; &#1074; &#1050;&#1072;&#1090;&#1072;&#1083;&#1086;&#1075;</span></span>
+ICON_BUT_STARTOVER_rus=<span class="button"><span class="buttonText">/search*rus</span></span>
+ICON_CANCEL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100;</span></span></div></div>
+ICON_OK_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1050;</span></span></div></div>
+ICON_PREVPAGE_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1080;&#1081;</span></span>
+ICON_SUBMIT_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1087;&#1088;&#1072;&#1074;&#1080;&#1090;&#1100;</span></span></div></div>
+ICON_UPDATELIST_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1051;&#1080;&#1089;&#1090;</span></span></div></div>
+ICON_CLEAR_ALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1074;&#1089;&#1077;</span></span></div></div>
+ICON_CLEAR_FORM_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1060;&#1086;&#1088;&#1084;&#1091;</span></span></div></div>
+ICON_DELETE_SELECTED_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1042;&#1099;&#1073;&#1088;&#1072;&#1085;&#1085;&#1086;&#1077;</span></span></div></div>
+ICON_SELECT_ALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100; &#1074;&#1089;&#1077;</span></span></div></div>
+STARTOVER_rus=/search*rus
+TOPLOGO_rus=@screens/toplogo_rus.html
+XSTARTOVER_rus=/search*rus
+ICON_BUT_PUBLIC_rus=<span class="button"><span class="buttonText">&#1044;&#1080;&#1089;&#1087;&#1083;&#1077;&#1081; &#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1086;&#1075;&#1086; &#1055;&#1072;&#1090;&#1088;&#1086;&#1085;&#1072;</span></span>
+ICON_BUT_STAFF_rus=<span class="button"><span class="buttonText">&#1044;&#1080;&#1089;&#1087;&#1083;&#1077;&#1081; &#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1099;&#1093; &#1057;&#1086;&#1090;&#1088;&#1091;&#1076;&#1085;&#1080;&#1082;&#1086;&#1074;</span></span>
+STAFF_LOGGEDIN_MSG_rus=<span class="loggedInMessage">&#1042;&#1099; &#1074;&#1086;&#1096;&#1083;&#1080; &#1074; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1091; &#1076;&#1083;&#1103; &#1089;&#1086;&#1090;&#1088;&#1091;&#1076;&#1085;&#1080;&#1082;&#1086;&#1074; %s &#1082;&#1072;&#1082; %s</span>
+ICON_BUT_ANOTHER_rus=<span class="button"><span class="buttonText">&#1044;&#1088;&#1091;&#1075;&#1086;&#1081; &#1055;&#1086;&#1080;&#1089;&#1082;&#1086;&#1074;&#1099;&#1081; &#1047;&#1072;&#1087;&#1088;&#1086;&#1089;</span></span>
+ICON_BUT_NEWSRCH_rus=<span class="button"><span class="buttonText">&#1053;&#1072;&#1095;&#1072;&#1090;&#1100; &#1057;&#1085;&#1072;&#1095;&#1072;&#1083;&#1072;</span></span>
+ICON_BUT_WORDSRCH_rus=<span class="button"><span class="buttonText">&#1048;&#1089;&#1082;&#1072;&#1090;&#1100; &#1082;&#1072;&#1082; &#1057;&#1083;&#1086;&#1074;&#1072;</span></span>
+ICON_BUT_MODIFY_rus=<span class="button"><span class="buttonText">&#1042;&#1085;&#1077;&#1089;&#1080;&#1090;&#1077; &#1087;&#1086;&#1087;&#1088;&#1072;&#1074;&#1082;&#1080; &#1074; &#1055;&#1086;&#1080;&#1089;&#1082;</span></span>
+ICON_BUT_SHOWSIM_rus=<span class="button"><span class="buttonText">&#1041;&#1086;&#1083;&#1100;&#1096;&#1077; &#1090;&#1072;&#1082;&#1080;&#1093; &#1078;&#1077;</span></span>
+ICON_REL_GROUP_1_rus=<img src="/screens/relevance5.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#1053;&#1072;&#1080;&#1074;&#1099;&#1089;&#1096;&#1077;&#1081; &#1089;&#1090;&#1077;&#1087;&#1077;&#1085;&#1080; &#1088;&#1077;&#1083;&#1077;&#1074;&#1072;&#1085;&#1090;&#1085;&#1086;&#1089;&#1090;&#1080; &#1079;&#1072;&#1075;&#1086;&#1083;&#1086;&#1074;&#1082;&#1080;</h1>&nbsp;
+ICON_REL_GROUP_2_rus=<img src="/screens/relevance4.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#1063;&#1088;&#1077;&#1079;&#1074;&#1099;&#1095;&#1072;&#1081;&#1085;&#1086; &#1088;&#1077;&#1083;&#1077;&#1074;&#1072;&#1085;&#1090;&#1085;&#1099;&#1077; &#1079;&#1072;&#1075;&#1086;&#1083;&#1086;&#1074;&#1082;&#1080;</h1>&nbsp;
+ICON_REL_GROUP_3_rus=<img src="/screens/relevance3.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#1054;&#1095;&#1077;&#1085;&#1100; &#1088;&#1077;&#1083;&#1077;&#1074;&#1072;&#1085;&#1090;&#1085;&#1099;&#1077; &#1079;&#1072;&#1075;&#1086;&#1083;&#1086;&#1074;&#1082;&#1080;</h1>&nbsp;
+ICON_REL_GROUP_4_rus=<img src="/screens/relevance2.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#1056;&#1077;&#1083;&#1077;&#1074;&#1072;&#1085;&#1090;&#1085;&#1099;&#1081; &#1079;&#1072;&#1075;&#1086;&#1083;&#1086;&#1074;&#1082;&#1080;</h1>&nbsp;
+ICON_REL_GROUP_5_rus=<img src="/screens/relevance1.gif" alt="">&nbsp;<h1 class="browseSuperEntryTitle">&#1055;&#1088;&#1086;&#1095;&#1080;&#1077; &#1088;&#1077;&#1083;&#1077;&#1074;&#1072;&#1085;&#1090;&#1085;&#1099;&#1077; &#1079;&#1072;&#1075;&#1086;&#1083;&#1086;&#1074;&#1082;&#1080;&</h1>&nbsp;
+RELSEARCH_rus=restable||<span class="button"><span class="buttonText">&#1057;&#1084;&#1086;&#1090;&#1088;&#1080; &#1055;&#1086;&#1093;&#1086;&#1078;&#1080;&#1077; &#1055;&#1086;&#1080;&#1089;&#1082;&#1080;</span>
+AUTHMSG_rus=<h2 class="briefcitTitle"><em>%u</em> -- &#1057;&#1084;. %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- &#1058;&#1072;&#1082;&#1078;&#1077; &#1057;&#1084;. %w %a </h2><span class="authPublicNote">%p</span>
+AUTHMSG_SR_rus=a&#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1077; &#1088;&#1091;&#1073;&#1088;&#1080;&#1082;&#1080;|b&#1087;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1080;&#1077; &#1088;&#1091;&#1073;&#1088;&#1080;&#1082;&#1080;|d&#1087;&#1086;&#1083;&#1085;&#1072;&#1103; &#1092;&#1086;&#1088;&#1084;&#1072; &#1088;&#1091;&#1073;&#1088;&#1080;&#1082;&#1080;|f&#1084;&#1091;&#1079;&#1099;&#1082;&#1072;&#1083;&#1100;&#1085;&#1086;&#1077; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077;, &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1085;&#1086;&#1077; &#1085;&#1072; &#1101;&#1090;&#1086;&#1081; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077;|g&#1073;&#1086;&#1083;&#1077;&#1077; &#1090;&#1086;&#1095;&#1085;&#1099;&#1081; &#1090;&#1077;&#1088;&#1084;&#1080;&#1085;|h&#1073;&#1086;&#1083;&#1077;&#1077; &#1086;&#1073;&#1097;&#1080;&#1081; &#1090;&#1077;&#1088;&#1084;&#1080;&#1085;
+BROWSE_HEADERS_rus=[[ wwwoptions 00 browse_headers ]]
+ICON_BUT_BRIEF_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1087;&#1080;&#1089;&#1100; &#1074; &#1082;&#1088;&#1072;&#1090;&#1082;&#1086;&#1081; &#1092;&#1086;&#1088;&#1084;&#1077;</span></span>
+ICON_BUT_EXTENDED_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1087;&#1080;&#1089;&#1100; &#1074; &#1088;&#1072;&#1089;&#1096;&#1080;&#1088;&#1077;&#1085;&#1085;&#1086;&#1081; &#1092;&#1086;&#1088;&#1084;&#1077;</span></span>
+ICON_BUT_LIMAVAIL_rus=<span class="button"><span class="buttonText">&#1058;&#1086;&#1083;&#1100;&#1082;&#1086; &#1048;&#1084;&#1077;&#1102;&#1097;&#1080;&#1077;&#1089;&#1103; &#1074; &#1053;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080; </span></span>
+ICON_BUT_LIMIT_rus=<span class="button"><span class="buttonText">&#1054;&#1090;&#1089;&#1086;&#1088;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1055;&#1086;&#1080;&#1089;&#1082;</span></span>
+ICON_BUT_UNLIMAVAIL_rus=<span class="button"><span class="buttonText">&#1055;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100; &#1042;&#1089;&#1077;</span></span>
+ICON_856LINK_rus=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#1042;&#1077;&#1073;&#1089;&#1072;&#1081;&#1090;
+ICON_962LINK_rus=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#1062;&#1080;&#1092;&#1088;&#1086;&#1074;&#1086;&#1077; &#1080;&#1079;&#1086;&#1073;&#1088;&#1072;&#1078;&#1077;&#1085;&#1080;&#1077;
+ICON_BOOKCART_SAVED_rus=<span class="button"><span class="buttonText">&#1059;&#1073;&#1088;&#1072;&#1090;&#1100; &#1080;&#1079; &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1099;:</span></span>
+ICON_FULLRECORD_rus=&#1057;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1055;&#1086;&#1083;&#1085;&#1091;&#1102; &#1047;&#1072;&#1087;&#1080;&#1089;&#1100;
+ICON_LOCATEINRESULTS_rus=<span class="button" sytle="background:#666;"><span class="buttonText">&#1053;&#1072;&#1081;&#1076;&#1080;&#1090;&#1077; &#1074; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1072;&#1093;</span></span>
+ICON_PAGING_CAPTION_rus=&#1057;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072; &#1089; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1072;&#1084;&#1080;&nbsp;
+ICON_PAGING_NEXT_rus=&#1057;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1081;
+ICON_PAGING_PREV_rus=&#1055;&#1088;&#1077;&#1076;.
+ICON_PROGRAM_rus=<img src="/screens/media_program.gif" border="0" alt="&#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1086;&#1077; &#1052;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077;">
+ICON_RESOURCE_rus=<img src="/screens/media_resource.gif" alt="&#1048;&#1085;&#1090;&#1077;&#1088;&#1085;&#1077;&#1090;-&#1080;&#1089;&#1090;&#1086;&#1095;&#1085;&#1080;&#1082;">
+ICON_SAVEALLPAGE_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1042;&#1089;&#1077; &#1053;&#1072; &#1057;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1077;</span></span>
+ICON_SAVEMARKED_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1054;&#1090;&#1084;&#1077;&#1095;&#1077;&#1085;&#1085;&#1086;&#1077; &#1074; &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1091;</span></span>
+NO_COPIES_rus=&#1042; &#1076;&#1072;&#1085;&#1085;&#1099;&#1081; &#1084;&#1086;&#1084;&#1077;&#1085;&#1090; &#1085;&#1077;&#1090; &#1089;&#1074;&#1086;&#1073;&#1086;&#1076;&#1085;&#1099;&#1093; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1086;&#1074;
+SORT_BROWSE_rus=t:&#1053;&#1072;&#1080;&#1084;&#1077;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;|a:&#1040;&#1074;&#1090;&#1086;&#1088;|c:&#1043;&#1086;&#1076;|r:&#1043;&#1086;&#1076;&#1072; &#1074; &#1086;&#1073;&#1088;&#1072;&#1090;&#1085;&#1086;&#1084; &#1087;&#1086;&#1088;&#1103;&#1076;&#1082;&#1077;|n:&#1064;&#1080;&#1092;&#1088; &#1061;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1103;|m:&#1042;&#1080;&#1076; &#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1072;
+BIB_TOC_HEADER_rus=<strong>&#1054;&#1075;&#1083;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077;</strong>
+ICON_BUT_MARC_DISPLAY_rus=<span class="button"><span class="buttonText">&#1092;&#1086;&#1088;&#1084;&#1072;&#1090; MARC</span></span>
+ICON_BUT_REGULAR_DISPLAY_rus=<span class="button"><span class="buttonText">&#1054;&#1073;&#1099;&#1095;&#1085;&#1099;&#1081; &#1044;&#1080;&#1089;&#1087;&#1083;&#1077;&#1081;</span></span>
+ICON_BUT_RTRNTB_rus=<span class="button"><span class="buttonText">&#1042;&#1077;&#1088;&#1085;&#1080;&#1090;&#1077;&#1089;&#1100; &#1082; &#1055;&#1088;&#1086;&#1089;&#1084;&#1072;&#1090;&#1088;&#1080;&#1074;&#1072;&#1085;&#1080;&#1102;</span></span>
+ICON_BIB_HOLDINGS_ITEMS_rus=&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1099;
+ICON_BIB_PAGING_NEXT_rus=<span class="button"><span class="buttonText" id="buttonNextRecord">&#1057;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1072;&#1103; &#1079;&#1072;&#1087;&#1080;&#1089;&#1100;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_PREV_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1072;&#1103; &#1079;&#1072;&#1087;&#1080;&#1089;&#1100;</span></span>
+ICON_RECORDLINK_rus=<a href="%s"><span class="button">< class="buttonText">&#1055;&#1086;&#1089;&#1090;&#1086;&#1103;&#1085;&#1085;&#1072;&#1103; &#1057;&#1089;&#1099;&#1083;&#1082;&#1072;</span></span></a>
+LINK856TEXT_rus=&#1055;&#1086;&#1076;&#1082;&#1083;&#1102;&#1095;&#1080;&#1090;&#1100;&#1089;&#1103; &#1082;
+BIB_LICENSE_FIELDS_rus=&#1056;&#1072;&#1079;&#1088;&#1077;&#1096;&#1077;&#1085;&#1086;:Vlw|&#1047;&#1072;&#1087;&#1088;&#1077;&#1097;&#1077;&#1085;&#1086;:Vlx
+BIB_RESOURCE_CAPTION_rus=<strong>&#1069;&#1090;&#1086; &#1085;&#1072;&#1080;&#1084;&#1077;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1085;&#1086; &#1074; &#1101;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086;&#1085;&#1085;&#1086;&#1084; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1077; &#1095;&#1077;&#1088;&#1077;&#1079;:</strong>
+ICON_BIB_RESOURCE_DETAILS_rus=<span class="button"><span class=buttonText">&#1042;&#1089;&#1077; &#1076;&#1077;&#1090;&#1072;&#1083;&#1080;</span></span>
+ICON_RESOURCE_RECORD_rus=<span class="button"><span class=buttonText">&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &#1047;&#1072;&#1087;&#1080;&#1089;&#1100; &#1086;&#1073; &#1048;&#1089;&#1090;&#1086;&#1095;&#1085;&#1080;&#1082;&#1077;</span></span>
+RESOURCE_HOLDINGS_FIELDS_rus=&#1053;&#1072;&#1080;&#1084;&#1077;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;:VbT|&#1057;&#1086;&#1076;&#1077;&#1088;&#1078;&#1072;&#1085;&#1080;&#1077;:Vch|&#1055;&#1086;&#1083;&#1085;&#1099;&#1081; &#1058;&#1077;&#1082;&#1089;&#1090;:VcY
+RESOURCE_LICENSE_FIELDS_rus=&#1044;&#1086;&#1089;&#1090;&#1091;&#1087;&#1085;&#1086;:Vlw|&#1054;&#1075;&#1088;&#1072;&#1085;&#1080;&#1095;&#1077;&#1085;&#1086;:Vlx|&#1044;&#1086;&#1089;&#1090;&#1091;&#1087;&#1085;&#1086; &#1076;&#1083;&#1103;:Vlf|&#1044;&#1077;&#1090;&#1072;&#1083;&#1080; &#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1072;:Vla
+ICON_BUT_CARDFORM_BOX_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1103;&#1084;&#1086;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1099;&#1081; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;</span></span>
+ICON_BUT_CARDFORM_LIN_rus=<span class="button"><span class="buttonText">&#1057;&#1090;&#1088;&#1086;&#1095;&#1085;&#1099;&#1081; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;</span></span>
+CHECKIN_STATUS_rus=&#1055;&#1054;&#1051;&#1059;&#1063;&#1045;&#1053;&#1054;=&#1047;&#1076;&#1077;&#1089;&#1100;|&#1054;&#1046;&#1048;&#1044;&#1040;&#1045;&#1058;&#1057;&#1071;=&#1054;&#1078;&#1080;&#1076;&#1072;&#1077;&#1090;&#1089;&#1103; &#1074;&#1089;&#1082;&#1086;&#1088;&#1086;&#1089;&#1090;&#1080;|&#1042; &#1055;&#1045;&#1056;&#1045;&#1055;&#1051;&#1045;&#1058;/&#1055;&#1045;&#1056;&#1045;&#1055;&#1051;&#1045;&#1058;&#1045;&#1053;&#1054;=&#1042; &#1087;&#1077;&#1088;&#1077;&#1087;&#1083;&#1077;&#1090;&#1077;|&#1054;&#1055;&#1040;&#1047;&#1044;&#1067;&#1042;&#1040;&#1045;&#1058;=&#1054;&#1087;&#1072;&#1079;&#1076;&#1099;&#1074;&#1072;&#1077;&#1090;
+HOLDINGS_REQ_rus=&#1054;&#1090;&#1087;&#1088;&#1072;&#1074;&#1100;&#1090;&#1077; &#1084;&#1085;&#1077; &#1101;&#1090;&#1091; &#1089;&#1090;&#1072;&#1090;&#1100;&#1102;
+ICON_MYLISTS_rus=&#1052;&#1086;&#1080; &#1057;&#1087;&#1080;&#1089;&#1082;&#1080;
+ICON_MYLISTS_EXPORT_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1069;&#1082;&#1089;&#1087;&#1086;&#1088;&#1090;&#1080;&#1088;&#1091;&#1077;&#1084;&#1099;&#1081; &#1057;&#1087;&#1080;&#1089;&#1086;&#1082;</span></span></div></div>
+ICON_MYLISTS_MOVE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1055;&#1077;&#1088;&#1077;&#1084;&#1077;&#1089;&#1090;&#1080;&#1090;&#1100; &#1055;&#1086;&#1084;&#1077;&#1095;&#1077;&#1085;&#1085;&#1086;&#1077;</span></span></div></div>
+ICON_MYLISTS_REQUEST_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1073;&#1088;&#1086;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;</span></span>
+ICON_MYLISTS_REMOVE_DUPLICATES_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1059;&#1073;&#1088;&#1072;&#1090;&#1100; &#1044;&#1091;&#1087;&#1083;&#1080;&#1082;&#1072;&#1090;&#1099;</span></span></div></div>
+ICON_MYLISTS_RENAME_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1048;&#1079;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100; &#1053;&#1072;&#1079;&#1074;&#1072;&#1085;&#1080;&#1077;/&#1054;&#1087;&#1080;&#1089;&#1072;&#1085;&#1080;&#1077;</span></span></div></div>
+ICON_MYLISTS_SAVE_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1082; &#1052;&#1086;&#1080;&#1084; &#1057;&#1087;&#1080;&#1089;&#1082;&#1072;&#1084;</span></span>
+ICON_MYLISTS_SAVE_TO_LIST_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1054;&#1090;&#1084;&#1077;&#1095;&#1077;&#1085;&#1085;&#1086;&#1077; &#1082; &#1052;&#1086;&#1080;&#1084; &#1057;&#1087;&#1080;&#1089;&#1082;&#1072;&#1084;</span></span>
+ICON_MYLISTS_BRIEF_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1082; &#1052;&#1086;&#1080;&#1084; &#1057;&#1087;&#1080;&#1089;&#1082;&#1072;&#1084;</span></span>
+ICON_BACK_TO_MYLISTS_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1073;&#1088;&#1072;&#1090;&#1085;&#1086; &#1082; &#1052;&#1086;&#1080;&#1084; &#1057;&#1087;&#1080;&#1089;&#1082;&#1072;&#1084;</span></span></div></div>
+ICON_MYLISTS_RECORD_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1082; &#1052;&#1086;&#1080;&#1084; &#1057;&#1087;&#1080;&#1089;&#1082;&#1072;&#1084;</span></span>
+ICON_BUT_BIBEXPORT_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1074; &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1091;</span></span>
+ICON_BUT_CLEAR_MARKED_rus=<span class="button"><span class="buttonText">&#1054;&#1087;&#1091;&#1089;&#1090;&#1086;&#1096;&#1080;&#1090;&#1100; &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1091;</span></span>
+ICON_BUT_EXPORT_MULTI_rus=<span class="button"><span class="buttonText">&#1069;&#1082;&#1089;&#1087;&#1086;&#1088;&#1090; &#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1077;&#1085;</span></span>
+ICON_BUT_EXPORT_VIEW_SAVES_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1099;</span></span>
+ICON_BUT_VIEW_SAVES_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1099;</span></span>
+ICON_BUT_REQUEST_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1073;&#1088;&#1086;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;</span></span>
+ICON_BUT_REQUEST_ALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1047;&#1072;&#1087;&#1088;&#1086;&#1096;&#1077;&#1085;&#1085;&#1086;&#1077; &#1074; &#1053;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080;</span></span></div></div>
+ICON_BUT_REQUEST_MULTI_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1087;&#1088;&#1086;&#1089;&#1080;&#1090;&#1100; &#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1077;&#1085;&#1085;&#1086;&#1077;</span></span>
+ICON_BUT_REQUEST_RESET_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1057;&#1073;&#1088;&#1086;&#1089;&#1100;&#1090;&#1077; &#1057;&#1086;&#1076;&#1077;&#1088;&#1078;&#1080;&#1084;&#1086;&#1077; &#1060;&#1086;&#1088;&#1084;&#1099;</span></span></div></div>
+ICON_BUT_REQUEST_SELECTED_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1057;&#1076;&#1077;&#1083;&#1072;&#1081;&#1090;&#1077; &#1079;&#1072;&#1103;&#1074;&#1082;&#1091; &#1085;&#1072; &#1042;&#1099;&#1073;&#1088;&#1072;&#1085;&#1085;&#1086;&#1077;</span></span></div></div>
+ICON_REQUEST_rus=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">&#1047;&#1072;&#1073;&#1088;&#1086;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;
+# REQFILLTIME_rus=14|<br>&#1047;&#1072;&#1073;&#1088;&#1086;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1080;&#1084;&#1077;&#1102;&#1097;&#1080;&#1077;&#1089;&#1103; &#1074; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080; &#1087;&#1088;&#1080;&#1084;&#1077;&#1088;&#1085;&#1086; &#1095;&#1077;&#1088;&#1077;&#1079; %d &#1076;&#1085;&#1080;|<br>&#1054;&#1078;&#1080;&#1076;&#1072;&#1077;&#1090;&#1089;&#1103; &#1073;&#1099;&#1090;&#1100; &#1074; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080;: &#1087;&#1088;&#1080;&#1073;&#1083;&#1080;&#1079;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1095;&#1077;&#1088;&#1077;&#1079;  %d &#1076;&#1085;&#1080;|<br>&#1069;&#1090;&#1086;&#1090; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083; &#1084;&#1086;&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100; &#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1077;&#1085; &#1089;&#1088;&#1072;&#1079;&#1091; &#1078;&#1077;
+REQUEST_rus=&#1047;&#1072;&#1073;&#1088;&#1086;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1101;&#1090;&#1086;&#1090; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;|bib|ask|Y
+REQUEST_MULTI_rus=&#1047;&#1072;&#1073;&#1088;&#1086;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1074;&#1089;&#1077; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099; &#1085;&#1072; &#1050;&#1085;&#1080;&#1078;&#1085;&#1086;&#1084; &#1051;&#1086;&#1090;&#1082;&#1077;|bib|ask
+ICON_BUT_PAT_CANCEL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100;</span></span></div></div>
+ICON_BUT_PAT_CANCELALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100; &#1074;&#1089;&#1077;</span></span></div></div>
+ICON_BUT_PAT_CANCELMARK_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100; &#1042;&#1099;&#1073;&#1088;&#1072;&#1085;&#1085;&#1099;&#1077;</span></span></div></div>
+ICON_BUT_PAT_INFO_rus=&#1048;&#1079;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100; &#1057;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1054; &#1057;&#1077;&#1073;&#1077;
+ICON_BUT_PAT_MSGS_rus=<span class="button"><span class="buttonText">&#1057;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1077; &#1080;&#1079; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1080;</span></span>
+ICON_BUT_PAT_PIN_rus=&#1048;&#1079;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100; &#1048;&#1076;&#1077;&#1085;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1086;&#1085;&#1085;&#1099;&#1081; &#1053;&#1086;&#1084;&#1077;&#1088; &#1063;&#1080;&#1090;&#1072;&#1090;&#1077;&#1083;&#1103; (PIN)
+ICON_BUT_PAT_RENEWALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1077; &#1042;&#1089;&#1077;</span></span></div></div>
+ICON_BUT_PAT_RENEWMARK_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1055;&#1086;&#1084;&#1077;&#1095;&#1077;&#1085;&#1085;&#1086;&#1077;</span></span></div></div>
+ICON_BUT_PAT_SORTBYCHKOUT_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1089;&#1086;&#1088;&#1090;&#1080;&#1088;&#1091;&#1081;&#1090;&#1077; &#1087;&#1086; &#1044;&#1072;&#1090;&#1077; &#1042;&#1099;&#1076;&#1072;&#1095;&#1080;</span></span></div></div>
+ICON_BUT_PAT_SORTBYDUE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1089;&#1086;&#1088;&#1090;&#1080;&#1088;&#1091;&#1081;&#1090;&#1077; &#1087;&#1086; &#1044;&#1072;&#1090;&#1077; &#1042;&#1086;&#1079;&#1074;&#1088;&#1072;&#1090;&#1072;</span></span></div></div>
+ICON_BUT_PAT_SUBMIT_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1087;&#1088;&#1072;&#1074;&#1080;&#1090;&#1100;</span></span></div></div>
+ICON_BUT_PSTARTOVER_rus=<span class="button"><span class="buttonText">&#1053;&#1072;&#1095;&#1072;&#1090;&#1100; &#1057;&#1085;&#1072;&#1095;&#1072;&#1083;&#1072;</span></span>
+ICON_BUT_UPDATE_HOLDS_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1051;&#1080;&#1089;&#1090;</span></span></div></div>
+ICON_CLOSEWINDOW_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100; &#1054;&#1082;&#1085;&#1086;</span></span>
+ICON_PAT_CANCELALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100; &#1074;&#1089;&#1077;</span></span></div></div>
+ICON_PAT_CANCELMARK_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100; &#1042;&#1099;&#1073;&#1088;&#1072;&#1085;&#1085;&#1099;&#1077;</span></span></div></div>
+ICON_PIN_RESET_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1073;&#1099;&#1083;&#1080; &#1042;&#1072;&#1096; &#1048;&#1076;&#1077;&#1085;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1086;&#1085;&#1085;&#1099;&#1081; &#1053;&#1086;&#1084;&#1077;&#1088; &#1063;&#1080;&#1090;&#1072;&#1090;&#1077;&#1083;&#1103; (PIN)?</span></span>
+ICON_SORTPUDATE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1089;&#1086;&#1088;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1087;&#1086; &#1084;&#1077;&#1089;&#1090;&#1091; &#1074;&#1099;&#1076;&#1072;&#1095;&#1080;</span></span></div></div>
+ICON_SORTREQDATE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1089;&#1086;&#1088;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1087;&#1086; &#1073;&#1088;&#1086;&#1085;&#1077;</span></span></div></div>
+NEWPIN_MSG_rus=&#1055;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1074;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; &#1055;&#1077;&#1088;&#1089;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1081; &#1048;&#1076;&#1077;&#1085;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1086;&#1085;&#1099;&#1081; &#1053;&#1086;&#1084;&#1077;&#1088; (PIN)
+PSTARTOVER_rus=/search*rus
+ICON_BUT_PAT_PSEARCH_REMOVE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1057;&#1090;&#1077;&#1088;&#1077;&#1090;&#1100; &#1042;&#1089;&#1077; &#1055;&#1086;&#1080;&#1089;&#1082;&#1080;</span></span></div></div>
+ICON_BUT_PAT_PSEARCH_UPDATE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1051;&#1080;&#1089;&#1090;</span></span></div></div>
+ICON_BUT_PAT_GETPSAVEDRECS_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1077;&#1076;&#1087;&#1086;&#1095;&#1090;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1047;&#1072;&#1087;&#1088;&#1086;&#1089;&#1099;</span></span>
+CIRC_HIST_LIMIT_TEXT_rus=&#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#1079;&#1072;&#1075;&#1083;&#1072;&#1074;&#1080;&#1103;, &#1085;&#1077; &#1085;&#1072;&#1093;&#1086;&#1076;&#1103;&#1097;&#1080;&#1077;&#1089;&#1103; &#1074; &#1089;&#1087;&#1080;&#1089;&#1082;&#1077; &#1052;&#1086;&#1077;&#1081; &#1055;&#1088;&#1086;&#1095;&#1080;&#1090;&#1072;&#1085;&#1085;&#1086;&#1081; &#1051;&#1080;&#1090;&#1077;&#1088;&#1072;&#1090;&#1091;&#1088;&#1099;
+ALTERNATE_ID_EMAIL_rus=username@replacesitename.com|&#1042;&#1072;&#1096;&#1072; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103; &#1076;&#1083;&#1103; &#1074;&#1093;&#1086;&#1076;&#1072; &#1074; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1091; &#1080;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1072;
+ICON_PAT_DELETE_ALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1074;&#1089;&#1077;</span></span></div></div>
+ICON_PAT_DELETE_MARKED_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1054;&#1090;&#1084;&#1077;&#1095;&#1077;&#1085;&#1085;&#1086;&#1077;</span></span></div></div>
+ICON_READING_HISTORY_rus=&#1055;&#1088;&#1086;&#1095;&#1080;&#1090;&#1072;&#1085;&#1085;&#1072;&#1103; &#1051;&#1080;&#1090;&#1077;&#1088;&#1072;&#1090;&#1091;&#1088;&#1072;
+ICON_READING_HISTORY_OPTIN_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1047;&#1072;&#1087;&#1080;&#1089;&#1072;&#1090;&#1100;&#1089;&#1103;</span></span></div></div>
+ICON_READING_HISTORY_OPTOUT_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1042;&#1099;&#1081;&#1090;&#1080;</span></span></div></div>
+ICON_READING_HISTORY_EXPORT_rus=<span class="button"><span class="buttonText">&#1069;&#1082;&#1089;&#1087;&#1086;&#1088;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1052;&#1086;&#1081; &#1057;&#1087;&#1080;&#1089;&#1086;&#1082; &#1051;&#1080;&#1090;&#1077;&#1088;&#1072;&#1090;&#1091;&#1088;&#1099;</span></span>
+LOGGEDIN_MSG_rus=<span class="loggedInMessage">&#1042;&#1099; &#1074;&#1086;&#1096;&#1083;&#1080; &#1074; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1091;   <span class="loggedInMoreInfo">&#1082; %s</span> &#1082;&#1072;&#1082; %s</span>
+PREFTEXT_rus=&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100; &#1082;&#1072;&#1082; &#1055;&#1088;&#1077;&#1076;&#1087;&#1086;&#1095;&#1090;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1081; &#1055;&#1086;&#1080;&#1089;&#1082;
+ICON_PATRATE_rus=<span class="button"><span class="buttonText">&#1052;&#1086;&#1080; &#1056;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075;&#1080;</span></span>
+ICON_RATE_GROUP_rus=<img src="/screens/rate_group.gif" border="0" width="15" height="14" alt="&#1054;&#1094;&#1077;&#1085;&#1082;&#1072; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1072; %d &#1079;&#1074;&#1077;&#1079;&#1076;&#1086;&#1095;&#1077;&#1082; &#1080;&#1079; 5 &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; %n &#1088;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075;&#1086;&#1074;" title="&#1054;&#1094;&#1077;&#1085;&#1082;&#1072; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1072; %d &#1079;&#1074;&#1077;&#1079;&#1076;&#1086;&#1095;&#1077;&#1082; &#1080;&#1079; 5 &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; %n &#1088;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075;&#1086;&#1074;">
+ICON_RATE_MY_rus=<img src="/screens/rate_my.gif" border="0" width="15" height="14" alt="&#1042;&#1099; &#1086;&#1094;&#1077;&#1085;&#1080;&#1083;&#1080; &#1101;&#1090;&#1091; %d &#1079;&#1074;&#1077;&#1079;&#1076;&#1086;&#1095;&#1077;&#1082; &#1080;&#1079; 5" title="&#1042;&#1099; &#1086;&#1094;&#1077;&#1085;&#1080;&#1083;&#1080; &#1101;&#1090;&#1091; %d &#1079;&#1074;&#1077;&#1079;&#1076;&#1086;&#1095;&#1077;&#1082; &#1080;&#1079; 5">
+ICON_RATE_NEED_rus=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="&#1054;&#1094;&#1077;&#1085;&#1080;&#1090;&#1077; &#1101;&#1090;&#1086;&#1090; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;!" title="&#1054;&#1094;&#1077;&#1085;&#1080;&#1090;&#1077; &#1101;&#1090;&#1086;&#1090; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;!">
+ICON_RATE_NO_rus=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="&#1053;&#1080;&#1082;&#1090;&#1086; &#1077;&#1097;&#1077; &#1085;&#1077; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1080;&#1083; &#1086;&#1094;&#1077;&#1085;&#1082;&#1091; &#1101;&#1090;&#1086;&#1084;&#1091; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1091;" title="&#1053;&#1080;&#1082;&#1090;&#1086; &#1077;&#1097;&#1077; &#1085;&#1077; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1080;&#1083; &#1086;&#1094;&#1077;&#1085;&#1082;&#1091; &#1101;&#1090;&#1086;&#1084;&#1091; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1091;">
+ICON_RATE_PAD_rus=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="&#1054;&#1094;&#1077;&#1085;&#1082;&#1072; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1072; %d &#1079;&#1074;&#1077;&#1079;&#1076;&#1086;&#1095;&#1077;&#1082; &#1080;&#1079; 5 &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; %n &#1088;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075;&#1086;&#1074;" title="&#1054;&#1094;&#1077;&#1085;&#1082;&#1072; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1072; %d &#1079;&#1074;&#1077;&#1079;&#1076;&#1086;&#1095;&#1077;&#1082; &#1080;&#1079; 5 &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; %n &#1088;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075;&#1086;&#1074;">
+ICON_PATREVIEW_rus=<span class="button"><span class="buttonText">&#1052;&#1086;&#1080; &#1056;&#1077;&#1094;&#1077;&#1085;&#1079;&#1080;&#1080;</span></span>
+ICON_PATREVIEW_ADD_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100; &#1088;&#1077;&#1094;&#1077;&#1085;&#1079;&#1080;&#1102;</span></span>
+PATREVIEW_ABUSE_NOTIFY_rus=&#1054; &#1085;&#1077;&#1087;&#1086;&#1076;&#1086;&#1073;&#1072;&#1102;&#1097;&#1080;&#1093; &#1088;&#1077;&#1094;&#1077;&#1085;&#1079;&#1080;&#1103;&#1093; &#1076;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1086; |&#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1072;-&#1054;&#1073;&#1088;&#1072;&#1079;&#1077;&#1094;|web@example.org
+CC_APPROVED_rus=&#1042;&#1072;&#1096; &#1087;&#1083;&#1072;&#1090;&#1077;&#1078; &#1087;&#1086;&#1076;&#1090;&#1074;&#1077;&#1088;&#1078;&#1076;&#1077;&#1085;.
+CC_DECLINED_rus=&#1048;&#1079;&#1074;&#1080;&#1085;&#1080;&#1090;&#1077;. &#1042;&#1072;&#1096; &#1087;&#1083;&#1072;&#1090;&#1077;&#1078; &#1085;&#1077; &#1087;&#1088;&#1086;&#1096;&#1077;&#1083;. &#1055;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1091;&#1073;&#1077;&#1076;&#1080;&#1090;&#1077;&#1089;&#1100; &#1074; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1042;&#1099; &#1074;&#1074;&#1077;&#1083;&#1080; &#1087;&#1088;&#1072;&#1074;&#1080;&#1083;&#1100;&#1085;&#1091;&#1102; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1102;, &#1080;&#1083;&#1080; &#1079;&#1072;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1077; &#1074; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1077;.
+ICON_PAY_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1100; &#1054;&#1085;&#1083;&#1072;&#1081;&#1085;</span></span>
+ICON_PAY_CLEAR_ALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1074;&#1089;&#1077;</span></span></div></div>
+ICON_PAY_SELECT_ALL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1042;&#1099;&#1073;&#1088;&#1072;&#1090;&#1100; &#1042;&#1089;&#1077;</span></span></div></div>
+ICON_PRINT_rus=<span class="button"><span class="buttonText">&#1056;&#1072;&#1089;&#1087;&#1077;&#1095;&#1072;&#1090;&#1072;&#1090;&#1100;</span></span>
+ICON_PAY_CONTINUE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1055;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1080;&#1090;&#1100;</span></span></div></div>
+BOOKINGS_DAY_LEGEND_rus=<span class="bookingsLegend">&#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1072; &#1079;&#1072;&#1082;&#1088;&#1099;&#1090;&#1072; <span id="closed">X</span> &#1095;&#1072;&#1089;&#1099;. &#1042;&#1099;&#1076;&#1072;&#1095;&#1072; &#1082;&#1085;&#1080;&#1075; &#1085;&#1077; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1080;&#1090;&#1089;&#1103; <span id="unavailable">&#1074; &#1085;&#1077;&#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1085;&#1099;&#1077; &#1074; &#1082;&#1072;&#1083;&#1077;&#1085;&#1076;&#1072;&#1088;&#1077;</span> &#1095;&#1072;&#1089;&#1099;.</span>
+BOOKINGS_MONTH_LEGEND_rus=<span class="bookingsLegend">&#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1072; &#1079;&#1072;&#1082;&#1088;&#1099;&#1090;&#1072; <span id="closed">X</span> &#1076;&#1085;&#1080;. &#1042;&#1099;&#1076;&#1072;&#1095;&#1072; &#1082;&#1085;&#1080;&#1075; &#1085;&#1077; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1080;&#1090;&#1089;&#1103;  <span id="unavailable">&#1074; &#1085;&#1077;&#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1085;&#1099;&#1077; &#1074; &#1082;&#1072;&#1083;&#1077;&#1085;&#1076;&#1072;&#1088;&#1077;</span> &#1076;&#1085;&#1080;.</span>
+ICON_BOOKINGS_HEADER_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1088;&#1077;&#1079;&#1077;&#1088;&#1074;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1101;&#1090;&#1086;&#1090; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;</span></span>
+ICON_DAILYCAL_rus=&#1055;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1090;&#1100; &#1056;&#1072;&#1089;&#1087;&#1080;&#1089;&#1072;&#1085;&#1080;&#1077; &#1087;&#1086; &#1076;&#1085;&#1103;&#1084;
+ICON_HOURLYCAL_rus=&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1055;&#1086;&#1095;&#1072;&#1089;&#1086;&#1074;&#1086;&#1077; &#1056;&#1072;&#1089;&#1087;&#1080;&#1089;&#1072;&#1085;&#1080;&#1077; 
+ICON_NEXTCAL_rus=&#1057;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1081;
+ICON_PREVCAL_rus=&#1055;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1080;&#1081;
+ICON_BUT_ILL_CANCEL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100;</span></span></div></div>
+ICON_BUT_ILL_FORM_rus=<span class="button"><span class="buttonText">&#1041;&#1083;&#1072;&#1085;&#1082; &#1052;&#1077;&#1078;&#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1086;&#1075;&#1086; &#1054;&#1076;&#1072;&#1083;&#1078;&#1080;&#1074;&#1072;&#1085;&#1080;&#1103;</span></span>
+ICON_BUT_ILL_HOME_rus=<span class="button"><span class="buttonText">&#1053;&#1086;&#1074;&#1072;&#1103; &#1047;&#1072;&#1103;&#1074;&#1082;&#1072;</span></span>
+ICON_BUT_PAT_ILL_FORM_rus=<span class="button"><span class="buttonText">&#1041;&#1083;&#1072;&#1085;&#1082; &#1052;&#1077;&#1078;&#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1086;&#1075;&#1086; &#1054;&#1076;&#1072;&#1083;&#1078;&#1080;&#1074;&#1072;&#1085;&#1080;&#1103;</span></span>
+ICON_BUT_PAT_ILL_rus=<span class="button"><span class="buttonText">&#1052;&#1077;&#1078;&#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1099;&#1081; &#1047;&#1072;&#1087;&#1088;&#1086;&#1089;</span></span>
+ILL_CONF_EMAIL_SUBJECT_rus=&#1059;&#1074;&#1077;&#1076;&#1086;&#1084;&#1083;&#1077;&#1085;&#1080;&#1077; &#1086; &#1084;&#1077;&#1078;&#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1086;&#1084; &#1079;&#1072;&#1087;&#1088;&#1086;&#1089;&#1077;
+ICON_BUT_RET2CRS_rus=<span class="button"><span class="buttonText">&#1042;&#1077;&#1088;&#1085;&#1080;&#1090;&#1077;&#1089;&#1100; &#1082; &#1050;&#1091;&#1088;&#1089;&#1091;</span></span>
+ICON_BUT_PREVSCRN_rus=<span class="button"><span class="buttonText">&#1054;&#1073;&#1088;&#1072;&#1090;&#1085;&#1086;</span></span>
+ICON_BUT_RET2FEAT_rus=<span class="button"><span class="buttonText">&#1054;&#1073;&#1088;&#1072;&#1090;&#1085;&#1086;</span></span>
+BIBIMAGE_TEXT_rus=&#1050;&#1085;&#1080;&#1078;&#1085;&#1072;&#1103; &#1054;&#1073;&#1083;&#1086;&#1078;&#1082;&#1072;
+ICON_BUT_CLOSEFRAME_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1082;&#1088;&#1086;&#1081;&#1090;&#1077; &#1060;&#1088;&#1077;&#1081;&#1084;</span></span>
+ICON_BUT_RET2RESOURCE_rus=<div id="resourcelink"><span class="button"><span class="buttonText">&#1054;&#1073;&#1088;&#1072;&#1090;&#1085;&#1086;</span></span></div>
+ICON_PATFEED_rus=&#1051;&#1077;&#1085;&#1090;&#1072; &#1089;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1081; &#1052;&#1086;&#1077;&#1075;&#1086; &#1063;&#1080;&#1090;&#1072;&#1090;&#1077;&#1083;&#1100;&#1089;&#1082;&#1086;&#1075;&#1086; &#1040;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;
+PATFEED_CONFIG_rus=&#1053;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080; &#1086; &#1042;&#1072;&#1096;&#1077;&#1084; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1095;&#1085;&#1086;&#1084; &#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;&#1077;|&#1055;&#1088;&#1086;&#1089;&#1083;&#1077;&#1076;&#1091;&#1081;&#1090;&#1077; &#1087;&#1086; &#1089;&#1089;&#1099;&#1083;&#1082;&#1072;&#1084; &#1074; &#1042;&#1072;&#1096; &#1095;&#1080;&#1090;&#1072;&#1090;&#1077;&#1083;&#1100;&#1089;&#1082;&#1080;&#1081; &#1072;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090; &#1079;&#1072; &#1087;&#1086;&#1076;&#1088;&#1086;&#1073;&#1085;&#1086;&#1089;&#1090;&#1103;&#1084;&#1080;.
+PATFEED_FINES_INCURRED_RECENTLY_rus=&#1042;&#1072;&#1096;&#1080; &#1085;&#1086;&#1074;&#1099;&#1077; &#1096;&#1090;&#1088;&#1072;&#1092;&#1099; &#1080;&#1083;&#1080; &#1089;&#1073;&#1086;&#1088;&#1099;
+PATFEED_HOLDS_READY_rus=&#1042;&#1099; &#1084;&#1086;&#1078;&#1077;&#1090;&#1077; &#1087;&#1086;&#1083;&#1091;&#1095;&#1080;&#1090;&#1100; &#1074;&#1072;&#1096;&#1080; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099;
+PATFEED_ITEMS_BOOKED_TOMORROW_rus=&#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099;, &#1079;&#1072;&#1088;&#1077;&#1079;&#1077;&#1088;&#1074;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1074;&#1095;&#1077;&#1088;&#1072;
+PATFEED_ITEMS_DUE_SOON_rus=&#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099; &#1089; &#1080;&#1089;&#1090;&#1077;&#1082;&#1072;&#1102;&#1097;&#1080;&#1084; &#1089;&#1088;&#1086;&#1082;&#1086;&#1084; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; 
+PATFEED_ITEMS_DUE_TODAY_rus=&#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099;, &#1089;&#1088;&#1086;&#1082; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1093; &#1080;&#1089;&#1090;&#1077;&#1082;&#1072;&#1077;&#1090; &#1089;&#1077;&#1075;&#1086;&#1076;&#1085;&#1103;
+PATFEED_ITEMS_OVERDUE_rus=&#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099; &#1089; &#1087;&#1088;&#1086;&#1089;&#1088;&#1086;&#1095;&#1077;&#1085;&#1085;&#1099;&#1084; &#1089;&#1088;&#1086;&#1082;&#1086;&#1084; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;
+PATFEED_ITEMS_RECALLED_rus=&#1054;&#1090;&#1086;&#1079;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099;
+PATFEED_PROGRAM_SESSION_SOON_rus=&#1057;&#1088;&#1086;&#1082; &#1084;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1103;, &#1085;&#1072; &#1082;&#1086;&#1090;&#1086;&#1088;&#1086;&#1077; &#1042;&#1099; &#1079;&#1072;&#1088;&#1077;&#1075;&#1077;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1083;&#1080;&#1089;&#1100;, &#1089;&#1082;&#1086;&#1088;&#1086; &#1087;&#1086;&#1076;&#1093;&#1086;&#1076;&#1080;&#1090;. &#1055;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1079;&#1072;&#1081;&#1076;&#1080;&#1090;&#1077; &#1074; &#1052;&#1086;&#1081; &#1040;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;, &#1095;&#1090;&#1086;&#1073;&#1099; &#1091;&#1079;&#1085;&#1072;&#1090;&#1100; &#1076;&#1072;&#1090;&#1091; &#1084;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1103;, &#1074;&#1088;&#1077;&#1084;&#1103; &#1080; &#1084;&#1077;&#1089;&#1090;&#1086; &#1077;&#1075;&#1086; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103;.
+PATFEED_PROGRAM_SESSION_TOMORROW_rus=&#1052;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077;, &#1085;&#1072; &#1082;&#1086;&#1090;&#1086;&#1088;&#1086;&#1077; &#1042;&#1099; &#1079;&#1072;&#1088;&#1077;&#1075;&#1077;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1083;&#1080;&#1089;&#1100;, &#1089;&#1086;&#1089;&#1090;&#1086;&#1080;&#1090;&#1089;&#1103; &#1079;&#1072;&#1074;&#1090;&#1088;&#1072;. &#1055;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1079;&#1072;&#1081;&#1076;&#1080;&#1090;&#1077; &#1074; &#1052;&#1086;&#1081; &#1040;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;, &#1095;&#1090;&#1086;&#1073;&#1099; &#1091;&#1079;&#1085;&#1072;&#1090;&#1100; &#1076;&#1072;&#1090;&#1091; &#1084;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1103;, &#1074;&#1088;&#1077;&#1084;&#1103; &#1080; &#1084;&#1077;&#1089;&#1090;&#1086; &#1077;&#1075;&#1086; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103;.
+PATFEED_PROGRAM_SESSION_TODAY_rus=&#1052;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077;, &#1085;&#1072; &#1082;&#1086;&#1090;&#1086;&#1088;&#1086;&#1077; &#1042;&#1099; &#1079;&#1072;&#1088;&#1077;&#1075;&#1077;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1083;&#1080;&#1089;&#1100;, &#1089;&#1086;&#1089;&#1090;&#1086;&#1080;&#1090;&#1089;&#1103; &#1089;&#1077;&#1075;&#1086;&#1076;&#1085;&#1103;. &#1055;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1079;&#1072;&#1081;&#1076;&#1080;&#1090;&#1077; &#1074; &#1052;&#1086;&#1081; &#1040;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;, &#1095;&#1090;&#1086;&#1073;&#1099; &#1091;&#1079;&#1085;&#1072;&#1090;&#1100; &#1076;&#1072;&#1090;&#1091; &#1084;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1103;, &#1074;&#1088;&#1077;&#1084;&#1103; &#1080; &#1084;&#1077;&#1089;&#1090;&#1086; &#1077;&#1075;&#1086; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103;.
+ICON_BUT_EMAIL_rus=&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086;&#1085;&#1085;&#1072;&#1103; &#1087;&#1086;&#1095;&#1090;&#1072;
+ICON_BUT_NEXTREC_rus=<span class="button"><span class="buttonText" id="buttonNextRecord">&#1057;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1072;&#1103; &#1079;&#1072;&#1087;&#1080;&#1089;&#1100;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BUT_PREVREC_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1072;&#1103; &#1079;&#1072;&#1087;&#1080;&#1089;&#1100;</span></span>
+ICON_BUT_Z39_ANOTHER_rus=&#1044;&#1088;&#1091;&#1075;&#1072;&#1103; &#1041;&#1072;&#1079;&#1072; &#1044;&#1072;&#1085;&#1085;&#1099;&#1093;
+ICON_BUT_Z39_REQUEST_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1103;&#1074;&#1082;&#1072;</span></span>
+ICON_BUT_Z39SEARCH_rus=<span class="button"><span class="buttonText">&#1048;&#1089;&#1082;&#1072;&#1090;&#1100; &#1074; &#1044;&#1088;&#1091;&#1075;&#1080;&#1093; &#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1072;&#1093;</span></span>
+Z39BROADCAST_rus=Z39.50 &#1055;&#1086;&#1080;&#1089;&#1082; &#1064;&#1080;&#1088;&#1086;&#1082;&#1086;&#1075;&#1086; &#1056;&#1072;&#1079;&#1073;&#1088;&#1086;&#1089;&#1072;:&#1055;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1074;&#1099;&#1073;&#1077;&#1088;&#1080;&#1090;&#1077; &#1089;&#1077;&#1088;&#1074;&#1077;&#1088;&#1099; Z39.50, &#1082;&#1091;&#1076;&#1072; &#1042;&#1099; &#1085;&#1072;&#1084;&#1077;&#1088;&#1077;&#1074;&#1072;&#1077;&#1090;&#1077;&#1089;&#1100; &#1079;&#1072;&#1089;&#1083;&#1072;&#1090;&#1100; &#1042;&#1072;&#1096; &#1079;&#1072;&#1087;&#1088;&#1086;&#1089;
+ICON_BUT_RETHOME_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1084;&#1086;&#1081;</span></span>
+ICON_MFFAVS_HOME_rus=<span class="button"><span class="buttonText">&#1044;&#1086;&#1084;&#1086;&#1081;</span></span>
+ICON_MFFAVS_SEARCH_rus=<span class="button"><span class="buttonText">&#1048;&#1089;&#1082;&#1072;&#1090;&#1100;</span></span>
+ICON_PAT_MFFAVS_rus=<span class="button"><span class="buttonText">&#1052;&#1086;&#1081; &#1055;&#1088;&#1086;&#1092;&#1080;-&#1048;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100; (Research Pro)</span></span>
+MFFAVS_CONFIRM_rus=&#1042;&#1072;&#1096;&#1072; &#1075;&#1088;&#1091;&#1087;&#1087;&#1072;, %s, &#1086;&#1073;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1072; &#1091;&#1089;&#1087;&#1077;&#1096;&#1085;&#1086;.
+MFFAVS_DENY_rus=&#1054;&#1087;&#1077;&#1088;&#1072;&#1094;&#1080;&#1103; &#1085;&#1077; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1072;. &#1054;&#1073;&#1088;&#1072;&#1090;&#1080;&#1090;&#1077;&#1089;&#1100; &#1079;&#1072; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; &#1082; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1072;&#1088;&#1102;.
+ICON_SPELLCHECK_MORE_rus=<span class="spellcheckToolMore">&#1073;&#1086;&#1083;&#1100;&#1096;&#1077;&nbsp;&raquo;</span>
+ICON_SPELLCHECK_SEARCH_rus=<img src="/screens/ico_go.gif" class="button" border="0" alt="&#1055;&#1086;&#1080;&#1089;&#1082;">
+SPELLCHECK_rus=<span class="spellcheckTool">&#1042;&#1099; &#1087;&#1086;&#1076;&#1088;&#1072;&#1079;&#1091;&#1084;&#1077;&#1074;&#1072;&#1083;&#1080; %a? %s </span>
+MF_ICON_ADVANCED_SEARCH_rus=&#1056;&#1072;&#1089;&#1096;&#1080;&#1088;&#1077;&#1085;&#1085;&#1099;&#1081; &#1055;&#1086;&#1080;&#1089;&#1082;
+MF_ICON_CLEAR_rus=&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1060;&#1086;&#1088;&#1084;&#1091;
+MF_ICON_CLOSE_rus=&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100; &#1054;&#1082;&#1085;&#1086;
+MF_ICON_DESELECTALL_rus=&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1074;&#1089;&#1077;
+MF_ICON_EMAIL_rus=&#1069;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086;&#1085;&#1085;&#1072;&#1103; &#1087;&#1086;&#1095;&#1090;&#1072;
+MF_ICON_HELP_rus=&#1055;&#1086;&#1084;&#1086;&#1097;&#1100;
+MF_ICON_LOGOFFACCOUNT_rus=&#1042;&#1099;&#1093;&#1086;&#1076;
+MF_ICON_MFFAVS_GROUP_rus=&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100; &#1075;&#1088;&#1091;&#1087;&#1087;&#1091;
+MF_ICON_NEW_SEARCH_rus=&#1053;&#1086;&#1074;&#1099;&#1081; &#1055;&#1086;&#1080;&#1089;&#1082;
+MF_ICON_PATRON_REC_rus=&#1042;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;&#1089;&#1103; &#1074; &#1063;&#1080;&#1090;&#1072;&#1090;&#1077;&#1083;&#1100;&#1089;&#1082;&#1080;&#1081; &#1040;&#1073;&#1086;&#1085;&#1077;&#1084;&#1077;&#1085;&#1090;
+MF_ICON_PATSUBMIT_rus=&#1054;&#1090;&#1087;&#1088;&#1072;&#1074;&#1080;&#1090;&#1100;
+MF_ICON_PREVSEARCH_rus=&#1055;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1080;&#1081; &#1055;&#1086;&#1080;&#1089;&#1082;&#1086;&#1074;&#1099;&#1081; &#1047;&#1072;&#1087;&#1088;&#1086;&#1089;
+MF_ICON_PRINT_rus=&#1056;&#1072;&#1089;&#1087;&#1077;&#1095;&#1072;&#1090;&#1072;&#1090;&#1100;
+MF_ICON_RET2CAT_rus=&#1042;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;&#1089;&#1103; &#1074; &#1050;&#1072;&#1090;&#1072;&#1083;&#1086;&#1075;
+MF_ICON_RETHOME_rus=&#1044;&#1086;&#1084;&#1086;&#1081;
+MF_ICON_SEARCH_rus=&#1055;&#1086;&#1080;&#1089;&#1082;  &#1074; &#1048;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1077;-&#1055;&#1088;&#1086;&#1092;&#1080; (Research Pro)
+MF_ICON_SELECTALL_rus=&#1042;&#1099;&#1073;&#1088;&#1072;&#1090;&#1100; &#1042;&#1089;&#1077;
+MF_ICON_SIMPLE_SEARCH_rus=&#1054;&#1073;&#1099;&#1095;&#1085;&#1099;&#1081; &#1055;&#1086;&#1080;&#1089;&#1082;
+MF_ICON_STOP_rus_rus=&#1055;&#1088;&#1080;&#1086;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1055;&#1086;&#1080;&#1089;&#1082;
+MF_ICON_UPDATELIST_rus=&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1051;&#1080;&#1089;&#1090;
+MF_ICON_VIEWSAVED_rus=&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088; &#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1077;&#1085;&#1085;&#1099;&#1093; &#1047;&#1072;&#1087;&#1080;&#1089;&#1077;&#1081;
+MF_RESULTSVIEW_rus=tabbed,&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1099; &#1089; &#1103;&#1088;&#1083;&#1099;&#1095;&#1082;&#1072;&#1084;&#1080; &#1048;&#1089;&#1090;&#1086;&#1095;&#1085;&#1080;&#1082;&#1072;|standard,&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1042;&#1089;&#1077; &#1056;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1099; &#1074;&#1087;&#1077;&#1088;&#1077;&#1084;&#1077;&#1096;&#1082;&#1091;
+MF_SEARCHINDEX_rus=Keywords,&#1050;&#1083;&#1102;&#1095;&#1077;&#1074;&#1099;&#1077; &#1089;&#1083;&#1086;&#1074;&#1072;|:CREATOR,&#1040;&#1074;&#1090;&#1086;&#1088;|:TITLE,&#1047;&#1072;&#1075;&#1083;&#1072;&#1074;&#1080;&#1077;|:SUBJECT,&#1058;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1088;&#1091;&#1073;&#1088;&#1080;&#1082;&#1072;
+MF_TOPLOGO_rus=@screens/toplogo_rus.html
+PROGRAM_SECTION_FIELDS_rus=&#1044;&#1072;&#1090;&#1072;/&#1042;&#1088;&#1077;&#1084;&#1103;:VsT|&#1057;&#1086;&#1073;&#1080;&#1088;&#1072;&#1077;&#1090;&#1089;&#1103;:Vss|&#1052;&#1077;&#1089;&#1090;&#1086; &#1074;&#1089;&#1090;&#1088;&#1077;&#1095;&#1080;:Fs285|&#1055;&#1088;&#1077;&#1087;&#1086;&#1076;&#1072;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;:Vsn|&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;:VsS
+ICON_BUT_PAT_PROGRAMS_rus=<span class="button"><span class="buttonText">&#1057;&#1086;&#1073;&#1099;&#1090;&#1080;&#1103; &#1074; &#1041;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1077;</span></span>
+ICON_BUT_PAT_SORTBYDATE_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1089;&#1086;&#1088;&#1090;&#1080;&#1088;&#1091;&#1081;&#1090;&#1077; &#1087;&#1086; &#1044;&#1072;&#1090;&#1077;</span></span></div></div>
+ICON_BUT_PAT_SORTBYNAME_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1089;&#1086;&#1088;&#1090;&#1080;&#1088;&#1091;&#1081;&#1090;&#1077; &#1087;&#1086; &#1048;&#1084;&#1077;&#1085;&#1080;</span></span></div></div>
+ICON_RET2PROG_rus=<span class="button"><span class="buttonText">&#1042;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;&#1089;&#1103; &#1082; &#1052;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1103;&#1084;</span></span>
+ICON_REGISTER_rus=<br><strong>&#1053;&#1072;&#1078;&#1084;&#1080;&#1090;&#1077; &#1076;&#1083;&#1103; &#1088;&#1077;&#1075;&#1080;&#1089;&#1090;&#1088;&#1072;&#1094;&#1080;&#1080;</strong>
+ICON_ADD_TO_WAITLIST_rus=<br><strong>&#1042;&#1085;&#1077;&#1089;&#1090;&#1080; &#1074; &#1057;&#1087;&#1080;&#1089;&#1086;&#1082; &#1086;&#1078;&#1080;&#1076;&#1072;&#1102;&#1097;&#1080;&#1093; &#1086;&#1095;&#1077;&#1088;&#1077;&#1076;&#1080;</strong>
+ICON_VIEW_ADDITIONAL_SESSIONS_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1057;&#1077;&#1089;&#1089;&#1080;&#1080;</span></span>
+ICON_HIDE_ADDITIONAL_SESSIONS_rus=<span class="button"><span class="buttonText">&#1053;&#1077; &#1087;&#1086;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1090;&#1100; &#1076;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1089;&#1077;&#1089;&#1089;&#1080;&#1080;</span></span>
+ICON_PROGRAM_CAL_rus=<span class="button"><span class="buttonText">&#1056;&#1072;&#1089;&#1087;&#1080;&#1089;&#1072;&#1085;&#1080;&#1077; &#1052;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1081;</span></span>
+PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,irnr
+MAX_PIN_LENGTH=4
+BUT_PAT_PIN=Modify Pin
+BUT_PAT_INFO=Modify personal information

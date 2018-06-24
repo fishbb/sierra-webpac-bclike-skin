@@ -1,0 +1,264 @@
+<!--{toplogo}-->
+
+<style>
+#accessibleForm span.formLabel {
+     display: inline; !important
+</style>
+<div class="pageContentInner">
+<h1 class="pageHeader">Welcome! This is Patron Self Registration</h1>
+<p>This page allows you to register on-line as a patron of our library. You will have limited privileges.</p>
+<div id="accessibleForm" class="form1Part">
+<form method="post" class="unpadded" autocomplete="off"  onsubmit="return selfRegChecker();">
+<!--{iferrmsg}-->
+<div class="errormessage">
+<!--{errmsg}-->
+</div>
+<!--{xif}-->
+<div class="errormessage" id="selfRegMessage">
+</div>
+<fieldset>
+<legend>Please enter the following information: (<span class="formRequired">*</span> means required field)</legend>
+
+
+<div class="formEntryArea">
+<span class="formLabel" style="width:30%; margin-right:7%;"><label for="nfirst">First name<span class="formRequired">*</span>
+
+</span>
+
+<span class="formLabel" style="width:30%; margin-right:0.2%;"></label><label for="nmiddle">Middle name</label>
+
+</span> 
+
+<span class="formLabel"> 
+
+<label for="nlast">Last name<span class="formRequired">*</span>
+
+</label>
+
+<span><br>
+
+<!--{firstname}--> 
+
+<!--{middlename}-->
+
+
+<!--{lastname}-->
+</div>
+
+
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="stre_aaddress">Address:<span class="formRequired">*</span></label></span>
+<!--{street}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel" style="width:30%; margin-right:11%;"><label for="city_aaddress">City <span class="formRequired">*<span></label></span> 
+<span class="formLabel" style="width:30%; margin-right:5%;"><label for="city_aaddress">State<span class="formRequired">*</span></label></span> 
+<span class="formLabel" ><label for="city_aaddress">Zip code<span class="formRequired">*</span></label></span><br>
+<!--{city}-->   
+
+
+
+<!--{state}-->
+
+
+<!--{postalcode}-->
+</div>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+
+<script>
+$( function() {
+  $( "#F051birthdate" ).datepicker({
+     dateFormat: 'mm-dd-yy',
+      yearRange: "-100:+0",
+      changeMonth: true,
+      changeYear: true,
+      showMonthAfterYear: true,
+      defaultDate: '-20y',
+      maxDate: '+0d',
+      minDate: '-110y',
+  });
+});
+</script>
+<div class="formEntryArea">
+<span class="formLabel"><label for="F051birthdate">Birthday:</label><span class="formRequired">*</span></span>
+<input type="text" id="F051birthdate"  name="F051birthdate" alt="Birthdate" onfocus="this.select();" class="dpDate">
+<p><i>Why do you need to provide your birthdate?  The Library uses your birthdate to determine the services that are available to you and also provides compliance with the <a href="https://www.fcc.gov/consumers/guides/childrens-internet-protection-act">CIPA</a> laws governing online access</i><p>
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="phone1">Phone:<span class="formRequired">*</span></label></span>
+<!--{phone1}--> 
+</div> 
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="zemailaddr">Email:<span class="formRequired">*</span></label></span>
+<!--{emailaddress}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="pcode1">Language Spoken at Home:</label></span>
+<!--{pcode1}-->
+</div> 
+
+<br>
+User agrees to obey library rules, to be responsible for materials that are charged to their card, <br>
+and to notify the library in the event that any information provided here has changed, or if card is <br>
+lost or stolen. Borrowers, regardless of age, have access to all library materials. If applicant is <br>
+under 14 years old, parent or guardian{u2019}s ID information is required and they must accompany <br>
+child to the library when completing the online registration.<br>
+
+<br>
+
+<div class="formButtonArea">
+<span>
+<!--{submit}-->
+</span>
+</div>
+</fieldset>
+
+</form>
+</div> <!--accessibleForm -->
+</div><!-- pageContentInner -->
+
+<script type="text/javascript">
+function isValidDate(dateString)
+{
+    // First check for the pattern
+    if(!/^\d{1,2}-\d{1,2}-\d{4}$/.test(dateString))
+        return false;
+
+    // Parse the date parts to integers
+    var parts = dateString.split("-");
+    var day = parseInt(parts[1], 10);
+    var month = parseInt(parts[0], 10);
+    var year = parseInt(parts[2], 10);
+
+    // Check the ranges of month and year
+    if(year < 1000 || year > 3000 || month == 0 || month > 12)
+        return false;
+
+    var monthLength = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 ];
+
+    // Adjust for leap years
+    if(year % 400 == 0 || (year % 100 != 0 && year % 4 == 0))
+        monthLength[1] = 29;
+
+    // Check the range of the day
+    return day > 0 && day <= monthLength[month - 1];
+};
+
+function isValidZip(zip)
+{
+    //check for the pattern
+    if(!/^\d{5}$/.test(zip))
+        return false;
+    else
+        return true;
+};
+
+function selfRegChecker(){
+var regForm = document.getElementsByTagName("INPUT");
+var messageDiv = document.getElementById("selfRegMessage");
+for(i=0;i<regForm.length;i++){
+switch(regForm[i].id){
+case "nfirst":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Oops... Please supply your First Name to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "nlast":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Oops... Please supply your Last Name to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "stre_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Oops... Please supply your Address to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "city_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Oops... Please supply your City to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "stat_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Oops... Please supply your State to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "nlast":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Oops... Please supply your Last Name to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "post_aaddress":
+if (!( isValidZip(regForm[i].value))){
+var message = document.createTextNode("Oops... Please supply your Zip Code to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "F051birthdate":
+if (!(isValidDate(regForm[i].value))) {
+var message = document.createTextNode("Oops... Please provide a valid birthday (mm-dd-yyyy).");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "tphone1":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Oops... Please supply your phone to Register.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+}
+}
+return true;
+}
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+	if(selfRegChecker()){
+		var obj = getFormHandleForm(1);
+		obj.submit();
+	}
+}
+</script>
+
+<!--{botlogo}-->

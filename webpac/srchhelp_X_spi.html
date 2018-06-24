@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+<!--This page was developed by Dan Lou in May 2018-->
+<head>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<script type="text/javascript" src="/scripts/elcontent.js">
+</script>
+<script type="text/javascript" src="/scripts/common.js">
+</script>
+<script type="text/javascript" src="/scripts/webbridge.js">
+</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"/><title>Palo Alto City Library</title><link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/screens/iiilangswitch.js"></script><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script><link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" /><link rel="/screens/PAC_Library_Logo_leaf-150x150.png"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link href="/screens/responsive_external_header.css" media="all" rel="stylesheet" type="text/css" /><link href="/screens/external_library_branding.css" media="all" rel="stylesheet" type="text/css" /><link rel='stylesheet' id='bibliostyle-css'  href='/screens/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='header_all-css'  href='/screens/header_all.css' type='text/css' media='all' /><link rel='stylesheet' href='/screens/styles.css' type='text/css' media='all' />
+<script type="text/javascript">/* <![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]> */
+</script>
+<script type="text/javascript" src="/screens/iiilangswitch.js"></script>
+</head>
+
+<!--{toplogo}-->
+
+<!--{advancedsearchbody}-->
+
+<div class="pageContentInner">
+<h1 class="pageHeader">B&#250;squeda avanzada</h1>
+<div class="advmsg">
+<!--{msg}-->
+</div>
+<!--{spellcheck}-->
+<!--{advancedsearchformbegin}-->
+<div class="form3PartAbove"> 
+<fieldset>
+<legend>Indique los t&#233;rminos de b&#250;squeda</legend>
+<br />
+<div class="formEntryArea">
+<!--{advancedsearch}-->
+</div>
+<input type="hidden" name="startLimit" >
+<br />
+<div class="formButtonArea">
+<span>
+<!--{advancedsubmit}-->
+</span>
+<span>
+<!--{clearform}-->
+</span>
+</div>
+</fieldset>
+</div> <!-- form3PartAbove -->
+
+
+<p><a href = "javascript:void(0)" onclick = "document.getElementById('lightbox').style.display='block';document.getElementById('fade').style.display='block'">Consejos de b{u00FA}squeda</a></p>
+
+
+<div class="formLeft advancedSearch"> 
+<fieldset>
+<legend>A&#241;adir l&#237;mites (Opcional) </legend>
+<br />
+<div class="formEntryArea">
+<!--{availlim}-->
+</div>
+<br />
+<!-- Optional Scopes section -->
+<div class="formEntryArea"> 
+<table><tr>
+<td><label for="searchscope">Localizaci&#243;n:</label></td>
+<td> 
+<!--{scope}-->
+</td></tr></table>
+</div>
+<br clear="left" />
+<div class="formEntryArea">
+<!--{mattype}-->
+</div>
+<br clear="left" />
+<div class="formEntryArea">
+<!--{lang}-->
+</div>
+<br clear="left" />
+<div class="formEntryArea"> 
+<!--{publish}-->
+</div>
+<br clear="left" />
+<div class="formEntryArea" id="form3PartAdvLimitSort">
+<!--{sort}-->
+</div>
+<br clear="left" />
+<div class="formEntryArea">
+<table><tr>
+<td><label for "docdate">A{u00F1}o:</label></td>
+<td>
+<!--{DOCDATE}-->
+</div>
+</td>
+</tr>
+</table>
+<br clear="left" />
+</div> <!-- div formEntryArea -->
+</fieldset>
+<input type="hidden" name="endLimit" >
+
+<div id="lightbox" class="content">
+<a href = "javascript:void(0)" onclick = "document.getElementById('lightbox').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+
+<br \>
+<table border="1" class="tipsTable"> 
+<tr valign="top">
+<th align="left">Adyacencia</th>
+<td>Las palabras m&#250;ltiples se buscan juntas como una frase.<br>
+<span style="text-decoration:underline">Ejemplo</span> : organizaci&#243;n muldial de la salud</td>
+</tr>
+<tr valign="top">
+<td class="tipsTable bold">Comodines</td>
+<td class="tipsTable">
+Se pueden truncar las palabras usande el asterisco ('*'), que reemplaza a otros caracteres. <!-- Use '**' para truncar hasta cinco caracteres.--> El comod&#237;n '*' se puede incluir en la cadena de b&#250;squeda. Puede usar '?' para reemplazar un caracter en cualquier lugar de la palabra.<br>
+<span style="text-decoration:underline">Ejemplos</span> : pol&#237;t* ambient*, Anders?n</td>
+</tr>
+</tr>
+<tr valign="top">
+<td class="tipsTable bold">Operadores Booleanos</td>
+<td class="tipsTable">
+Use "and" u "or" para especificar multiples palabras en cualquier campo, cualquier orden. Use "and not" para excluir palabras.<br>
+<span style="text-decoration:underline">Ejemplo</span> : accioness and bonos<br>
+<span style="text-decoration:underline">Ejemplo</span> : (alaska or canada) and (aventura and not vacaci&#243;n)</td>
+</tr>
+<tr valign="top">
+<td class="tipsTable bold">Limitar por campos</td>
+<td class="tipsTable">
+Si se limita por un campo, la b&#250;squeda por las palabras indicadas se realizar&#225; s&#243;lo en ese campo.</td>
+</tr>
+<tr valign="top">
+<td class="tipsTable bold">Agrupar</td>
+<td class="tipsTable">
+Los resultados de la b&#250;squeda por palabra clave generalmente se agrupan por relevancia para mostrar los t&#237;tulos m&#225;s apropiados primero. Cada grupo tiene un nivel similar de relevancia y los resultados se ordenan dentro del propio grupo por fecha o t&#237;tulo. Si quiere obtener un conjunto de resultados no agrupados, utilice los operadores booleanos para formar una consulta compleja.
+</td>
+</tr>
+</table>
+</div> <!-- close lightbox -->
+
+<!--{advancedsearchformend}-->
+</div> <!-- form3Part -->
+
+</div><!-- pageContentInner -->
+<!--{botlogo}-->
