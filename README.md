@@ -17,9 +17,9 @@ This repository contains the Webpac files that got most heavily customized for t
 ## Install
 
 1. I recommend to install this first on your staging port or on your training server. Upload the Siera Webpac example set from Innovative Interfaces via Sierra Webmaster module if you have not already had a Webpac running on the specific port/server.
-1. Clone or download this repository. Upload all files in `webpac` folder via Sierra Webmaster module. This will update existing files in Webpac and add new ones required by this new skin. 
-2. Rename wwwoptions.txt to wwwoptions and restart Webpac.
-3. Customize image files, CSS files and html files to match your library's specific style as needed. For example, use your library's own logo images. 
+2. Clone or download this repository. Upload all files in `webpac` folder via Sierra Webmaster module. This will update existing files in Webpac and add new ones required by this new skin. 
+3. Rename wwwoptions.txt to wwwoptions and restart Webpac.
+4. Customize image files, CSS files and html files to match your library's specific style as needed. For example, use your library's own logo images. 
 
 
 ## Screenshots
@@ -28,24 +28,24 @@ This repository contains the Webpac files that got most heavily customized for t
 
  Desktop | Mobile 
 ----------|-----------
-![desktop view](webpac_main.png =300x) | ![mobile view](webpac_main_mobile.png =200x)
+<img src="webpac_main.png" width=300 alt="desktop view"> | <img src="webpac_main_mobile.png" width=200 alt="mobile view"> 
 
 ### Browse page view
 
  Desktop | Mobile 
 ----------|-----------
-![desktop view](webpac_keywordsearch.png =300x) | ![mobile view](webpac_keywordsearch_mobile.png =200x)
+<img alt="desktop view" src="webpac_keywordsearch.png" width=300> | <img alt="mobile view" src="webpac_keywordsearch_mobile.png" width=200> 
 
 ### Record view
 
  Desktop | Mobile 
 ----------|-----------
-![desktop view](webpac_bib.png =300x) | ![mobile view](webpac_bib_mobile.png =200x)
+<img alt="desktop view" src="webpac_bib.png" width=300> | <img alt="mobile view" src="webpac_bib_mobile.png" width=200> 
 
 ### Patron account view
  Desktop | Mobile 
 ----------|-----------
-![desktop view](webpac_patronaccount.png =300x) | ![mobile view](webpac_patronaccount_mobile.png =200x)
+<img alt="desktop view" src="webpac_patronaccount.png" width=300> | <img alt="mobile view" src="webpac_patronaccount_mobile.png" width=200> 
 
 ## Documentation
 
