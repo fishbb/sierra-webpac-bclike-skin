@@ -20,6 +20,7 @@ This repository contains the Webpac files that got most heavily customized for t
 2. Clone or download this repository. Upload all files in `webpac` folder via Sierra Webmaster module. This will update existing files in Webpac and add new ones required by this new skin. 
 3. Rename wwwoptions.txt to wwwoptions and restart Webpac.
 4. Customize image files, CSS files and html files to match your library's specific style as needed. For example, use your library's own logo images. 
+5. When you are ready to make the above changes to your live port, remember to back up all files on your live port first, as Innovative Interfaces recommended.
 
 
 ## Screenshots
@@ -103,6 +104,8 @@ We decided to make the main search page (web path /search) and main page(web pat
 * patronview_web.html
 
 Most of the work is done to make these mobile responsive. These pages are very unfriendly for customization since the tables or divs in side often do not have a unique id or class.
+
+I also customized the selfreg.html to contain a birthdate field that integrates a smart JQuery calendar.  The library collects customer's birthdate info in order to provide compliance with the laws governing online access.
 
 
 #### Localization and Translation
