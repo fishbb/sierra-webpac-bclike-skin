@@ -1,0 +1,229 @@
+<!-- bib display file updated by Dan Lou in April 2018 -->
+<!--{toplogo}-->
+<!--{ifbibdisplay}-->
+
+<!--{xif}-->
+<!--{catedit}-->
+
+<div id="bibDisplayBody">
+
+<div id="bibDisplayContent">
+<div class="bibSearch">
+<!--{searchtool}-->
+</div><!-- bibSearch -->
+
+<div class="navigationRowRecord">
+<!--{navrow}-->
+</div>
+
+<div class="bibClear"></div>
+
+<div class="bibResourceSidebar">
+<!--{ifhasresourcetable}-->
+<!--{resourcetable}-->
+<!--{xif}-->
+<!--Optional INNReach resources.-->
+<!--{innreach}-->
+<!--{relsearch}-->
+</div>
+
+<div class="mainContent row">
+
+<div class="titleBlock clearfix col-xs-12 col-sm-12 col-lg-12" style="position:relative;">
+<div class="pull-left" style="max-width: 80px;">
+<div class="jacketCover bib_detail">
+<!--{bibimage}-->
+</div>
+<div class="bibMedia">
+<!--{media}-->
+</div>
+</div>
+
+</a>
+<div class="pull-left bib_info_container" style="max-width: 70%;">
+
+<!--{recordinfo:a}-->
+
+<h1 class="item_bib_title" style="font-size: 20px;">
+<!--{recordinfo:t}-->
+</h1>
+
+<!--{recordinfo:pR}-->
+
+</div>
+
+<!--{ifhaspatrate}-->
+<div class="bibDisplayRatings">
+<!--{ratings}-->
+</div>
+<!--{xif}-->
+
+<!--{booking}-->
+<!--{holdingslink}-->
+<div class="testlinkeddocs">
+<!--{linkeddocs}-->
+</div>
+<div class="bibDisplayUrls">
+<b>
+<!--{URLS}-->
+</b>
+</div>
+
+
+<!--{bloblinks}-->
+<!--{imagelinks}-->
+<!--{artthumb}-->
+<!--{xmlframe}-->
+<!--{ifTOC}-->
+<!--{TOC}-->
+<!--{xif}-->
+<!--{holds}-->
+<!--{holdings}-->
+
+
+
+<div class="bibDisplayItemsHeader"><h2>Copias</h2></div>
+<div class="bibDisplayItemsMain">
+<!--{items}-->
+</div>
+</div>
+
+<!--{orders}-->
+
+<div class="bibDisplayContentMore">
+<!--{recordinfo:#}-->
+</div>
+
+  <!--{IFELCONTENT:365}-->
+<!-- Replace the number for your enhanced content in Pathfinder Pro and uncomment the html: -->
+  <!-- <div class="bibDisplayContentMore">
+       <ul id="elContent">-->
+  <!--{ELCONTENT:365}-->
+  <!-- </ul>
+  </div>-->
+  <!--{xif}-->
+
+<div class="bibDisplayContentMore bibDisplayReviews">
+<div class="bibDisplayPermLink actionButtonArea">
+<!--{recordlink}-->
+</div>
+<!--{patronreviewsfull}-->
+
+</div>
+
+</div>
+
+<div class="bibPager">
+<!--{pager}-->
+</div>
+
+
+</div><!-- close bibDisplayContent -->
+<div class="clear"></div>
+</div><!-- close bibDisplayBody -->
+
+<div id="hidden" class="hidden"><script type="application/ld+json"></script></div>
+
+<script>
+var permurl="http://cpalo.iii.com";
+var title="";
+var image = "";
+var format="book";
+var details="";
+var author = "";
+var publisher="";
+var subject = '';
+var isbn = '';
+var description='';
+var year='';
+try {
+permurl = document.getElementsByClassName("bibDisplayPermLink")[0].getElementsByTagName("a")[0].href;
+title = document.getElementsByClassName('bibDisplayTitle')[0].getElementsByClassName('bibInfoData')[0].textContent;
+image = document.getElementsByClassName('bibDisplayJacket')[0].getElementsByTagName('img')[0].src;
+format = document.getElementsByClassName('bibMedia')[0].getElementsByTagName('img')[0].alt;
+var morelabels = document.getElementsByClassName('bibInfoLabel');
+for (var i =0, len=morelabels.length; i<len; i++) {
+	if (morelabels[i].textContent.includes('Genre')) {
+		subject = morelabels[i].nextElementSibling.textContent;
+	}
+	else if (morelabels[i].textContent.includes('ISBN')) {
+		isbn = morelabels[i].nextElementSibling.textContent;
+	}	
+	else if (/^Author$/.test(morelabels[i].textContent)){
+		author = morelabels[i].nextElementSibling.textContent;
+	}	
+	else if (morelabels[i].textContent.includes('Description')) {
+		description = morelabels[i].nextElementSibling.textContent;
+	}	
+	else if (morelabels[i].textContent.includes('Publication')) {
+		publisher = morelabels[i].nextElementSibling.textContent;
+		year = morelabels[i].parentNode.nextElementSibling.textContent;
+	}		     
+     }
+title = String(title).replace(/\n/g, "");
+format = String(format).replace(/\n/g, "");
+description = String(description).replace(/\n/g, "");
+year = String(year).replace(/\n/g, "");
+publisher = String(publisher).replace(/\n/g, "");
+author = String(author).replace(/\n/g, "");
+subject = String(subject).replace(/\n/g, "");
+isbn = String(isbn).replace(/\n/g, "");
+}
+catch(err) {
+	console.log(err);
+}
+finally {
+console.log(permurl);
+console.log(title);
+console.log(image);
+console.log(format);
+console.log(author);
+console.log(isbn);
+console.log(subject);
+obj={
+  "@context": "http://schema.org",
+  "@type": format,
+  "@id": permurl,
+  "mainEntityOfPage": permurl,
+  "url": permurl,
+  "accessibilityAPI": "ARIA",
+  "accessibilityControl": [
+    "fullKeyboardControl",
+    "fullMouseControl"
+  ],
+  "accessibilityFeature": [
+    "largePrint/CSSEnabled",
+    "highContrast/CSSEnabled",
+    "resizeText/CSSEnabled",
+    "displayTransformability",
+    "longDescription",
+    "alternativeText"
+  ],
+  "accessibilityHazard": [
+    "noFlashingHazard",
+    "noMotionSimulationHazard",
+    "noSoundHazard"
+  ],
+  "isbn": isbn,
+  "name": title,
+  "genre": subject,
+  "author": {
+    "@type": "Person",
+    "name": author,
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": publisher,
+  },
+  "copyrightYear": year,
+  "description": description,
+  "image":image,
+};
+console.log(JSON.stringify(obj));
+document.getElementById("hidden").getElementsByTagName("script")[0].innerHTML = JSON.stringify(obj);
+}
+
+</script>
+
+
+<!--{botlogo}-->
