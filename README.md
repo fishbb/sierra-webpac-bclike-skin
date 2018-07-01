@@ -117,16 +117,19 @@ I did some light localization in Chinese, Russian and Spanish:
 * mainmenu_chx.html
 * opacmenu_chx.html
 * srchhelp_X_chx.html
+* bib_display_chx.html
 * toplogo_rus.html
 * toplogo_loggedin_rus.html
 * mainmenu_rus.html
 * opacmenu_rus.html
 * srchhelp_X_rus.html
+* bib_display_rus.html
 * toplogo_spi.html
 * toplogo_loggedin_spi.html
 * mainmenu_spi.html
 * opacmenu_spi.html
 * srchhelp_X_spi.html
+* bib_display_spi.html
 
 Please refer to Sierra Dcumentation if you want to have the website fully localized in a foreign language.
 
