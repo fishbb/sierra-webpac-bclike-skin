@@ -65,6 +65,11 @@ margin:auto;
 }
 
 @media (max-width: 480px) {
+
+.table-responsive tr {
+    border: solid #ECECEC 1px;
+}
+	
 .browseScreen #searchtype, .browseScreen #searcharg, .browseScreen #searchscope, .browseScreen form[name="searchtool"] input[type="submit"] {
     display:block;
     margin:auto;
@@ -1461,32 +1466,3 @@ a.iconText.external {padding-right:20px;}
 
 #copyright {border-top:1px solid #b7b7b7; clear:both; margin:0 1em; padding-bottom:1em;}
 #copyright img {vertical-align:bottom; padding-bottom:1px;}
-
-
-/*<!-- Hide WebPAC searchtools in favor of an Encore search -->*/
-/* *******************************************************************
-
-
-/* modpinfo style */
-
-.modpinfoPaloAltoStyle * input[type=checkbox]
-{
-  -ms-transform: scale(2); /* IE */
-  -moz-transform: scale(2); /* FF */
-  -webkit-transform: scale(2); /* Safari and Chrome */
-  -o-transform: scale(2); /* Opera */
-  margin: 1px;
-}
-
-/* Might want to wrap a span around your checkbox text */
-.modpinfoPaloAltoStyle formEntryArea .checkboxtext
-{
-  /* Checkbox text */
-  display: inline;
-}
-
-.modpinfoPaloAltoStyle .patFuncMobileLabel {
-    margin-left: 10px;
-}
-
-*/
