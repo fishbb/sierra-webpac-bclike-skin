@@ -186,7 +186,7 @@ a:link { color: #02729e; }
     margin: 0;
 }
 
-.browseScreen td {
+#.browseScreen td {
     vertical-align:middle;
     padding: 10px 10px 10px 10px;
 }
