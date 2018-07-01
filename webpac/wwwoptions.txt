@@ -579,7 +579,7 @@ ICON_BUT_MARC_DISPLAY_chx=<span class="button"><span class="buttonText">MARC&#26
 ICON_BUT_REGULAR_DISPLAY_chx=<span class="button"><span class="buttonText">&#27491;&#35268;&#26174;&#31034;</span></span>
 ICON_BUT_RTRNTB_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#27983;&#35272;&#32034;&#24341;</span></span>
 ICON_BIB_HOLDINGS_ITEMS_chx=&#26597;&#30475;&#25335;&#36125;&#22797;&#21360;&#26412;
-ICON_BIB_PAGING_NEXT_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_NEXT_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span></span>
 ICON_BIB_PAGING_PREV_chx=<span class="button"><span class="buttonText">&#21069;&#19968;&#35760;&#24405;</span></span>
 ICON_RECORDLINK_chx=<a href="%s"><span class="button"><span class="buttonText">&#27704;&#20037;&#38142;&#25509;</span></span></a>
 LINK856TEXT_chx=&#25509;&#36890;
@@ -807,7 +807,7 @@ ICON_BUT_MARC_DISPLAY_chx=<span class="button"><span class="buttonText">MARC&#26
 ICON_BUT_REGULAR_DISPLAY_chx=<span class="button"><span class="buttonText">&#27491;&#35268;&#26174;&#31034;</span></span>
 ICON_BUT_RTRNTB_chx=<span class="button"><span class="buttonText">&#36820;&#22238;&#27983;&#35272;&#32034;&#24341;</span></span>
 ICON_BIB_HOLDINGS_ITEMS_chx=&#26597;&#30475;&#25335;&#36125;&#22797;&#21360;&#26412;
-ICON_BIB_PAGING_NEXT_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_NEXT_chx=<span class="button"><span class="buttonText" id="buttonNextRecord">&#19979;&#19968;&#35760;&#24405;</span></span>
 ICON_BIB_PAGING_PREV_chx=<span class="button"><span class="buttonText">&#21069;&#19968;&#35760;&#24405;</span></span>
 ICON_RECORDLINK_chx=<a href="%s"><span class="button"><span class="buttonText">&#27704;&#20037;&#38142;&#25509;</span></span></a>
 LINK856TEXT_chx=&#25509;&#36890;
@@ -1038,7 +1038,7 @@ ICON_BUT_MARC_DISPLAY_spi=<span class="button"><span class="buttonText">Visualiz
 ICON_BUT_REGULAR_DISPLAY_spi=<span class="button"><span class="buttonText">Visualizaci&#243;n normal</span></span>
 ICON_BUT_RTRNTB_spi=<span class="button"><span class="buttonText">Volver al listado</span></span>
 ICON_BIB_HOLDINGS_ITEMS_spi=Ver Copias
-ICON_BIB_PAGING_NEXT_spi=<span class="button"><span class="buttonText" id="buttonNextRecord">Registro siguiente</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_NEXT_spi=<span class="button"><span class="buttonText" id="buttonNextRecord">Registro siguiente</span></span>
 ICON_BIB_PAGING_PREV_spi=<span class="button"><span class="buttonText">Registro anterior</span></span>
 ICON_RECORDLINK_spi=<a href="%s"><span class="button"><span class="buttonText">Enlace permanente</span></span></a>
 LINK856TEXT_spi=Conectar a
@@ -1268,7 +1268,7 @@ ICON_BUT_MARC_DISPLAY_rus=<span class="button"><span class="buttonText">&#1092;&
 ICON_BUT_REGULAR_DISPLAY_rus=<span class="button"><span class="buttonText">&#1054;&#1073;&#1099;&#1095;&#1085;&#1099;&#1081; &#1044;&#1080;&#1089;&#1087;&#1083;&#1077;&#1081;</span></span>
 ICON_BUT_RTRNTB_rus=<span class="button"><span class="buttonText">&#1042;&#1077;&#1088;&#1085;&#1080;&#1090;&#1077;&#1089;&#1100; &#1082; &#1055;&#1088;&#1086;&#1089;&#1084;&#1072;&#1090;&#1088;&#1080;&#1074;&#1072;&#1085;&#1080;&#1102;</span></span>
 ICON_BIB_HOLDINGS_ITEMS_rus=&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1099;
-ICON_BIB_PAGING_NEXT_rus=<span class="button"><span class="buttonText" id="buttonNextRecord">&#1057;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1072;&#1103; &#1079;&#1072;&#1087;&#1080;&#1089;&#1100;</span><img src="/screens/ico_next.gif" alt=""></span>
+ICON_BIB_PAGING_NEXT_rus=<span class="button"><span class="buttonText" id="buttonNextRecord">&#1057;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1072;&#1103; &#1079;&#1072;&#1087;&#1080;&#1089;&#1100;</span></span>
 ICON_BIB_PAGING_PREV_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1072;&#1103; &#1079;&#1072;&#1087;&#1080;&#1089;&#1100;</span></span>
 ICON_RECORDLINK_rus=<a href="%s"><span class="button">< class="buttonText">&#1055;&#1086;&#1089;&#1090;&#1086;&#1103;&#1085;&#1085;&#1072;&#1103; &#1057;&#1089;&#1099;&#1083;&#1082;&#1072;</span></span></a>
 LINK856TEXT_rus=&#1055;&#1086;&#1076;&#1082;&#1083;&#1102;&#1095;&#1080;&#1090;&#1100;&#1089;&#1103; &#1082;
