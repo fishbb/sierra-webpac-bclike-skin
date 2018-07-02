@@ -1,0 +1,151 @@
+<!--{toplogo}-->
+<div class="pageContentInner">
+<!--{patron}-->
+<h1 class="pageHeader">&#1055;&#1086;&#1088;&#1077;&#1082;&#1086;&#1084;&#1077;&#1085;&#1076;&#1091;&#1081;&#1090;&#1077; &#1055;&#1088;&#1080;&#1086;&#1073;&#1088;&#1077;&#1089;&#1090;&#1080; &#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083; </h1>
+<!--{ifpinerrormessage}-->
+<div>
+<span class="errormessage">
+<!--{pinerrormessage}-->
+</span>
+</div>
+<!--{xif}-->
+
+<div id="accessibleForm" class="form1Part">
+<form method="POST">
+
+<!--{ifneedpatronverify}-->
+
+<fieldset class="formLogin">
+<legend>
+<!--{enterinfo}-->
+</legend>
+
+<!--{ifextpat}-->
+<h2>&#1057;&#1090;&#1091;&#1076;&#1077;&#1085;&#1090;&#1099;, &#1057;&#1083;&#1091;&#1078;&#1072;&#1097;&#1080;&#1077;, &#1080; &#1060;&#1072;&#1082;&#1091;&#1083;&#1100;&#1090;&#1077;&#1090;</h2>
+<div class="formEntryArea">
+<label for="extpatid"><span class="formLabel">
+&#1051;&#1086;&#1075;&#1080;&#1085;:
+</span></label>
+<!--{extpatid}-->
+<label for="extpatpw"><span class="formLabel">
+&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;:
+</span></label>
+<!--{extpatpw}-->
+</div>
+<h2>&#1055;&#1086;&#1089;&#1077;&#1090;&#1080;&#1090;&#1077;&#1083;&#1080;</h2>
+<!--{xif}-->
+
+<!--{ifneedpatronname}-->
+<div class="formEntryArea">
+<label for="name">
+<!--{nameprompt}-->
+</label>
+<!--{name}-->
+<span class="formLabelExample">
+<!--{nameexample}-->
+</span>
+</div>
+<!--{xif}-->
+
+<div class="formEntryArea">
+<!--{barcodeprompt}-->
+<!--{barcode}-->
+<span class="formLabelExample">
+<!--{barcodeexample}-->
+</span>
+</div>
+
+<!--{ifneedspin}-->
+
+<!--{ifpinerrormessageisPIN}-->
+<p>
+<!--{newpinmsg}-->
+</p>
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{pin1prompt}-->
+</span>
+<!--{pin1}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{pin2prompt}-->
+</span>
+<!--{pin2}-->
+</div>
+
+<!--{else}-->
+<div class="formEntryArea">
+<!--{pinprompt}-->
+<!--{pin}-->
+<span class="formLabelExample">
+<!--{pininstructions}-->
+</span>
+</div>
+
+<!--{xif}-->
+<!--{xif}-->
+
+    <!--{ifalternate_id}-->
+    <!--{user_name}-->
+    <!--{xif}-->
+
+<div class="formButtonArea">
+<!--{ifneedspin}-->
+<!--{pinresetrequest}-->
+<!--{xif}-->
+</div>
+</fieldset>
+<!--{xif}-->
+
+<fieldset>
+<legend>
+&#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1085;&#1072;&#1080;&#1084;&#1077;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1089;&#1083;&#1077;&#1076;&#1091;&#1077;&#1090; &#1087;&#1088;&#1080;&#1086;&#1073;&#1088;&#1077;&#1089;&#1090;&#1080; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;&#1077;&#1082;&#1077;:
+</legend>
+
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{authorprompt}-->
+</span>
+<!--{author}-->
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{titleprompt}-->
+</span>
+<!--{title}-->
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{publishprompt}-->
+</span>
+<!--{publish}-->
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{mentionprompt}-->
+</span>
+<!--{mention}-->
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{otherprompt}-->
+</span>
+<!--{other}-->
+</div>
+
+</fieldset>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+
+</form>
+</div>
+
+</div><!-- pageContentInner -->
+<!--{botlogo}-->
