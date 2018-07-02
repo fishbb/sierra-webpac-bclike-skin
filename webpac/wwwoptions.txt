@@ -282,7 +282,6 @@ REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 # Patron Record
 ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
 ICON_BUT_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
-BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
 ICON_BUT_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
 ICON_BUT_PAT_INFO=Modify personal information
 ICON_BUT_PAT_MSGS=<span class="button"><span class="buttonText">Message from the library</span></span>
@@ -326,7 +325,6 @@ TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
 
 # My Millennium
 ICON_BUT_PAT_PSEARCH_REMOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All Searches</span></span></div></div>
-BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif" class="button
 ICON_BUT_PAT_PSEARCH_UPDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
 ICON_BUT_PAT_SEARCH=<span class="button"><span class="buttonText">Search</span></span>
 ICON_BUT_PAT_GETPSAVEDRECS=<span class="button"><span class="buttonText">Preferred Searches</span></span>
