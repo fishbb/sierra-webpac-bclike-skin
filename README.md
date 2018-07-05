@@ -20,7 +20,7 @@ This repository contains the Webpac files that got most heavily customized for t
 2. Clone or download this repository. Upload all files in `webpac` folder via Sierra Webmaster module. This will update existing files in Webpac and add new ones required by this new skin. 
 3. Rename wwwoptions.txt to wwwoptions and restart Webpac.
 4. Customize image files, CSS files and html files to match your library's specific style as needed. For example, use your library's own logo images. 
-5. When you are ready to make the above changes to your live port, remember to back up all files on your live port first, as Innovative Interfaces recommended.
+5. When you are ready to make the above changes to your live port, remember to back up all files on your live port first, as Innovative Interfaces recommended. Also, if you have the free enhancement product Airpac for Smartphones, please request Innnovative Interfaces to disable that. The new design is mobile responsive, so let's say good bye to Airpac and keep all user interface consistent across devices.
 
 
 ## Screenshots
