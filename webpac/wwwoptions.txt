@@ -448,7 +448,7 @@ Z39MULTI=500:100
 ICON_BUT_RETHOME=<span class="button"><span class="buttonText">Home</span></span>
 
 # AirPAC
-AIRPAC_PORT=6060
+# AIRPAC_PORT=6060
 
 
 # My Federated Search (Research Pro or MetaFind)
