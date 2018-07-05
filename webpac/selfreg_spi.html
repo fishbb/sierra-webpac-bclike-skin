@@ -1,0 +1,213 @@
+<!--{toplogo}-->
+<div class="pageContentInner">
+<h1 class="pageHeader">Bienvenido a Auto-inscripci&#243;n de Usuarios</h1>
+<p>Esta p&#225;gina le permitir&#225; registrarse en l&#237;nea en nuestra biblioteca. Tendr&#225; privilegios limitados</p>
+<div id="accessibleForm" class="form1Part">
+<form method="post" class="unpadded" autocomplete="off"  onsubmit="return selfRegChecker();">
+<!--
+The hidden template name below provides the patron template name IF a template name is not defined in the selfreg URL or in the selfreg_template web option.
+-->
+<!--
+<input type="hidden" name="TemplateName" value="YOUR_VALUE">
+-->
+<!--{iferrmsg}-->
+<div class="errormessage">
+<!--{errmsg}-->
+</div>
+<!--{xif}-->
+<div class="errormessage" id="selfRegMessage">
+</div>
+<fieldset>
+<legend>Indique la siguiente informaci&#243;n: (<span class="formRequired">*</span> campo obligatorio)</legend>
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="nfirst">Nombre:<span class="formRequired">*</span></label></span>
+<!--{firstname}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="nlast">Apellidos:<span class="formRequired">*</span></label></span>
+<!--{lastname}-->
+</div>
+<!-- For optional Alternate ID:
+<div class="formEntryArea">
+<span class="formLabel"><label for="user_name">Alias:</label></span>
+ -->
+   <!--{user_name}-->
+<!-- For optional Alternate ID:
+</div>
+-->
+<div class="formEntryArea">
+<span class="formLabel"><label for="stre_aaddress">Direcci&#243;n:<span class="formRequired">*</span></label></span>
+<!--{street}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="city_aaddress">Ciudad:<span class="formRequired">*</span></label></span>
+<!--{city}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="stat_aaddress">Provincia:<span class="formRequired">*</span></label></span>
+<!--{state}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="post_aaddress">C.P.:<span class="formRequired">*</span></label></span>
+<!--{postalcode}-->
+</div>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+
+<script>
+$( function() {
+  $( "#F051birthdate" ).datepicker({
+      language: 'ES',
+      dateFormat: 'mm-dd-yy',
+      yearRange: "-100:+0",
+      changeMonth: true,
+      changeYear: true,
+      showMonthAfterYear: true,
+      defaultDate: '-20y',
+      maxDate: '+0d',
+      minDate: '-110y',
+  });
+});
+</script>
+<div class="formEntryArea">
+<span class="formLabel"><label for="F051birthdate">Cumplea{u00F1}os:</label><span class="formRequired">*</span></span>
+<input type="text" id="F051birthdate"  name="F051birthdate" alt="Birthdate" onfocus="this.select();" class="dpDate">
+<p><i>La Biblioteca usa su fecha de nacimiento para determinar los servicios que est{u00E1}n disponibles para usted y tambi{u00E9}n brinda cumplimiento con las leyes de <a href="https://www.fcc.gov/consumers/guides/childrens-internet-protection-act">CIPA</a> que rigen el acceso en l{u00ED}nea. </i><p>
+</div>
+
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="phone1">tel{u00E9}fono:</label></span>
+<!--{phone1}--> 
+</div> 
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="zemailaddr">Email:<span class="formRequired">*</span></label></span>
+<!--{emailaddress}-->
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="pcode1">Idioma hablado en casa:</label></span>
+<!--{pcode1}-->
+</div> 
+
+<br>
+Usted esta de acuerdo de observer las normas de la biblioteca y ser responsable del material prestado con esta tarjeta. <br>Por favor, informe la biblioteca de qualquier cambio en sus datos y tambien en caso de perdida or robo de esta tarjeta. <br>Todo los usuarios tiene acceso a todo los materiales. Ninos menores de 14 anos pueden recibir una tarjeta con padres o tutor legal. <br>
+
+<br>
+<div class="formButtonArea">
+<span>
+<!--{submit}-->
+</span>
+</div>
+</fieldset>
+
+</form>
+</div> <!--accessibleForm -->
+</div><!-- pageContentInner -->
+<script type="text/javascript">
+function selfRegChecker(){
+var regForm = document.getElementsByTagName("INPUT");
+var messageDiv = document.getElementById("selfRegMessage");
+for(i=0;i<regForm.length;i++){
+switch(regForm[i].id){
+case "nfirst":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Indique su nombre para inscribirse, por favor.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "nlast":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Indique su apellido para inscribirse, por favor.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "stre_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Indique su direcci&#243;n para inscribirse, por favor.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "city_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Indique su ciudad para inscribirse, por favor.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "stat_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Indique su provincia para inscribirse, por favor.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "nlast":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Indique su apellido para inscribirse, por favor.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "post_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Indique su c&#243;digo postal para inscribirse, por favor.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+break;
+case "F051birthdate":
+if (!(isValidDate(regForm[i].value))) {
+var message = document.createTextNode("Por favor proporcione un cumplea{u00F1}os v{u00E1}lido(mm-dd-yyyy).");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "tphone1":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("Por favor ingrese su n{u00FA}mero de tel{u00E9}fono.");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+}
+}
+return true;
+}
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+	if(selfRegChecker()){
+		var obj = getFormHandleForm(1);
+		obj.submit();
+	}
+}
+</script>
+<!--{botlogo}-->

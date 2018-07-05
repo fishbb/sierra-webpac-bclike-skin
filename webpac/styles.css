@@ -399,6 +399,15 @@ margin:auto;
 
 @media (max-width: 480px) {
 
+h1.search_landing_block {
+    font-size: 2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .mainSearch .form1Part {
     float: none;
     padding: 20px 0px 20px 0px;

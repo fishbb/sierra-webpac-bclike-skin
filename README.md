@@ -29,24 +29,24 @@ This repository contains the Webpac files that got most heavily customized for t
 
  Desktop | Mobile 
 ----------|-----------
-<img src="webpac_main.png" width=300 alt="desktop view"> | <img src="webpac_main_mobile.png" width=200 alt="mobile view"> 
+<img src="screenshots/webpac_main.png" width=300 alt="desktop view"> | <img src="screenshots/webpac_main_mobile.png" width=200 alt="mobile view"> 
 
 ### Browse page view
 
  Desktop | Mobile 
 ----------|-----------
-<img alt="desktop view" src="webpac_keywordsearch.png" width=300> | <img alt="mobile view" src="webpac_keywordsearch_mobile.png" width=200> 
+<img alt="desktop view" src="screenshots/webpac_keywordsearch.png" width=300> | <img alt="mobile view" src="screenshots/webpac_keywordsearch_mobile.png" width=200> 
 
 ### Record view
 
  Desktop | Mobile 
 ----------|-----------
-<img alt="desktop view" src="webpac_bib.png" width=300> | <img alt="mobile view" src="webpac_bib_mobile.png" width=200> 
+<img alt="desktop view" src="screenshots/webpac_bib.png" width=300> | <img alt="mobile view" src="screenshots/webpac_bib_mobile.png" width=200> 
 
 ### Patron account view
  Desktop | Mobile 
 ----------|-----------
-<img alt="desktop view" src="webpac_patronaccount.png" width=300> | <img alt="mobile view" src="webpac_patronaccount_mobile.png" width=200> 
+<img alt="desktop view" src="screenshots/webpac_patronaccount.png" width=300> | <img alt="mobile view" src="screenshots/webpac_patronaccount_mobile.png" width=200> 
 
 ## Documentation
 

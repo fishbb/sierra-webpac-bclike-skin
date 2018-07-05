@@ -1,0 +1,217 @@
+<!--{toplogo}-->
+<div class="pageContentInner">
+<h1 class="pageHeader">&#24744;&#22909;! &#36825;&#26159;&#35835;&#32773;&#33258;&#21161;&#24320;&#25143;&#32593;&#39029;</h1>
+<p>&#36825;&#39029;&#20801;&#35768;&#24744;&#32593;&#19978;&#30331;&#35760;&#25104;&#20026;&#26412;&#39302;&#35835;&#32773;</p>
+<div id="accessibleForm" class="form1Part">
+<form method="post" class="unpadded" autocomplete="off"  onsubmit="return selfRegChecker();">
+<!--
+The hidden template name below provides the patron template name IF a template name is not defined in the selfreg URL or in the selfreg_template web option.
+-->
+<!--
+<input type="hidden" name="TemplateName" value="YOUR_VALUE">
+-->
+<!--{iferrmsg}-->
+<div class="errormessage">
+<!--{errmsg}-->
+</div>
+<!--{xif}-->
+<div class="errormessage" id="selfRegMessage">
+</div>
+<fieldset>
+<legend>&#35831;&#36755;&#20837;&#20197;&#19979;&#20449;&#24687;: [<span class="formRequired">*</span> &#34920;&#31034;&#24517;&#22635;&#26639;&#20301;]</legend>
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="nfirst">&#21517;:<span class="formRequired">*</span></label></span>
+<!--{firstname}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="nlast">&#22995;:<span class="formRequired">*</span></label></span>
+<!--{lastname}-->
+</div>
+<!-- For optional Alternate ID:
+<div class="formEntryArea">
+<span class="formLabel"><label for="user_name">&#21029;&#21517;/&#32189;&#34399;:</label></span>
+ -->
+   <!--{user_name}-->
+<!-- For optional Alternate ID:
+</div>
+-->
+<div class="formEntryArea">
+<span class="formLabel"><label for="stre_aaddress">&#22320;&#22336;:<span class="formRequired">*</span></label></span>
+<!--{street}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="city_aaddress">&#22478;&#24066;:<span class="formRequired">*</span></label></span>
+<!--{city}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="stat_aaddress">&#30465;:<span class="formRequired">*</span></label></span>
+<!--{state}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel"><label for="post_aaddress">&#37038;&#36882;&#21306;&#21495;:<span class="formRequired">*</span></label></span>
+<!--{postalcode}-->
+</div>
+ 
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+<br>
+
+<script>
+$( function() {
+   $("#F051birthdate").datepicker({
+       dateFormat: 'mm-dd-yy',
+       yearRange: "-100:+0",
+       changeMonth: true,
+       changeYear: true,
+       showMonthAfterYear: true,
+       defaultDate: '-20y',
+       maxDate: '+0d',
+       minDate: '-110y',
+   });
+
+
+});
+</script>
+<div class="formEntryArea">
+<span class="formLabel"><label for="F051birthdate">{u751F}{u65E5}:</label><span class="formRequired">*</span></span>
+<input type="text" id="F051birthdate"  name="F051birthdate" alt="Birthdate" onfocus="this.select();" class="dpDate">
+<p><i>{u5716}{u66F8}{u9928}{u4F7F}{u7528}{u60A8}{u7684}{u51FA}{u751F}{u65E5}{u671F}{u4F86}{u78BA}{u5B9A}{u60A8}{u53EF}{u4EE5}{u4F7F}{u7528}{u7684}{u670D}{u52D9}{uFF0C}{u4E26}{u4E14}{u9075}{u5B88}<a href="https://www.fcc.gov/consumers/guides/childrens-internet-protection-act">CIPA</a>{u95DC}{u65BC}{u5728}{u7DDA}{u8A2A}{u554F}{u7684}{u6CD5}{u5F8B}</i><p>
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="phone1">{u7535}{u8BDD}:</label></span>
+<!--{phone1}--> 
+</div> 
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="zemailaddr">&#30005;&#23376;&#37038;&#20214;:<span class="formRequired">*</span></label></span>
+<!--{emailaddress}-->
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel"><label for="pcode1">{u5BB6}{u4E2D}{u4F7F}{u7528}{u7684}{u8A9E}{u8A00}:</label></span>
+<!--{pcode1}-->
+</div> 
+
+<br>
+{u5716}{u66F8}{u9928}{u4F7F}{u7528}{u8005}{u540C}{u610F}{u9075}{u5B88}{u76F8}{u95DC}{u898F}{u5247}{uFF0C}{u4E26}{u8CA0}{u8CAC}{u5584}{u52A0}{u4FDD}{u7BA1}{u51FA}{u501F}{u7684}{u5716}{u66F8}{u7269}{u54C1}{uFF0C}{u82E5}{u6709}{u4EFB}{u4F55}{u500B}{u4EBA}{u8CC7}{u8A0A}{u8B8A}{u66F4}{uFF0C}{u6216}{u6709}{u5716}{u66F8}{u5361}{u907A}{u5931}{u7B49}{u4E8B}{u4EF6}{uFF0C}{u8ACB}{u96A8}{u6642}{u901A}{u77E5}{u6211}{u5011}{u3002}<br>
+{u4F7F}{u7528}{u8005}{u7121}{u8AD6}{u5E74}{u9F61}{u5927}{u5C0F}{uFF0C}{u90FD}{u53EF}{u4EE5}{u4F7F}{u7528}{u9928}{u5167}{u6240}{u6709}{u9928}{u85CF}{u8CC7}{u8A0A}{u3002}<br>
+{u7533}{u8ACB}{u5716}{u66F8}{u5361}{u4EBA}{u5E74}{u9F61}{u5728}14{u6B72}{u4EE5}{u4E0B}{u8005}{uFF0C}{u7236}{u6BCD}{u6216}{u76E3}{u8B77}{u4EBA}{u5728}{u5B8C}{u6210}{u7DB2}{u4E0A}{u8A3B}{u518A}{u4E4B}{u5F8C}{uFF0C}{u5FC5}{u9808}{u651C}{u5E36}{u8EAB}{u4EFD}{u8B49}{u4EF6}{u96A8}{u540C}{u5B69}{u7AE5}{u5230}{u5716}{u66F8}{u9928}{u5167}{u8FA6}{u7406}{u3002}<br>
+
+<br>
+
+<div class="formButtonArea">
+<span>
+<!--{submit}-->
+</span>
+</div>
+</fieldset>
+
+</form>
+</div> <!--accessibleForm -->
+</div><!-- pageContentInner -->
+<script type="text/javascript">
+function selfRegChecker(){
+var regForm = document.getElementsByTagName("INPUT");
+var messageDiv = document.getElementById("selfRegMessage");
+for(i=0;i<regForm.length;i++){
+switch(regForm[i].id){
+case "nfirst":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("&#21710;&#21568;...&#35831;&#25552;&#20379;&#24744;&#30340;&#21517;&#23383;&#20316;&#27880;&#20876;");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "nlast":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("&#21710;&#21568;...&#35831;&#25552;&#20379;&#24744;&#30340;&#22995;&#27663;&#20316;&#27880;&#20876;");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "stre_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("&#21710;&#21568;...&#35831;&#25552;&#20379;&#24744;&#30340;&#22320;&#22336;&#20316;&#27880;&#20876;");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "city_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("&#21710;&#21568;...&#35831;&#25552;&#20379;&#24744;&#30340;&#22478;&#24066;&#20316;&#27880;&#20876;");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "stat_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("&#21710;&#21568;...&#35831;&#25552;&#20379;&#24744;&#30340;&#24030;/&#30465;&#20316;&#27880;&#20876;");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "nlast":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("&#21710;&#21568;...&#35831;&#25552;&#20379;&#24744;&#30340;&#22995;&#27663;&#20316;&#27880;&#20876;");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "post_aaddress":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("&#21710;&#21568;...&#35831;&#25552;&#20379;&#24744;&#30340;&#37038;&#21306;&#21495;&#30721;&#20316;&#27880;&#20876;");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+break;
+case "F051birthdate":
+if (!(isValidDate(regForm[i].value))) {
+var message = document.createTextNode("{u8ACB}{u63D0}{u4F9B}{u6709}{u6548}{u7684}{u751F}{u65E5} (mm-dd-yyyy).");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+case "tphone1":
+if (regForm[i].value==null||regForm[i].value==""){
+var message = document.createTextNode("{u8ACB}{u5C07}{u63D0}{u4F9B}{u60A8}{u7684}{u96FB}{u8A71}{u3002}");
+messageDiv.innerHTML ="";
+messageDiv.appendChild(message);
+regForm[i].focus();
+return false;
+}
+break;
+}
+}
+return true;
+}
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+	if(selfRegChecker()){
+		var obj = getFormHandleForm(1);
+		obj.submit();
+	}
+}
+</script>
+<!--{botlogo}-->
