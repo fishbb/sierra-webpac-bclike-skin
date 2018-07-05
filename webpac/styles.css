@@ -46,72 +46,11 @@ height: 50px;
     font-size: 0.875rem;
 }
 
-@media (min-width: 481px) and (max-width: 600px) {
-.bc_core_external btn btn-info btn-lg {
-margin:auto;
+.table-responsive td, .table-responsive th {
 
-}
-.homepage_search_box {
-    min-width: 300px;
-    margin: auto;
+    border: 0; !important
 }
 
-.container .moreSearch {
-    display:block;
-    width: 300px;
-    text-align: center;
-    margin:auto;
-}
-}
-
-@media (max-width: 480px) {
-
-.table-responsive tr {
-    border: solid #ECECEC 1px;
-}
-	
-.browseScreen #searchtype, .browseScreen #searcharg, .browseScreen #searchscope, .browseScreen form[name="searchtool"] input[type="submit"] {
-    display:block;
-    margin:auto;
-}
-#bibDisplayBody #searchtype, #bibDisplayBody #searcharg, #bibDisplayBody #searchscope, #bibDisplayBody form[name="searchtool"] input[type="submit"] {
-    display:block;
-    margin:auto;
-}
-#bibDisplayBody div.navigationRowRecord > a:nth-child(3), #bibDisplayBody div.navigationRowRecord > a:nth-child(4),
-#bibDisplayBody div.navigationRowRecord > a:nth-child(5),
-#bibDisplayBody div.navigationRowRecord > a:nth-child(6),
-#bibDisplayBody div.navigationRowRecord > a:nth-child(7),
-#content table tbody td.browseSaveJump,
-#content table tbody td.briefcitCell div.briefcitMark,
-#content table tbody tr.browseSuperEntry
-{
- display: none;
-}
-
-.homepage_search_box {
-    min-width: 250px;
-    margin: auto;
-}
-
-a.submit_button {
-
-    display:block;
-    margin-top:15px;
-}
-
-.container .moreSearch {
-    display:block;
-    width: 250px;
-    text-align: center;
-    margin:auto;
-}
-
-div.pageContentInner #accessibleForm fieldset div.formEntryArea input{
-    width: 100%;!important
-}
-
-}
 
 div.popupContentInner #accessibleForm fieldset div.formEntryArea input{
     width: 100%;!important
@@ -175,6 +114,10 @@ td {
   font-family: sans-serif; !important
 }
 
+td.odd, tr.odd {
+    background: #F8F8F8;
+}
+
 
 img { border:none; }
 
@@ -211,6 +154,22 @@ a:link { color: #02729e; }
 }
 
 
+#cas span.buttonSpriteSpan2 {
+    background: transparent url(/screens/buttonsprite.gif) no-repeat;
+    border: 0;
+    display: inline-block;
+    line-height: 14px;
+    outline: none;
+    padding: 5px;
+    text-decoration: none; 
+    box-shadow: none;
+    color: #000;
+    padding: 5px 6px 5px 15px;
+    min-height: 20px;!important
+
+}
+
+
 #searchscope input, form input[type="submit"], .buttonSpriteSpan2 { 
     border: 1px solid transparent; 
     border-bottom: none; 
@@ -223,6 +182,8 @@ a:link { color: #02729e; }
     background-color: #666;
 }
 
+
+
 .patFuncArea form input[type="submit"] {
     min-height: 16px;
     margin-right: 10px;
@@ -231,12 +192,22 @@ a:link { color: #02729e; }
     padding: 5px;
 }
 
+#cas span.buttonSpriteSpan1 {
+    background: transparent url(/screens/buttonspritecap.gif) no-repeat scroll top right;
+    display: inline-block;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0 8px 0 0;
+}
+
 .buttonSpriteSpan1 {
     display: block;
     margin-right:10px;
     margin-top:5px;
     padding: 5px;
 }
+
+
 
 a:hover {
 
@@ -408,6 +379,79 @@ min-width: auto; !important
 
 } 
 
+@media (min-width: 481px) and (max-width: 600px) {
+.bc_core_external btn btn-info btn-lg {
+margin:auto;
+
+}
+.homepage_search_box {
+    min-width: 300px;
+    margin: auto;
+}
+
+.container .moreSearch {
+    display:block;
+    width: 300px;
+    text-align: center;
+    margin:auto;
+}
+}
+
+@media (max-width: 480px) {
+
+.mainSearch .form1Part {
+    float: none;
+    padding: 20px 0px 20px 0px;
+    background: #FFF;
+}
+
+.table-responsive tr {
+    border: solid #ECECEC 1px;
+}
+
+.browseScreen #searchtype, .browseScreen #searcharg, .browseScreen #searchscope, .browseScreen form[name="searchtool"] input[type="submit"] {
+    display:block;
+    margin:auto;
+}
+#bibDisplayBody #searchtype, #bibDisplayBody #searcharg, #bibDisplayBody #searchscope, #bibDisplayBody form[name="searchtool"] input[type="submit"] {
+    display:block;
+    margin:auto;
+}
+#bibDisplayBody div.navigationRowRecord > a:nth-child(3), #bibDisplayBody div.navigationRowRecord > a:nth-child(4),
+#bibDisplayBody div.navigationRowRecord > a:nth-child(5),
+#bibDisplayBody div.navigationRowRecord > a:nth-child(6),
+#bibDisplayBody div.navigationRowRecord > a:nth-child(7),
+#content table tbody td.browseSaveJump,
+#content table tbody td.briefcitCell div.briefcitMark,
+#content table tbody tr.browseSuperEntry
+{
+ display: none;
+}
+
+.homepage_search_box {
+    min-width: 250px;
+    margin: auto;
+}
+
+a.submit_button {
+
+    display:block;
+    margin-top:15px;
+}
+
+.container .moreSearch {
+    display:block;
+    width: 250px;
+    text-align: center;
+    margin:auto;
+}
+
+div.pageContentInner #accessibleForm fieldset div.formEntryArea input{
+    width: 100%;!important
+}
+
+}
+
 
 /* end of major customization by Dan Lou*/
 
@@ -420,6 +464,8 @@ form a { display:table-cell; display:inline-block; }
 
 
 /* This rule uses CSS2 to give a nicer effect in compliant browsers, while avoiding an annoying display effect in Internet Explorer 6 */
+
+#cas input[type="checkbox"], #newpinfo input[type="checkbox"] { background-color: #FFF8EF; margin: 0px;}
 
 input[type="checkbox"] { background-color: #FFF8EF; margin: -15px;}
 
@@ -453,7 +499,7 @@ table { border-collapse:collapse; }
 
 /* Section 2 */
 /* named styles listed in alphabetical order */
-#accessibleForm fieldset { border: 1px solid #CCCCCC; }
+/* #accessibleForm fieldset { border: 1px solid #CCCCCC; } */
 #accessibleForm form legend { font-weight:bold; }
 #accessibleForm h2 { margin-left:15px; margin-bottom:0; margin-top:12px }
 #accessibleForm span.formLabel { display:block; padding-top:3px; }
@@ -1466,3 +1512,4 @@ a.iconText.external {padding-right:20px;}
 
 #copyright {border-top:1px solid #b7b7b7; clear:both; margin:0 1em; padding-bottom:1em;}
 #copyright img {vertical-align:bottom; padding-bottom:1px;}
+
