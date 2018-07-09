@@ -10,7 +10,7 @@ Many BiblioCommons libraries want to keep the Sierra Webpac as a backup catalog 
 	* The personal information modification web page where customers can opt in or out of SMS services.
 * BiblioCommons uses APIs to talk to ILS. It is rare, but Webpac could serve as a backup in case the API services get interrupted.
 
-This project attempts to keep the consistant look and feel of multiple library catalog websites, and to provide a more modern and user-friendly Webpac. 
+This project attempts to keep the consistent look and feel of multiple library catalog websites, and to provide a more modern and user-friendly Webpac. 
 
 This repository contains the Webpac files that got most heavily customized for the purpose, where I try to push the limits of Webpac and apply BiblioCommons style to it.
 
