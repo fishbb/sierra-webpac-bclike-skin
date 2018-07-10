@@ -59,6 +59,8 @@ Most of the customizations are for combining BiblioCommons style with Webpac cod
 * style.css
 * styles.css
 
+If you are a BiblioCommons website, you can also download the first three stylesheets from your BiblioCommons site. A note here is that I did make some changes to these files, like fonts, colors or anything in conflict with my Webpac style.
+
 ### WWWOPTIONS
 
 This is a speical beast in Webpac and it is very powerful.
