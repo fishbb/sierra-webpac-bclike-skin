@@ -377,6 +377,11 @@ min-width: auto; !important
 } 
 
 @media (min-width: 481px) and (max-width: 600px) {
+	
+.briefcitMedia p {
+   font-size: 0;
+}
+	
 .bc_core_external btn btn-info btn-lg {
 margin:auto;
 
