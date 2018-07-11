@@ -69,16 +69,10 @@ This is a speical beast in Webpac and it is very powerful.
 
 Almost all buttons are customized here in order to get rid of or replace those classic but poor-quality icons that appear everywhere in Webpac.
 
-To keep the interface cleaner and make localization easier, I did not specify text for material type icons. But if you want to add text, it is very easy. For example, the book material type `a` web option can be changed from
+To keep the interface cleaner and make localization easier, it is best not to specify text for material type icons. But in our case, we want to have it, but the label will automatically disappear if you are on a mobile view. As an option, you can easily delete the label from the we boptions. For example, the book material type `a` web option can be changed to
 
 ```
-IMAGE_MATTYPEa="class="hidden" alt="Book"/><span class="icon icon-book-series" aria-hidden="true"></span><a style="hidden"
-```
-
-to 
-
-```
-IMAGE_MATTYPEa="class="hidden" alt="Book"/><span class="icon icon-book-series" aria-hidden="true"></span><br>Book<a style="hidden"
+IMAGE_MATTYPEa="class="hidden" alt="Book"/><span class="icon icon-book-series" aria-hidden="true"></span><a style="hidden>
 ```
 
 Web Options also provide a way to control many other system generated code in Webpac, such as which HTML file to use for header and footer, what meta tags and scripts should get linked to in head in almost every HTML page, etc.. It also works with webpub.def file to control many crucial search/display functions and behaviors in Webpac. We did not touch any crucial functions in this repository.
