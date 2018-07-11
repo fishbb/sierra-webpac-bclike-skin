@@ -283,6 +283,7 @@ a:-webkit-any-link {
 	color: #FFFFFF; !important
 }
 
+
 #bibDisplayBody { background:#FFFFFF; padding: 5px;}
 
 
@@ -393,7 +394,15 @@ margin:auto;
 }
 }
 
+.briefcitMedia p {
+    color: #878787;
+}
+
 @media (max-width: 480px) {
+
+.briefcitMedia p {
+   font-size: 0;
+}
 
 h1.search_landing_block {
     font-size: 2rem;

@@ -65,7 +65,7 @@ STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
 SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
-#TIMEOUT=600;URL=/
+# TIMEOUT=600;URL=/
 TOPLOGO=@screens/toplogo.html
 UPDATECIRC=true
 XSTARTOVER=/search
@@ -111,7 +111,7 @@ AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2>
 AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
 BODYPARAM=BGCOLOR=#F1F1F1 VLINK=#0288C7
 BRIEF=A
-BROWSE_t=245/ab/0|240/afk/0|700/tm/0|970/t/0|/ab/0
+BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0
 BROWSE_HEADERS=Mark|Media
 ICON_BUT_BRIEF=<span class="button"><span class="buttonText">Brief Display</span></span>
 ICON_BUT_EXTENDED=<span class="button"><span class="buttonText">Extended Display</span></span>
@@ -134,49 +134,49 @@ ICON_RESOURCE=Internet Resource
 ICON_SAVEALLPAGE=<span class="button" sytle="background:#666;"><span class="buttonText">Add All On Page</span></span>
 ICON_SAVEMARKED=<span class="button" sytle="background:#666;"><span class="buttonText">Add Marked to Bag</span></span>
 # book type
-IMAGE_MATTYPEa="class="hidden" alt="Book"/><span class="icon icon-book-series" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEa="class="hidden" alt="Book"/><span class="icon icon-book-series" aria-hidden="true"></span><p>Book</p><a style="hidden"
 # blue ray type
-IMAGE_MATTYPEb="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEb="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span><p>Movie</p><a style="hidden"
 # dvd
-IMAGE_MATTYPEg="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEg="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span></p>Movie</p><a style="hidden"
 # music score type
-IMAGE_MATTYPEc="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEc="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><p>Music</p><a style="hidden"
 #microfilm type
-IMAGE_MATTYPEd="class="hidden" alt="Microfilm"/><span class="icon icon-plus" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEd="class="hidden" alt="Microfilm"/><span class="icon icon-plus" aria-hidden="true"></span><p>Microfilm</p><a style="hidden"
 #map atlas type
-IMAGE_MATTYPEe="class="hidden" alt="Map"/><span class="icon icon-map" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEe="class="hidden" alt="Map"/><span class="icon icon-map" aria-hidden="true"></span><p>Map</p><a style="hidden"
 #audiobook type
-IMAGE_MATTYPEi="class="hidden" alt="Audiobook"/><span class="icon icon-headphones" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEi="class="hidden" alt="Audiobook"/><span class="icon icon-headphones" aria-hidden="true"></span><p>Audiobook</p><a style="hidden"
 #music cd type
-IMAGE_MATTYPEj="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEj="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><p>Music</p><a style="hidden"
 #large print type
-IMAGE_MATTYPEl="class="hidden" alt="Book"/><span class="icon icon-font" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEl="class="hidden" alt="Book"/><span class="icon icon-font" aria-hidden="true"></span><p>Large Print</p><a style="hidden"
 #CD-ROM type
-IMAGE_MATTYPEmIMAGE_MATTYPEl="class="hidden" alt="CD"/><span class="icon icon-cd" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEmIMAGE_MATTYPEl="class="hidden" alt="CD"/><span class="icon icon-cd" aria-hidden="true"></span><p>CD</p><a style="hidden"
 #ejournal type
-IMAGE_MATTYPEn="class="hidden" alt="Journal"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEn="class="hidden" alt="Journal"/><span class="icon icon-newspaper" aria-hidden="true"></span><p>Journal</p><a style="hidden"
 #emusic type
-IMAGE_MATTYPEq="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEq="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><p>Music</p><a style="hidden"
 #eaudiobook
-IMAGE_MATTYPEu="class="hidden" alt="Audiobook"/><span class="icon icon-headphones" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEu="class="hidden" alt="Audiobook"/><span class="icon icon-headphones" aria-hidden="true"></span><p>Audiobook</p><a style="hidden"
 #evideo type
-IMAGE_MATTYPEv="class="hidden" alt="Video"/><span class="icon icon-videocam" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEv="class="hidden" alt="Video"/><span class="icon icon-videocam" aria-hidden="true"></span><p>Video</p><a style="hidden"
 #magazine journal
-IMAGE_MATTYPEw="class="hidden" alt="Magazine"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEw="class="hidden" alt="Magazine"/><span class="icon icon-newspaper" aria-hidden="true"></span><p>Magazine</p><a style="hidden"
 # newspaper
-IMAGE_MATTYPEp="class="hidden" alt="Newspaper"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEp="class="hidden" alt="Newspaper"/><span class="icon icon-newspaper" aria-hidden="true"></span><p>Newspaper</p><a style="hidden"
 #ebook type
-IMAGE_MATTYPEz="class="hidden" alt="EBook"/><span class="icon icon-tablet" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEz="class="hidden" alt="EBook"/><span class="icon icon-tablet" aria-hidden="true"></span><p>EBook</p><a style="hidden"
 #article
-IMAGE_MATTYPE2="class="hidden" alt="Article"/><span class="icon icon-newspaper" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPE2="class="hidden" alt="Article"/><span class="icon icon-newspaper" aria-hidden="true"></span><p>Article</p><a style="hidden"
 #device
-IMAGE_MATTYPEx="class="hidden" alt="Device"/><span class="icon icon-tablet" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEx="class="hidden" alt="Device"/><span class="icon icon-tablet" aria-hidden="true"></span><p>Device</p><a style="hidden"
 #mp3
-IMAGE_MATTYPEy="class="hidden" alt="Mp3"/><span class="icon icon-music" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEy="class="hidden" alt="Mp3"/><span class="icon icon-music" aria-hidden="true"></span><p>Mp3</p><a style="hidden"
 #digital resources
-IMAGE_MATTYPE1="class="hidden" alt="Digital resource"/><span class="icon icon-plus" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPE1="class="hidden" alt="Digital resource"/><span class="icon icon-plus" aria-hidden="true"></span><p>Digital Resource</p><a style="hidden"
 # miscellaneous
-IMAGE_MATTYPEs="class="hidden" alt="Miscellaneous"/><span class="icon icon-plus" aria-hidden="true"></span><a style="hidden"
+IMAGE_MATTYPEs="class="hidden" alt="Miscellaneous"/><span class="icon icon-plus" aria-hidden="true"></span><p>Miscellaneous</p><a style="hidden"
 INDEX_EXT=coi
 MEDIA=2
 NO_COPIES=Currently no copies available
@@ -184,7 +184,7 @@ SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
 SORT_MEDIA=@amcdji
 SUPPRESS_YEAR=False
 TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="0" width="100%"
-TABLEPARAM_BROWSE=width="100%" cellpadding="0" cellspacing="0" border="0"|align="center" cellpadding="0" cellspacing="0"|width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0"
+TABLEPARAM_BROWSE=width="100%" cellpadding="0" cellspacing="0" border="0"|align="center" cellpadding="0" cellspacing="0"|width="100%" border="0" class="table-responsive"|width="100%" border="0" class="table-responsive"
 
 # Record Displays
 BIB_TOC_HEADER=<strong>Table of Contents</strong>
@@ -310,18 +310,23 @@ NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=n/a|a/a|t/a|F/43
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
 PATRON_NOTICES=azm
+PIN_ALPHA_NUM=false
+PIN_NUM_ONLY=true
+PIN_RESET=true
+PIN_RESET_EMAIL=Request to reset your library PIN|librarycirculation@cityofpaloalto.org|librarycirculation@cityofpaloalto.org
+PSTARTOVER=/search
+SEEPUDATE=true
+TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
+TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
+TIMEOUT_POPUP=60
+
 SMS_OPTOUT_WARN=You will be Opted Out of SMS
 SMS_PHONE_WARN=You are changing your Mobile Number.
 SMS_TERMS_DESC=Palo Alto City Library provides library services to the Palo Alto area.
 SMS_TERMS_EMAIL=<a href="mailto:librarycirculation@cityofpaloalto.org">librarycirculation@cityofpaloalto.org</a>
 SMS_TERMS_LIB=Palo Alto City Library
-PIN_ALPHA_NUM=false
-PIN_NUM_ONLY=true
-PIN_RESET=true
-PSTARTOVER=/search
-SEEPUDATE=true
-TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
-TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
+
+
 
 # My Millennium
 ICON_BUT_PAT_PSEARCH_REMOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All Searches</span></span></div></div>
@@ -341,7 +346,7 @@ LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="logged
 NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
 PREF_SEARCHES=25|Y
-PREFTEXT=Save search
+PREFTEXT=Save as preferred search
 READING_HISTORY=optin|true|
 TOPLOGO_LOGGEDIN=Y
 
@@ -404,7 +409,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="button"><span class="buttonText">Back</span></span>
 ICON_BUT_RET2FEAT=<span class="button"><span class="buttonText">Back</span></span>
-FEATURED_LIST=95,96,97,98,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116|FEATURED LISTS|NAME|# TITLES
+FEATURED_LIST=|NEW RELEASES & FEATURED LISTS|NAME|# TITLES
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
@@ -413,11 +418,12 @@ BIBIMAGE=https://contentcafe2.btol.com/ContentCafe/Jacket.aspx?UserID=PLLT27070&
 BIBIMAGE_TEXT=Book Cover
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
-#WEBADDRESS=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PLLT27070&amp;Password=CC94301:sdjk&amp;ItemKey=%s&amp;Options=N||<span class="button"><span class="buttonText">More Information</span></span>|-1
+# WEBADDRESS=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PLLT27070&amp;Password=CC94301:sdjk&amp;ItemKey=%s&amp;Options=N||<span class="button"><span class="buttonText">More Information</span></span>|-1
 
 # WebBridge/Pathfinder Pro
 ICON_BUT_CLOSEFRAME=<span class="button"><span class="buttonText">Close Frame</span></span>
 ICON_BUT_RET2RESOURCE=<div id="resourcelink"><span class="buttonText">Back</span></span></div>
+RESLINK=bibresourcetop|browseresourcetop||
 
 # Patron Feeds
 RSS_MIN_TTL=10
@@ -448,8 +454,11 @@ Z39MULTI=500:100
 ICON_BUT_RETHOME=<span class="button"><span class="buttonText">Home</span></span>
 
 # AirPAC
-# AIRPAC_PORT=6060
+AIRPAC_PORT=6060
 
+# Patron Registration
+SELFREG_TEMPLATE=webpat
+TIMEOUT_SELFREG=600
 
 # My Federated Search (Research Pro or MetaFind)
 ICON_MFFAVS_HOME=<span class="button"><span class="buttonText">Home</span></span>
@@ -511,16 +520,16 @@ ICON_VIEW_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">View
 ICON_HIDE_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">Hide Additional Sessions</span></span>
 ICON_PROGRAM_CAL=<span class="button"><span class="buttonText">Events Calendar</span></span>
 TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
-IPSSO_USEHTML=F
+IPSSO_USEHTML=T
 
 # RSS Feeds
 FEEDS_PORT=63200
 AIRWKST_PORT=8088
 
 # FOR ENCORE
-PATFEEDS_MT=10.17.4.31
+PATFEEDS_MT=10.17.7.239
 AVAILLIM_chx=<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;</span>|<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;&#32467;&#26524;</span>
-BOTLOGO_chx=@screens/botlogo_chx.html
+# BOTLOGO_chx=@screens/botlogo_chx.html
 ICON_BUT_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
 ICON_BUT_CLOSEWINDOW_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#35270;&#31383;</span></span>
 ICON_BUT_RET2CAT_chx=<span class="button"><span class="buttonText">&#22238;&#33267;&#30446;&#24405;</span></span>
@@ -748,7 +757,6 @@ ICON_VIEW_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">
 ICON_HIDE_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">&#38544;&#34255;&#39069;&#22806;&#20250;&#35758;</span></span>
 ICON_PROGRAM_CAL_chx=<span class="button"><span class="buttonText">&#27963;&#21160;&#26085;&#21382;</span></span>
 AVAILLIM_chx=<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;</span>|<span class="availLimMessage">&#21487;&#29992;&#26465;&#27454;&#38480;&#21046;&#25628;&#32034;&#32467;&#26524;</span>
-BOTLOGO_chx=@screens/botlogo_chx.html
 ICON_BUT_CANCEL_chx=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#21462;&#28040;</span></span></div></div>
 ICON_BUT_CLOSEWINDOW_chx=<span class="button"><span class="buttonText">&#20851;&#38381;&#35270;&#31383;</span></span>
 ICON_BUT_RET2CAT_chx=<span class="button"><span class="buttonText">&#22238;&#33267;&#30446;&#24405;</span></span>
@@ -977,7 +985,7 @@ ICON_VIEW_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">
 ICON_HIDE_ADDITIONAL_SESSIONS_chx=<span class="button"><span class="buttonText">&#38544;&#34255;&#39069;&#22806;&#20250;&#35758;</span></span>
 ICON_PROGRAM_CAL_chx=<span class="button"><span class="buttonText">&#27963;&#21160;&#26085;&#21382;</span></span>
 AVAILLIM_spi=<span class="availLimMessage">Limitar la b&#250;squeda a ejemplares disponibles</span>|<span class="availLimMessage">Resultados de la b&#250;squeda limitados a ejemplares disponibles</span>
-BOTLOGO_spi=@screens/botlogo_spi.html
+# BOTLOGO_spi=@screens/botlogo_spi.html
 ICON_BUT_CANCEL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar</span></span></div></div>
 ICON_BUT_CLOSEWINDOW_spi=<span class="button"><span class="buttonText">Cerrar ventana</span></span>
 ICON_BUT_RET2CAT_spi=<span class="button"><span class="buttonText">Volver al cat&#225;logo</span></span>
@@ -1208,7 +1216,7 @@ ICON_PROGRAM_CAL_spi=<span class="button"><span class="buttonText">Calendario de
 
 # RUS wwwoptions
 AVAILLIM_rus=<span class="availLimMessage">&#1054;&#1075;&#1088;&#1072;&#1085;&#1080;&#1095;&#1080;&#1090;&#1100; &#1087;&#1086;&#1080;&#1089;&#1082; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1072;&#1084;&#1080; &#1074; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080;</span>|<span class="availLimMessage">&#1056;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1099; &#1087;&#1086;&#1080;&#1089;&#1082;&#1072;, &#1086;&#1075;&#1088;&#1072;&#1085;&#1080;&#1095;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1101;&#1082;&#1079;&#1077;&#1084;&#1087;&#1083;&#1103;&#1088;&#1072;&#1084;&#1080; &#1074; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1080;</span>
-BOTLOGO_rus=@screens/botlogo_rus.html
+# BOTLOGO_rus=@screens/botlogo_rus.html
 ICON_BUT_CANCEL_rus=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">&#1054;&#1090;&#1084;&#1077;&#1085;&#1080;&#1090;&#1100;</span></span></div></div>
 ICON_BUT_CLOSEWINDOW_rus=<span class="button"><span class="buttonText">&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100; &#1054;&#1082;&#1085;&#1086;</span></span>
 ICON_BUT_RET2CAT_rus=<span class="button"><span class="buttonText">&#1042;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;&#1089;&#1103; &#1074; &#1050;&#1072;&#1090;&#1072;&#1083;&#1086;&#1075;</span></span>
@@ -1433,7 +1441,7 @@ ICON_BUT_PAT_SORTBYNAME_rus=<div onmousedown="this.className='pressedState';" on
 ICON_RET2PROG_rus=<span class="button"><span class="buttonText">&#1042;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;&#1089;&#1103; &#1082; &#1052;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1103;&#1084;</span></span>
 ICON_REGISTER_rus=<br><strong>&#1053;&#1072;&#1078;&#1084;&#1080;&#1090;&#1077; &#1076;&#1083;&#1103; &#1088;&#1077;&#1075;&#1080;&#1089;&#1090;&#1088;&#1072;&#1094;&#1080;&#1080;</strong>
 ICON_ADD_TO_WAITLIST_rus=<br><strong>&#1042;&#1085;&#1077;&#1089;&#1090;&#1080; &#1074; &#1057;&#1087;&#1080;&#1089;&#1086;&#1082; &#1086;&#1078;&#1080;&#1076;&#1072;&#1102;&#1097;&#1080;&#1093; &#1086;&#1095;&#1077;&#1088;&#1077;&#1076;&#1080;</strong>
-ICON_VIEW_ADDITIONAL_SESSIONS_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1057;&#1077;&#1089;&#1089;&#1080;&#1080;</span></span>
+ICON_VIEW_ADDITIONAL_SESSIONS_rus=<span class="button"><span class="buttonText">&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;&#1080;&#1090;&#1077; &#1044;&#1086;&##1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1057;&#1077;&#1089;&#1089;&#1080;&#1080;</span></span>
 ICON_HIDE_ADDITIONAL_SESSIONS_rus=<span class="button"><span class="buttonText">&#1053;&#1077; &#1087;&#1086;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1090;&#1100; &#1076;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1089;&#1077;&#1089;&#1089;&#1080;&#1080;</span></span>
 ICON_PROGRAM_CAL_rus=<span class="button"><span class="buttonText">&#1056;&#1072;&#1089;&#1087;&#1080;&#1089;&#1072;&#1085;&#1080;&#1077; &#1052;&#1077;&#1088;&#1086;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1081;</span></span>
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,irnr
