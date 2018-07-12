@@ -113,7 +113,11 @@ We decided to make the main search page (web path /search) and main page(web pat
 
 Most of the work is done to make these mobile responsive. These pages are very unfriendly for customization since the tables or divs in side often do not have a unique id or class.
 
-I also customized the selfreg.html to contain a birthdate field that integrates a smart JQuery calendar.  The library collects customer's birthdate info in order to provide compliance with the laws governing online access.
+I also customized the selfreg.html to contain a birthdate field that integrates a smart JQuery calendar. The code in the repository automatically generate the following view:
+
+| Desktop view with birthdate calendar overlay open            | Mobile view with birthdate calendar overlay open             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img alt="desktop view" src="screenshots/selfreg.png" width=300> | <img alt="desktop view" src="screenshots/selfreg_mobile.png" width=200> |
 
 
 #### Localization and Translation

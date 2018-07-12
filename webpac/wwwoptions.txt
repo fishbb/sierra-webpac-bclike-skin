@@ -304,7 +304,7 @@ ICON_PIN_RESET=<span class="button"><span class="buttonText">Forget Your PIN?</s
 ICON_SORTPUDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Pickup</span></span></div></div>
 ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Request</span></span></div></div>
 MIN_PIN_LENGTH=4
-MODIFY_PFLDS=azkHo
+MODIFY_PFLDS=zkHo
 MY_WEBPAC=false,2,0-255
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=n/a|a/a|t/a|F/43
