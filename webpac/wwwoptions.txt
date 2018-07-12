@@ -138,7 +138,7 @@ IMAGE_MATTYPEa="class="hidden" alt="Book"/><span class="icon icon-book-series" a
 # blue ray type
 IMAGE_MATTYPEb="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span><p>Movie</p><a style="hidden"
 # dvd
-IMAGE_MATTYPEg="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span></p>Movie</p><a style="hidden"
+IMAGE_MATTYPEg="class="hidden" alt="Movie"/><span class="icon icon-cd" aria-hidden="true"></span><p>Movie</p><a style="hidden"
 # music score type
 IMAGE_MATTYPEc="class="hidden" alt="Music"/><span class="icon icon-music" aria-hidden="true"></span><p>Music</p><a style="hidden"
 #microfilm type
