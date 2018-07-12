@@ -377,11 +377,11 @@ min-width: auto; !important
 } 
 
 @media (min-width: 481px) and (max-width: 600px) {
-	
+
 .briefcitMedia p {
    font-size: 0;
 }
-	
+
 .bc_core_external btn btn-info btn-lg {
 margin:auto;
 
@@ -521,7 +521,7 @@ table { border-collapse:collapse; }
 /* #accessibleForm fieldset { border: 1px solid #CCCCCC; } */
 #accessibleForm form legend { font-weight:bold; }
 #accessibleForm h2 { margin-left:15px; margin-bottom:0; margin-top:12px }
-#accessibleForm span.formLabel { display:block; padding-top:3px; }
+#accessibleForm span.formLabel { display:inline; padding-top:3px; }
 #accessibleForm span.formLabelExample { font-style:italic; }
 #accessibleForm .formEntryArea, #accessibleForm .ecommerceFormEntryArea { margin:3px 0 0 15px; }
 #accessibleForm .formButtonArea .formButtonArea {margin-left:12px; display:inline;}
